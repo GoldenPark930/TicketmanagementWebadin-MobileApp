@@ -1,0 +1,1011 @@
+{
+	"data": {
+		"sales": [
+			{
+				"quantity": "1",
+				"income": "500.00",
+				"order_date": "2016-02-22",
+				"order_datetime": "2016-02-22 14:21:25"
+			},
+			{
+				"quantity": "3",
+				"income": "450.00",
+				"order_date": "2016-02-24",
+				"order_datetime": "2016-02-24 14:39:52"
+			},
+			{
+				"quantity": "1",
+				"income": "500.00",
+				"order_date": "2016-02-26",
+				"order_datetime": "2016-02-26 09:19:44"
+			},
+			{
+				"quantity": "3",
+				"income": "150.00",
+				"order_date": "2016-03-02",
+				"order_datetime": "2016-03-02 08:50:38"
+			},
+			{
+				"quantity": "2",
+				"income": "100.00",
+				"order_date": "2016-03-05",
+				"order_datetime": "2016-03-05 13:48:57"
+			},
+			{
+				"quantity": "1",
+				"income": "300.00",
+				"order_date": "2016-03-08",
+				"order_datetime": "2016-03-08 08:13:29"
+			},
+			{
+				"quantity": "1",
+				"income": "50.00",
+				"order_date": "2016-03-23",
+				"order_datetime": "2016-03-23 15:40:22"
+			},
+			{
+				"quantity": "1",
+				"income": "50.00",
+				"order_date": "2016-03-31",
+				"order_datetime": "2016-03-31 11:14:59"
+			},
+			{
+				"quantity": "1",
+				"income": "50.00",
+				"order_date": "2016-04-06",
+				"order_datetime": "2016-04-06 17:01:36"
+			},
+			{
+				"quantity": "3",
+				"income": "150.00",
+				"order_date": "2016-04-07",
+				"order_datetime": "2016-04-07 18:44:29"
+			},
+			{
+				"quantity": "4",
+				"income": "277.00",
+				"order_date": "2016-04-08",
+				"order_datetime": "2016-04-08 12:53:29"
+			},
+			{
+				"quantity": "1",
+				"income": "127.00",
+				"order_date": "2016-04-10",
+				"order_datetime": "2016-04-10 10:41:38"
+			},
+			{
+				"quantity": "1",
+				"income": "127.00",
+				"order_date": "2016-04-14",
+				"order_datetime": "2016-04-14 20:48:43"
+			},
+			{
+				"quantity": "8",
+				"income": "752.00",
+				"order_date": "2016-04-18",
+				"order_datetime": "2016-04-18 04:26:06"
+			},
+			{
+				"quantity": "1",
+				"income": "127.00",
+				"order_date": "2016-04-19",
+				"order_datetime": "2016-04-19 08:00:05"
+			},
+			{
+				"quantity": "1",
+				"income": null,
+				"order_date": "2016-09-29",
+				"order_datetime": "2016-09-29 10:45:38"
+			}
+		],
+		"age_breakdown": [
+			{
+				"age": "26",
+				"number": "1"
+			},
+			{
+				"age": "29",
+				"number": "1"
+			},
+			{
+				"age": "36",
+				"number": "26"
+			},
+			{
+				"age": "37",
+				"number": "3"
+			},
+			{
+				"age": "38",
+				"number": "4"
+			}
+		],
+		"check_in": {
+			"tickets": [
+				{
+					"id": "192501",
+					"shop_order_item_id": "104856",
+					"shop_order_id": "104739",
+					"first_name": "TTF",
+					"last_name": "Admin",
+					"ticket_hash": "5b5tq3lV",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "50.00",
+					"qr_data": "104739.104856.5b5tq3lV"
+				},
+				{
+					"id": "192509",
+					"shop_order_item_id": "104860",
+					"shop_order_id": "104743",
+					"first_name": "TTF",
+					"last_name": "Admin",
+					"ticket_hash": "DC3cxZP1",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "50.00",
+					"qr_data": "104743.104860.DC3cxZP1"
+				},
+				{
+					"id": "192540",
+					"shop_order_item_id": "104879",
+					"shop_order_id": "104762",
+					"first_name": "TTF",
+					"last_name": "Admin",
+					"ticket_hash": "qrWaP5fR",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "127.00",
+					"qr_data": "104762.104879.qrWaP5fR"
+				},
+				{
+					"id": "192487",
+					"shop_order_item_id": "104845",
+					"shop_order_id": "104728",
+					"first_name": "TTF",
+					"last_name": "Admin",
+					"ticket_hash": "IgR1tZzt",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "50.00",
+					"qr_data": "104728.104845.IgR1tZzt"
+				},
+				{
+					"id": "192923",
+					"shop_order_item_id": "105117",
+					"shop_order_id": "105000",
+					"first_name": "TTF",
+					"last_name": "Admin",
+					"ticket_hash": "CsHOdYt4",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "127.00",
+					"qr_data": "105000.105117.CsHOdYt4"
+				},
+				{
+					"id": "177627",
+					"shop_order_item_id": "95256",
+					"shop_order_id": "95159",
+					"first_name": "Simon",
+					"last_name": "Bennett",
+					"ticket_hash": "Y4g2fiAp",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] Sunday",
+					"ticket_cost": "300.00",
+					"qr_data": "95159.95256.Y4g2fiAp"
+				},
+				{
+					"id": "306717",
+					"shop_order_item_id": "177930",
+					"shop_order_id": "177510",
+					"first_name": "tiegsn",
+					"last_name": "bsjjk",
+					"ticket_hash": "S4sxUCYb",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Partner Pass",
+					"ticket_cost": null,
+					"qr_data": "177510.177930.S4sxUCYb"
+				},
+				{
+					"id": "306720",
+					"shop_order_item_id": "177933",
+					"shop_order_id": "177513",
+					"first_name": "tiegsn",
+					"last_name": "bsjjk",
+					"ticket_hash": "LhWLd7kY",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Partner Pass",
+					"ticket_cost": null,
+					"qr_data": "177513.177933.LhWLd7kY"
+				},
+				{
+					"id": "306728",
+					"shop_order_item_id": "177939",
+					"shop_order_id": "177519",
+					"first_name": "tiegsn",
+					"last_name": "bsjjk",
+					"ticket_hash": "lkPdpK8e",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Partner Pass",
+					"ticket_cost": null,
+					"qr_data": "177519.177939.lkPdpK8e"
+				},
+				{
+					"id": "196036",
+					"shop_order_item_id": "107082",
+					"shop_order_id": "106963",
+					"first_name": "Charissa",
+					"last_name": "Marcucilli",
+					"ticket_hash": "JNHwobxy",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Partner Pass",
+					"ticket_cost": "127.00",
+					"qr_data": "106963.107082.JNHwobxy"
+				},
+				{
+					"id": "195900",
+					"shop_order_item_id": "107000",
+					"shop_order_id": "106881",
+					"first_name": "Charissa",
+					"last_name": "Marcucilli",
+					"ticket_hash": "VAuhWq9R",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "127.00",
+					"qr_data": "106881.107000.VAuhWq9R"
+				},
+				{
+					"id": "196042",
+					"shop_order_item_id": "107087",
+					"shop_order_id": "106968",
+					"first_name": "Charissa",
+					"last_name": "Marcucilli",
+					"ticket_hash": "50LUIPw0",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] Friday (½ day)",
+					"ticket_cost": "39.00",
+					"qr_data": "106968.107087.50LUIPw0"
+				},
+				{
+					"id": "195908",
+					"shop_order_item_id": "107006",
+					"shop_order_id": "106887",
+					"first_name": "TEST PARTNER10",
+					"last_name": "MARCUCILLI",
+					"ticket_hash": "ODHnoXGV",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Partner Pass",
+					"ticket_cost": "127.00",
+					"qr_data": "106887.107006.ODHnoXGV"
+				},
+				{
+					"id": "176470",
+					"shop_order_item_id": "94274",
+					"shop_order_id": "94455",
+					"first_name": "Jigar",
+					"last_name": "Patel",
+					"ticket_hash": "hkXQi1KE",
+					"status": "checked in",
+					"checked_in_at": "2016-03-04 03:41:33",
+					"checked_in_by_name": "Jigar",
+					"ticket_type": "[Super Early Bird] 3-Day Industry Pass",
+					"ticket_cost": null,
+					"qr_data": "94455.94274.hkXQi1KE"
+				},
+				{
+					"id": "450902",
+					"shop_order_item_id": "269409",
+					"shop_order_id": "268670",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "c0d4i5J2",
+					"status": "checked in",
+					"checked_in_at": "2017-03-16 14:29:31",
+					"checked_in_by_name": "Rit",
+					"ticket_type": "[Standard] VIP",
+					"ticket_cost": "0.00",
+					"qr_data": "268670.269409.c0d4i5J2"
+				},
+				{
+					"id": "192049",
+					"shop_order_item_id": "104599",
+					"shop_order_id": "104482",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "8VZEq2HZ",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "50.00",
+					"qr_data": "104482.104599.8VZEq2HZ"
+				},
+				{
+					"id": "194835",
+					"shop_order_item_id": "106316",
+					"shop_order_id": "106199",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "UzaPmqrf",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Partner Pass",
+					"ticket_cost": "127.00",
+					"qr_data": "106199.106316.UzaPmqrf"
+				},
+				{
+					"id": "174146",
+					"shop_order_item_id": "92889",
+					"shop_order_id": "93077",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "3RwD0bbs",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] Saturday",
+					"ticket_cost": "500.00",
+					"qr_data": "93077.92889.3RwD0bbs"
+				},
+				{
+					"id": "175236",
+					"shop_order_item_id": "93464",
+					"shop_order_id": "93651",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "DrmlTq0L",
+					"status": "for sale",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] Saturday",
+					"ticket_cost": "500.00",
+					"qr_data": "93651.93464.DrmlTq0L"
+				},
+				{
+					"id": "176104",
+					"shop_order_item_id": "94005",
+					"shop_order_id": "94186",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "c2Mucfsv",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "50.00",
+					"qr_data": "94186.94005.c2Mucfsv"
+				},
+				{
+					"id": "184242",
+					"shop_order_item_id": "100085",
+					"shop_order_id": "99970",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "woS9in0t",
+					"status": "for sale",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "50.00",
+					"qr_data": "99970.100085.woS9in0t"
+				},
+				{
+					"id": "192056",
+					"shop_order_item_id": "104605",
+					"shop_order_id": "104488",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "jdMccmVR",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "50.00",
+					"qr_data": "104488.104605.jdMccmVR"
+				},
+				{
+					"id": "174889",
+					"shop_order_item_id": "93297",
+					"shop_order_id": "93484",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "OuIL6n0r",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "150.00",
+					"qr_data": "93484.93297.OuIL6n0r"
+				},
+				{
+					"id": "176762",
+					"shop_order_item_id": "94461",
+					"shop_order_id": "94642",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "QGgS3Ag0",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "50.00",
+					"qr_data": "94642.94461.QGgS3Ag0"
+				},
+				{
+					"id": "189005",
+					"shop_order_item_id": "102792",
+					"shop_order_id": "102677",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "Blb9XH0A",
+					"status": "for sale",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "50.00",
+					"qr_data": "102677.102792.Blb9XH0A"
+				},
+				{
+					"id": "192065",
+					"shop_order_item_id": "104611",
+					"shop_order_id": "104494",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "ETdixOWo",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "50.00",
+					"qr_data": "104494.104611.ETdixOWo"
+				},
+				{
+					"id": "174143",
+					"shop_order_item_id": "92886",
+					"shop_order_id": "93074",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "OF3YPX0x",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] Saturday",
+					"ticket_cost": null,
+					"qr_data": "93074.92886.OF3YPX0x"
+				},
+				{
+					"id": "174890",
+					"shop_order_item_id": "93298",
+					"shop_order_id": "93485",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "MORGHQV9",
+					"status": "checked in",
+					"checked_in_at": "2016-02-24 14:51:04",
+					"checked_in_by_name": "Ritesh",
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "150.00",
+					"qr_data": "93485.93298.MORGHQV9"
+				},
+				{
+					"id": "176118",
+					"shop_order_item_id": "94016",
+					"shop_order_id": "94197",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "SJjJ8EnY",
+					"status": "for sale",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "50.00",
+					"qr_data": "94197.94016.SJjJ8EnY"
+				},
+				{
+					"id": "176809",
+					"shop_order_item_id": "94490",
+					"shop_order_id": "94671",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "2UE6I14R",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "50.00",
+					"qr_data": "94671.94490.2UE6I14R"
+				},
+				{
+					"id": "191516",
+					"shop_order_item_id": "104258",
+					"shop_order_id": "104141",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "tbcYDpw9",
+					"status": "for sale",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "50.00",
+					"qr_data": "104141.104258.tbcYDpw9"
+				},
+				{
+					"id": "174144",
+					"shop_order_item_id": "92887",
+					"shop_order_id": "93075",
+					"first_name": "Ritesh",
+					"last_name": "Patel",
+					"ticket_hash": "mFTXnquS",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] Saturday",
+					"ticket_cost": null,
+					"qr_data": "93075.92887.mFTXnquS"
+				},
+				{
+					"id": "286735",
+					"shop_order_item_id": "163262",
+					"shop_order_id": "162848",
+					"first_name": "Ritesh 0",
+					"last_name": "Patel",
+					"ticket_hash": "Gj0zwrK1",
+					"status": "checked in",
+					"checked_in_at": "2016-08-26 07:36:37",
+					"checked_in_by_name": "Rit",
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": null,
+					"qr_data": "162848.163262.Gj0zwrK1"
+				},
+				{
+					"id": "286739",
+					"shop_order_item_id": "163263",
+					"shop_order_id": "162849",
+					"first_name": "Ritesh 0",
+					"last_name": "Patel",
+					"ticket_hash": "l1uRZA8n",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": null,
+					"qr_data": "162849.163263.l1uRZA8n"
+				},
+				{
+					"id": "286736",
+					"shop_order_item_id": "163262",
+					"shop_order_id": "162848",
+					"first_name": "Ritesh 1",
+					"last_name": "Patel",
+					"ticket_hash": "5zcMHoaX",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": null,
+					"qr_data": "162848.163262.5zcMHoaX"
+				},
+				{
+					"id": "286740",
+					"shop_order_item_id": "163263",
+					"shop_order_id": "162849",
+					"first_name": "Ritesh 1",
+					"last_name": "Patel",
+					"ticket_hash": "HuuOIDBi",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": null,
+					"qr_data": "162849.163263.HuuOIDBi"
+				},
+				{
+					"id": "286737",
+					"shop_order_item_id": "163262",
+					"shop_order_id": "162848",
+					"first_name": "Ritesh 2",
+					"last_name": "Patel",
+					"ticket_hash": "l6kPjb2g",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": null,
+					"qr_data": "162848.163262.l6kPjb2g"
+				},
+				{
+					"id": "286741",
+					"shop_order_item_id": "163263",
+					"shop_order_id": "162849",
+					"first_name": "Ritesh 2",
+					"last_name": "Patel",
+					"ticket_hash": "PECwlqxP",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": null,
+					"qr_data": "162849.163263.PECwlqxP"
+				},
+				{
+					"id": "286742",
+					"shop_order_item_id": "163263",
+					"shop_order_id": "162849",
+					"first_name": "Ritesh 3",
+					"last_name": "Patel",
+					"ticket_hash": "nf8s4hPr",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": null,
+					"qr_data": "162849.163263.nf8s4hPr"
+				},
+				{
+					"id": "286738",
+					"shop_order_item_id": "163262",
+					"shop_order_id": "162848",
+					"first_name": "Ritesh 3",
+					"last_name": "Patel",
+					"ticket_hash": "VZlC7F0s",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": null,
+					"qr_data": "162848.163262.VZlC7F0s"
+				},
+				{
+					"id": "286743",
+					"shop_order_item_id": "163264",
+					"shop_order_id": "162850",
+					"first_name": "Ritesh 5",
+					"last_name": "Patel",
+					"ticket_hash": "m8Jt7GqC",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": null,
+					"qr_data": "162850.163264.m8Jt7GqC"
+				},
+				{
+					"id": "286744",
+					"shop_order_item_id": "163264",
+					"shop_order_id": "162850",
+					"first_name": "Ritesh 6",
+					"last_name": "Patel",
+					"ticket_hash": "75qvkvAE",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": null,
+					"qr_data": "162850.163264.75qvkvAE"
+				},
+				{
+					"id": "286745",
+					"shop_order_item_id": "163264",
+					"shop_order_id": "162850",
+					"first_name": "Ritesh 7",
+					"last_name": "Patel",
+					"ticket_hash": "1gjSCx9P",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": null,
+					"qr_data": "162850.163264.1gjSCx9P"
+				},
+				{
+					"id": "286746",
+					"shop_order_item_id": "163264",
+					"shop_order_id": "162850",
+					"first_name": "Ritesh 8",
+					"last_name": "Patel",
+					"ticket_hash": "dggLQSCD",
+					"status": "checked in",
+					"checked_in_at": "2016-08-26 07:45:43",
+					"checked_in_by_name": "Rit",
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": null,
+					"qr_data": "162850.163264.dggLQSCD"
+				},
+				{
+					"id": "176709",
+					"shop_order_item_id": "94423",
+					"shop_order_id": "94604",
+					"first_name": "James",
+					"last_name": "Reynolds",
+					"ticket_hash": "19JspcF6",
+					"status": "checked in",
+					"checked_in_at": "2016-03-05 06:00:27",
+					"checked_in_by_name": "Ksenia",
+					"ticket_type": "[Standard] VIP",
+					"ticket_cost": null,
+					"qr_data": "94604.94423.19JspcF6"
+				},
+				{
+					"id": "195797",
+					"shop_order_item_id": "106933",
+					"shop_order_id": "106814",
+					"first_name": "John",
+					"last_name": "Smith",
+					"ticket_hash": "njND2QmC",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "127.00",
+					"qr_data": "106814.106933.njND2QmC"
+				},
+				{
+					"id": "195901",
+					"shop_order_item_id": "107000",
+					"shop_order_id": "106881",
+					"first_name": "TEST",
+					"last_name": "TEST",
+					"ticket_hash": "c0MsVPB6",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "127.00",
+					"qr_data": "106881.107000.c0MsVPB6"
+				},
+				{
+					"id": "196043",
+					"shop_order_item_id": "107087",
+					"shop_order_id": "106968",
+					"first_name": "test",
+					"last_name": "test",
+					"ticket_hash": "gki3tRO4",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] Friday (½ day)",
+					"ticket_cost": "39.00",
+					"qr_data": "106968.107087.gki3tRO4"
+				},
+				{
+					"id": "174891",
+					"shop_order_item_id": "93298",
+					"shop_order_id": "93485",
+					"first_name": "Test",
+					"last_name": "Test",
+					"ticket_hash": "sjfPeg3M",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "150.00",
+					"qr_data": "93485.93298.sjfPeg3M"
+				},
+				{
+					"id": "196044",
+					"shop_order_item_id": "107087",
+					"shop_order_id": "106968",
+					"first_name": "test1",
+					"last_name": "test1",
+					"ticket_hash": "f9S3XvM6",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] Friday (½ day)",
+					"ticket_cost": "39.00",
+					"qr_data": "106968.107087.f9S3XvM6"
+				},
+				{
+					"id": "176107",
+					"shop_order_item_id": "94008",
+					"shop_order_id": "94189",
+					"first_name": "Test",
+					"last_name": "Test2",
+					"ticket_hash": "nOLgPi0o",
+					"status": "valid",
+					"checked_in_at": null,
+					"checked_in_by_name": null,
+					"ticket_type": "[Super Early Bird] 3-Day Pass",
+					"ticket_cost": "50.00",
+					"qr_data": "94189.94008.nOLgPi0o"
+				}
+			],
+			"check_in_stats": {
+				"hourly": {
+					"2016-02-24 14": 1,
+					"2016-03-04 03": 1,
+					"2016-03-05 06": 1,
+					"2016-08-26 07": 2,
+					"2017-03-16 14": 1
+				},
+				"daily": {
+					"2016-02-24": 1,
+					"2016-03-04": 1,
+					"2016-03-05": 1,
+					"2016-08-26": 2,
+					"2017-03-16": 1
+				},
+				"names": {
+					"Jigar": 1,
+					"Ksenia": 1,
+					"Rit": 3,
+					"Ritesh": 1
+				},
+				"ticket_types": {
+					"[Standard] VIP": 2,
+					"[Super Early Bird] 3-Day Industry Pass": 1,
+					"[Super Early Bird] 3-Day Pass": 3
+				},
+				"paid": {
+					"ticket_types": {
+						"[Super Early Bird] 3-Day Industry Pass": 0,
+						"[Standard] VIP": 0,
+						"[Super Early Bird] 3-Day Pass": 1
+					}
+				},
+				"guest": {
+					"ticket_types": {
+						"[Super Early Bird] 3-Day Industry Pass": 1,
+						"[Standard] VIP": 2,
+						"[Super Early Bird] 3-Day Pass": 2
+					}
+				}
+			}
+		},
+		"release_breakdown": [
+			{
+				"num_sales": "5",
+				"release_type": "[Super Early Bird] 3-Day Pass",
+				"price": "131.620000",
+				"cost": "127.00",
+				"total_cost": "127.00",
+				"option_matrix_record_id": "1211",
+				"discount": "0.000000"
+			},
+			{
+				"num_sales": "14",
+				"release_type": "[Super Early Bird] 3-Day Pass",
+				"price": "55.000000",
+				"cost": "50.00",
+				"total_cost": "50.00",
+				"option_matrix_record_id": "1211",
+				"discount": "0.000000"
+			},
+			{
+				"num_sales": "12",
+				"release_type": "[Super Early Bird] 3-Day Pass",
+				"price": "0.000000",
+				"cost": null,
+				"total_cost": "0.00",
+				"option_matrix_record_id": "1211",
+				"discount": "0.000000"
+			},
+			{
+				"num_sales": "3",
+				"release_type": "[Super Early Bird] 3-Day Pass",
+				"price": "160.000000",
+				"cost": "150.00",
+				"total_cost": "150.00",
+				"option_matrix_record_id": "1211",
+				"discount": "0.000000"
+			},
+			{
+				"num_sales": "3",
+				"release_type": "[Super Early Bird] Friday (½ day)",
+				"price": "40.990000",
+				"cost": "39.00",
+				"total_cost": "117.00",
+				"option_matrix_record_id": "1219",
+				"discount": "0.000000"
+			},
+			{
+				"num_sales": "2",
+				"release_type": "[Super Early Bird] Saturday",
+				"price": "0.000000",
+				"cost": null,
+				"total_cost": "0.00",
+				"option_matrix_record_id": "1220",
+				"discount": "0.000000"
+			},
+			{
+				"num_sales": "2",
+				"release_type": "[Super Early Bird] Saturday",
+				"price": "550.000000",
+				"cost": "500.00",
+				"total_cost": "500.00",
+				"option_matrix_record_id": "1220",
+				"discount": "0.000000"
+			},
+			{
+				"num_sales": "1",
+				"release_type": "[Super Early Bird] Sunday",
+				"price": "330.000000",
+				"cost": "300.00",
+				"total_cost": "330.00",
+				"option_matrix_record_id": "1272",
+				"discount": "0.000000"
+			},
+			{
+				"num_sales": "2",
+				"release_type": "[Super Early Bird] 3-Day Partner Pass",
+				"price": "0.000000",
+				"cost": "0.00",
+				"total_cost": "0.00",
+				"option_matrix_record_id": "1273",
+				"discount": "0.000000"
+			},
+			{
+				"num_sales": "4",
+				"release_type": "[Super Early Bird] 3-Day Partner Pass",
+				"price": "131.620000",
+				"cost": "127.00",
+				"total_cost": "187.00",
+				"option_matrix_record_id": "1273",
+				"discount": "0.000000"
+			},
+			{
+				"num_sales": "4",
+				"release_type": "[Super Early Bird] 3-Day Partner Pass",
+				"price": "0.000000",
+				"cost": null,
+				"total_cost": "0.00",
+				"option_matrix_record_id": "1273",
+				"discount": "0.000000"
+			},
+			{
+				"num_sales": "1",
+				"release_type": "[Super Early Bird] 3-Day Industry Pass",
+				"price": "0.000000",
+				"cost": null,
+				"total_cost": "0.00",
+				"option_matrix_record_id": "1274",
+				"discount": "0.000000"
+			},
+			{
+				"num_sales": "1",
+				"release_type": "[Standard] VIP",
+				"price": "0.000000",
+				"cost": "0.00",
+				"total_cost": "0.00",
+				"option_matrix_record_id": "1275",
+				"discount": "0.000000"
+			},
+			{
+				"num_sales": "1",
+				"release_type": "[Standard] VIP",
+				"price": "0.000000",
+				"cost": null,
+				"total_cost": "0.00",
+				"option_matrix_record_id": "1275",
+				"discount": "0.000000"
+			}
+		]
+	}
+}

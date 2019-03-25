@@ -1,0 +1,109 @@
+.venues{
+	.card-title{
+		//height: 60px;
+		//line-height: 60px;
+		padding-left: 15px;
+		padding-bottom:15px;
+	}
+	.card-block{
+		padding: 15px 15px 30px 15px;
+	}
+	.venues-panel{
+		padding-left: 0px;
+		padding-right: 20px;
+		.venues-left,
+		.venues-right{
+			padding-left: 20px;
+			padding-right: 0px;
+			// height: 610px;
+			margin-bottom: 20px;
+		}
+		.description{
+			//height: 110px;
+			//padding: 15px;
+
+			margin-top: 0px;			
+		    margin-bottom: 15px;
+		    color: @theme-default-fontcolor-highlight;
+            font-size: 20px;
+		    .event{
+		        display: flex;
+		        padding:15px;
+		        line-height:24px;
+		        > img{
+		            .border-radius(5px);
+		            max-width: 80px;
+		            max-height: 80px;
+		            margin-right: 15px;
+		        }
+		        > div{
+		            .event-address{
+		                .div_horizontal2();
+		                color: @theme-default-fontcolor;
+		                font-size: 14px;
+		                img{
+		                    width: 10px;
+		                    height: 14px;
+		                    margin-left: 1px;
+		                    margin-right: 11px;
+		                }
+		            }
+		            .address-notset{
+		            	color: #f56d6d;
+		            	font-size: 12px;
+		            }
+		        }
+		    }
+		}
+		.venues-left{
+
+			.floating-field > .form-control{
+				margin-bottom:15px;
+			}
+
+			.venue-buttons{
+				width: 100%;
+				text-align: center;
+				margin-top: 15px;
+			}
+			.venue{
+				//height: 485px;
+				.card-block{
+					//height: 425px;
+					padding: 25px 15px;
+				}
+				.availability{
+					margin-top: -10px;
+				}
+			}
+			.venue-editor{
+				.card-block{					
+					padding: 15px;
+				}
+				.line{
+					width: 100%;
+					.switch-label{
+						width: 70%;
+					}
+				}
+				.form{
+					margin-bottom: 0px;
+				}
+			}
+		}
+		.venues-right{
+		}
+		.venue-map{
+			padding: 0px;
+			margin: -25px -20px;
+			height: 460px;
+		}
+	}
+}
+
+.searchbox{
+	.form-control{
+				margin-bottom:0px !important;
+			}
+	
+}

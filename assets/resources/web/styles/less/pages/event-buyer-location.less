@@ -1,0 +1,269 @@
+.markerLabel{
+	background: black;
+	color: white;
+	font-size: 14px;
+	border-radius: 5px;
+	padding: 5px 10px 5px 25px;
+	white-space: nowrap;
+	margin-left: -7px !important;
+	margin-top: -35px !important;
+	opacity: 1 !important;
+}
+.gmnoprint{
+	opacity: 1 !important;
+}
+.buyerlocation{
+	.dropdown_locationType{
+		position: absolute;
+		right: 10px;
+		.div_horizontal();
+		.text{
+			font-size: 12px;
+			width: 60px;
+			color: @theme-default-fontcolor;
+		}
+		.dropdown{
+			select.form-control{
+				height: 30px;
+				width: 140px;
+				font-size: 12px;
+				color: @theme-default-fontcolor;
+			}
+		}
+	}
+	.numberOfBuyers{
+		width: 100%;
+		// height: 50px;
+		background: #2f3138;
+		line-height: 50px;
+		padding: 0 10px;
+		color: @theme-default-fontcolor-highlight;
+		.title{
+			white-space: nowrap;
+		}
+		.range{
+			.div_horizontal();
+			.color{
+				width: 15px;
+				height: 15px;
+				margin-right: 10px;
+				border-radius: 3px;
+				background: white;
+			}
+			.p1{
+				background: #FD9758;
+			}
+			.p2{
+				background: #FF76A5;
+			}
+			.p3{
+				background: #02BAE8;
+			}
+			.p4{
+				background: #7D7BF4;
+			}
+			.p5{
+				background: #2DC280;
+			}
+		}
+	}
+	.map{
+		width: 100%;
+		height: 600px;
+		display: flex;
+		.location_circle{
+			background-size: 100%;
+			background-repeat: no-repeat;
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			top: -10px;
+			left: -10px;
+		}
+		.detail_box{
+			width: 130px;
+			height: 50px;
+			background-size: 100%;
+			background-repeat: no-repeat;
+			position: absolute;
+			left: -105px;
+			top: -40px;
+			.texts{
+				line-height: 18px;
+				font-size: 12px;
+				color: black;
+				margin-left: 35px;
+			}
+		}
+		position: relative;
+		.mapNarrator{
+			position: absolute;
+			width: 100%;
+			height: 600px;
+			line-height: 600px;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+			font-size: 40px;
+			color: white;
+			z-index: 999999999999;
+			opacity: 1;
+			pointer-events: none;
+			white-space: nowrap;
+		}
+		.mapNarrator.ani{
+			transition: 4s;
+			opacity: 0;
+		}
+	}
+	.dropdown_period {
+		position: absolute;
+		top: 5px;
+		right: 10px;
+		select.form-control{
+			height: 30px;
+			width: 120px;
+			font-size: 11px;
+			color: @theme-default-fontcolor;
+		}
+	}
+	.buyerCard{
+		text-align: left;
+		color: @theme-default-fontcolor-highlight;
+		.title{
+			font-size: 18px;
+			// margin: 0 auto;
+			// width: 110px;
+			text-align: left;
+			color: @theme-default-fontcolor;
+			padding-bottom: 10px;
+			color:white;
+			font-weight:700;
+			//text-transform:uppercase;
+		}
+		.yellow{
+			margin: 0 auto;
+			width: 100px;
+			border-bottom: 3px solid #FFA46B;
+		}
+		.green{
+			margin: 0 auto;
+			width: 120px;
+			border-bottom: 3px solid #38C9FF;
+		}
+		.red{
+			margin: 0 auto;
+			width: 140px;
+			border-bottom: 3px solid #FF5B95;
+		}
+		.number{
+			font-size: 20px;
+			font-weight: 600;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			display: flex;
+			width: 110px;
+			margin-left: auto;
+			margin-right: auto;
+			img{
+				width: 20px;
+				height: 20px;
+				margin-top: 8px;
+				margin-right: 10px;
+			}
+		}
+		.location{
+			text-align: left;
+			font-size: 12px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 110px;			
+			margin-bottom: 10px;
+			color: @theme-default-fontcolor;
+			img{
+				width: 20px;
+				margin-right: 5px;
+			}
+		}
+		.location_region{
+			display: flex;
+			text-align: left;
+			font-size: 12px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 110px;			
+			margin-bottom: 10px;
+			color: @theme-default-fontcolor;
+			.city{
+				font-size: 12px;
+				margin-right: 10px;
+			}
+			.region{
+				font-size: 12px;
+			}
+		}
+	}
+}
+.text-right{
+	text-align:right;
+}
+.text-left{
+	text-align:left;
+}
+.grey{
+	color:#b5c5cf;
+	padding-right:5px;
+}
+
+.top-attendees-tbl {
+	.title-city {
+		display: inline-block;
+	}
+	.title-counts {
+		display: inline-block;
+		float: right;
+	}
+	.go-to-loc {
+		display: inline-block;
+		background: #4d5261;
+		padding: 2px 9px;
+		border-radius: 2px !important;
+		text-align: center;
+		margin-right: 10px;
+
+		&:hover{
+			background: #25b998;
+			color:white;
+			cursor:pointer;
+		}
+
+		i {
+			font-size: 16px;
+			cursor: pointer;
+			margin-right: 0 !important;
+		}
+	}
+	.value-loc {
+		color: white;
+		font-weight: 600;
+		line-height: 22px;
+	}
+	.value-loc-desktop {
+		display: inline-block;
+	}
+	.value-loc-mobile {
+		display: none;
+	}
+	.value-counts {
+		display: inline-block;
+		float: right;
+		color: white;
+		font-weight: 600;
+		line-height: 22px;
+
+		div {
+			display: none;
+		    color: #eeeeee;
+		}
+	}
+}

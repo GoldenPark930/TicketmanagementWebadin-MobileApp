@@ -1,0 +1,132 @@
+{
+    "data": {
+        "release_breakdown": [
+            {
+                "num_sales": "2",
+                "release_type": "[Early Bird] 1-Day Pass - 24-Hour Deal",
+                "price": "0.000000",
+                "cost": "0.00",
+                "total_cost": "0.00",
+                "option_matrix_record_id": "4158",
+                "discount": "0.000000"
+            },
+            {
+                "num_sales": "8054",
+                "release_type": "[Early Bird] 1-Day Pass - 24-Hour Deal",
+                "price": "160.970000",
+                "cost": "149.00",
+                "total_cost": "149.00",
+                "option_matrix_record_id": "4158",
+                "discount": "0.000000"
+            },
+            {
+                "num_sales": "3656",
+                "release_type": "[1st Release] 1-Day Pass (Jan 2nd)",
+                "price": "181.570000",
+                "cost": "169.00",
+                "total_cost": "169.00",
+                "option_matrix_record_id": "4260",
+                "discount": "0.000000"
+            },
+            {
+                "num_sales": "91",
+                "release_type": "[1st Release] 1-Day Pass (Jan 2nd)",
+                "price": "0.000000",
+                "cost": "0.00",
+                "total_cost": "0.00",
+                "option_matrix_record_id": "4260",
+                "discount": "0.000000"
+            },
+            {
+                "num_sales": "4972",
+                "release_type": "[2nd Release] 1-Day Pass (Jan 2nd)",
+                "price": "191.860000",
+                "cost": "179.00",
+                "total_cost": "224.00",
+                "option_matrix_record_id": "4480",
+                "discount": "0.000000"
+            },
+            {
+                "num_sales": "342",
+                "release_type": "[2nd Release] 1-Day Pass (Jan 2nd)",
+                "price": "0.000000",
+                "cost": "0.00",
+                "total_cost": "0.00",
+                "option_matrix_record_id": "4480",
+                "discount": "0.000000"
+            },
+            {
+                "num_sales": "41",
+                "release_type": "[2nd Release] Pre-Party Only (Jan 1st)",
+                "price": "0.000000",
+                "cost": "0.00",
+                "total_cost": "0.00",
+                "option_matrix_record_id": "4561",
+                "discount": "0.000000"
+            },
+            {
+                "num_sales": "133",
+                "release_type": "[2nd Release] Pre-Party Only (Jan 1st)",
+                "price": "76.520000",
+                "cost": "69.00",
+                "total_cost": "109.00",
+                "option_matrix_record_id": "4561",
+                "discount": "0.000000"
+            },
+            {
+                "num_sales": "1000",
+                "release_type": "[Hard Copy] Festival Pass",
+                "price": "0.000000",
+                "cost": "0.00",
+                "total_cost": "0.00",
+                "option_matrix_record_id": "4876",
+                "discount": "0.000000"
+            },
+            {
+                "num_sales": "6835",
+                "release_type": "[3rd Release] 1-Day Pass (Jan 2nd)",
+                "price": "198.040000",
+                "cost": "185.00",
+                "total_cost": "185.00",
+                "option_matrix_record_id": "4988",
+                "discount": "0.000000"
+            },
+            {
+                "num_sales": "437",
+                "release_type": "[3rd Release] 1-Day Pass (Jan 2nd)",
+                "price": "0.000000",
+                "cost": "0.00",
+                "total_cost": "0.00",
+                "option_matrix_record_id": "4988",
+                "discount": "0.000000"
+            },
+            {
+                "num_sales": "39",
+                "release_type": "[3rd Release] Pre-Party Only (Jan 1st)",
+                "price": "0.000000",
+                "cost": "0.00",
+                "total_cost": "0.00",
+                "option_matrix_record_id": "4989",
+                "discount": "0.000000"
+            },
+            {
+                "num_sales": "469",
+                "release_type": "[3rd Release] Pre-Party Only (Jan 1st)",
+                "price": "76.520000",
+                "cost": "69.00",
+                "total_cost": "69.00",
+                "option_matrix_record_id": "4989",
+                "discount": "0.000000"
+            },
+            {
+                "num_sales": "15",
+                "release_type": "[Friends And Family] 1-Day Pass",
+                "price": "121.830000",
+                "cost": "111.00",
+                "total_cost": "333.00",
+                "option_matrix_record_id": "5119",
+                "discount": "0.000000"
+            }
+        ]
+    }
+}

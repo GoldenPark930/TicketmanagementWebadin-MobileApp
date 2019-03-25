@@ -1,0 +1,196 @@
+@tab-height: 66px;
+@tab-spacing: 4px;
+@tab-icon-height: 300px;
+.accordion{
+	position: relative;
+	.box-shadow3(0px 24px 40px 0px rgba(0,0,0,0.60));
+	border-radius: 5px;
+	background: @theme-default-background;
+	border-radius: 5px;
+	background: @theme-default-background;
+	width:90%;
+	height: @tab-height * 2 + @tab-spacing * 2 + @tab-icon-height;
+	margin: auto;
+	color: @theme-default-fontcolor-highlight;	
+	overflow: hidden;
+
+	.tab_content{
+		padding-left: 5px;
+		width: 100%;
+		height: @tab-height;
+		display: flex;
+		align-items: center;
+		.tab_button{
+			z-index: 10;
+			width: 30px;
+			min-width: 30px;
+			img{
+				.transition(width, .2);
+				width: 14px;
+				position:relative;
+				top:-14px;
+				left:-1px;
+				&:hover{
+					width: 20px;
+				}
+			}
+		}
+		.tab_label{
+			//margin-left: 5px;
+			margin-top: -3px;
+			display: flex;
+			flex-direction: column;
+			align-items: baseline;
+			color: @theme-default-fontcolor-highlight;
+			.type{
+				font-weight: 500;
+				font-size: 16px;
+				width: 400px;
+				text-align: left;
+				letter-spacing: -0.2px;
+				line-height: 22px;
+			}
+			.description{
+				font-size: 12px;
+				width: 400px;
+				text-align: left;
+				// margin-top: 8px;
+				position:relative;
+				left:-24px;
+				top:2px;
+				letter-spacing:-0.05px;
+			}
+		}
+	}
+	.tab_icon{
+		width: 100%;
+		height: @tab-icon-height;
+		> img {
+			margin-top: 30px;
+			// width: 280px;
+			height: 240px; // ( @tab-icon-height - margin-top ) / 2
+		}
+		.icon_label {
+			position: absolute;
+			left: 20px;
+			top: 200px;
+			display: flex;
+			flex-direction: column;
+			align-items: baseline;
+			color: @theme-default-fontcolor-highlight;
+			.type{
+				font-weight:700;				
+				font-size: 24px;
+				letter-spacing: -0.5px;
+				padding-bottom:5px;
+			}
+			.description{
+				font-size: 16px;
+				font-weight: 100;				
+				margin-top: -10px;
+			}
+		}
+	}
+
+	.tab_template{
+		float: left;
+		width: calc(~"25% - 3px"); // (100% - @tab-spacing*3)/4
+		cursor: pointer;
+		&:hover {
+			height: @tab-height + @tab-spacing + 2px;
+		}
+		&:hover > .tab_icon{
+			opacity: 1;
+			// display: block;
+			z-index: 100;
+			// height: @tab-icon-height;
+		}
+		&:hover ~ .manage_events {
+			height: @tab-height;
+			.tab_icon{
+				margin-top: @tab-height;
+			}
+		}
+		.tab_icon{
+			position: absolute;
+			left: 0px;
+			top: @tab-height + @tab-spacing;
+			width: 100%;
+			// height: 0px;
+			height: @tab-icon-height;
+			opacity: 0;
+			// display: none;
+			z-index: 99;
+			.transition2(all, .2, ease, .05);
+		}
+	}
+
+	.manage_brands{
+		.tab_template;
+		width: 100%;
+		.gradient-deg(180deg, #1DCFE3, #2B6BFF);
+		.tab_icon{
+			.gradient-deg(180deg, #1DCFE3, #2B6BFF);
+		}
+		&:hover {
+			background: #1DCFE3;
+		}
+	}
+	.manage_team_members{
+		margin-left: @tab-spacing;
+		.tab_template;
+		.gradient-deg(180deg, #B492FC, #8164ED);
+		.tab_icon{
+			.gradient-deg(180deg, #B492FC, #8164ED);
+		}
+		&:hover {
+			background: #B492FC;
+		}
+	}
+	.manage_ad_accounts{
+		margin-left: @tab-spacing;
+		.tab_template;
+		.gradient-deg(180deg, #68efa2,  #12b392);
+		.tab_icon{
+			.gradient-deg(180deg, #68efa2,  #12b392);
+		}
+		&:hover {
+			background: #68efa2;
+		}
+	}
+	.manage_tours{
+		margin-left: @tab-spacing;
+		.tab_template;
+		.gradient-deg(180deg, #e687d7,  #c250d0);
+		.tab_icon{
+			.gradient-deg(180deg,  #e687d7,  #c250d0);
+		}
+		&:hover {
+			background:  #e687d7;
+		}
+	}
+	.manage_events{
+		z-index: 100;
+		.transition2(height, .2, ease, .05);
+		.gradient-deg(180deg, #ffaf4d, #ff4c67);
+		cursor: pointer;
+
+		bottom: 0px;
+		position: absolute;
+
+		width: 100%;
+		height: @tab-height + @tab-spacing + @tab-icon-height;
+
+		.tab_content{
+			bottom: 0px;
+			position: absolute;	
+		}
+	}
+}
+
+.brand-infobar{
+  color: #fff;
+  border: 1px solid #487ab9;
+  background: rgba(57, 107, 169, 0.4);
+  box-shadow: 0px 5px 20px 0px #292e3a;
+  }

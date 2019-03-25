@@ -1,0 +1,129 @@
+.modal {
+  transition: opacity 100ms ease-in;
+}
+
+.modal-trans {
+  > .modal-content {
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none
+  }
+}
+.modal-dialog {
+  transition: transform 100ms ease-in;
+  width: auto;
+  position: relative;
+  margin: 10px;
+  margin-top: 30px;
+  &:focus { border: none; outline: none; box-shadow: none; }
+  
+.template-content-preview{
+  margin:10px;
+}
+.template-content-preview, .mailout-content-preview{
+    color:black;
+    background: @textareas-background;
+    font-size:15px;
+    padding:10px;
+    letter-spacing:1px;
+   // min-height:100px;
+    max-height:460px;
+    overflow:auto;
+    P {
+    margin:0; padding:0;
+    }
+
+   img {
+            width:100%;
+       }
+    }
+}
+.modal-header{
+  border-bottom: 1px solid #4f5465;
+  font-size: 18px !important;
+  border-bottom: none;
+  background: #2f3138 !important;
+  padding:10px !important;
+}
+.modal-body {
+      color:white;
+ }
+
+.modal-content{
+  .pagination-select-panelsize{
+     width:auto !important;
+  }
+}
+
+.modal-footer {
+  border-top:1px solid #4e5465 !important; 
+  .btn-toolbar{
+    margin-top: 0px;
+    text-align:center;
+  }
+  .btn-toolbar-right{
+    text-align: right !important;
+  }
+}
+
+@media (min-width: 990px) {
+  .modal-dialog {
+    width: 800px;
+    margin: 50px auto;
+  }
+  .modal-small {
+    width: 400px !important;
+  }
+}
+
+.modal-container {
+  position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
+
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-perspective: 600;
+  perspective: 600;
+  opacity: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10001;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  transition: opacity 150ms ease-out;
+}
+
+.ReactModal__Content {
+  -webkit-transform: scale(0.5) rotateX(-30deg);
+  z-index: @zindex-modal;
+}
+
+.ReactModal__Content--after-open {
+  -webkit-transform: scale(1) rotateX(0deg);
+  transition: all 150ms ease-in;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Content--before-close {
+  -webkit-transform: scale(0.5) rotateX(30deg);
+  transition: all 150ms ease-in;
+}
+
+.ReactModal__Content.modal-dialog {
+  border: none;
+  background-color: transparent;
+}

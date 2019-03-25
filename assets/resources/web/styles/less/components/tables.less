@@ -1,0 +1,111 @@
+.table-responsive{
+	border: none !important;
+}
+.table-themed {
+	background-color: white;
+}
+
+.table-stripe-row1{
+	background-color: #444950;
+}
+.table-stripe-row2{
+	background-color: #24272f;
+}
+
+.row-muted {
+	background-color: @gray-lighter;
+	color: @text-muted;
+}
+
+.row-title {
+	font-size: @font-size-large;
+	font-weight: 400;
+}
+
+.row-stale {
+	background-color: #424750;
+}
+
+.column-collapsed { width: 1%; }
+.column-1of4 { width: 25%; }
+.column-2of4 { width: 50%; }
+.column-3of4 { width: 75%; }
+.column-4of4 { width: 100%; }
+
+.tickets-table tr td, .tickets-table tr th {
+	//vertical-align: middle !important;
+
+}
+
+.table {
+	color: @gray-lighter;
+	margin-bottom: 0px;
+	thead {
+		background-color: @theme-panel-background-highlight;
+		tr{			
+			th {
+				padding: 8px 20px;
+				border-bottom: 0px !important;
+				font-weight: 700;
+				font-size: @font-size-base;
+				vertical-align: middle !important;
+				background: #2f3138 !important;
+			}
+			
+		}
+	}
+	tbody {
+		border-left: 0px !important;
+		border-right: 0px !important;
+		td {
+			padding: 10px 20px !important;
+			border-top: 0px !important;
+			//border-bottom: solid 1px #3E4552 !important;
+			font-size: @font-size-table;
+			vertical-align: middle !important;
+		}
+	}
+	tfoot {
+
+		td {
+			padding: 15px 20px !important;
+			font-weight: 600;
+			font-size: @font-size-large;
+			vertical-align: middle !important;
+			border-bottom: 0px !important;
+			border-top:1px solid #707c84 !important;
+		}
+	}
+	.text-large {
+		font-size: @font-size-large;
+	}
+}
+
+.table tr:nth-child(even) {
+		background: #565B61!important;
+	}
+
+.table tr:nth-child(odd) {
+		background: #414650!important;
+	}
+
+
+.table tbody tr:last-child{
+	border-bottom:1px solid #6c727d;
+}
+
+
+
+.table-caption {
+	color: @gray-lighter;
+	font-size: @font-size-large;
+	padding: 20px 0px !important;
+	font-weight: 600;
+	line-height: 16px;
+
+	.icon {
+		margin-right: 20px;
+		vertical-align: top;
+		height: 16px;
+	}
+}

@@ -1,0 +1,61 @@
+.progressCircle{
+  position: relative;
+  .decoration{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    .innerCircle{
+      border: 2px solid #1A1D26;
+      // background-color: #2A2F3C;
+      width: calc(~"100% - 20px");
+      height: calc(~"100% - 20px");
+      top: 10px;
+      left: 10px;
+      margin: 0 auto;
+      border-radius: 50%;
+      position: absolute;
+    }
+  }
+  .centerImage{    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+  }
+  .progrsssText{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    // display: table-cell;
+    // vertical-align:middle;
+    text-align:center;
+    color: #FFFFFF;
+    font-size: 35px;
+    padding-top: calc(~"50% - 30px");
+  }
+	.CircularProgressbar{
+		width: 100%;
+		.CircularProgressbar-path {
+			stroke: #FB52AE;
+			stroke-linecap: round;
+			transition: stroke-dashoffset 3s;
+		}
+		.CircularProgressbar-trail {
+			stroke: #40475C;
+		}
+		.CircularProgressbar-text {
+      display: none;
+			fill: white;
+			font-size: 20px;
+			dominant-baseline: middle;
+			text-anchor: middle;
+		}
+	}
+}

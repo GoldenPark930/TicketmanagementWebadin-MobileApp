@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": "141",
+            "type": "add_on",
+            "attributes": {
+                "name": "Child Ticket - 0-5 Years",
+                "description": "All children must be accompanied by an adult who holds a valid ticket of their own for the same day.",
+                "image": null,
+                "currency": "USD",
+                "price": 0,
+                "cost": 0,
+                "groupName": null,
+                "groupSortOrder": "1",
+                "level": "ticket",
+                "stock": null,
+                "flagLimitToTicketQuantity": false,
+                "limitPerTicket": null,
+                "active": true,
+                "type": "product",
+                "prerequisiteTicketTypeIds": null,
+                "equivalentTicketTypeId": null
+            }
+        },
+        {
+            "id": "140",
+            "type": "add_on",
+            "attributes": {
+                "name": "2-Day Camping Pass",
+                "description": "<p>Staying on site is the best way to experience Northern Bass!  Grab your FREE camping pass right here.</p>\n<ul><li>Every person staying on site will need their own camping pass</li>\n<li>You will need a camping pass to access the camp ground and campervan/caravan areas</li></ul>",
+                "image": "/uploaded/nb1718_camping.jpg",
+                "currency": "USD",
+                "price": 500,
+                "cost": 500,
+                "groupName": "camping",
+                "groupSortOrder": null,
+                "level": "ticket",
+                "stock": null,
+                "flagLimitToTicketQuantity": true,
+                "limitPerTicket": "1",
+                "active": true,
+                "type": "product",
+                "prerequisiteTicketTypeIds": null,
+                "equivalentTicketTypeId": null
+            }
+        }
+    ]
+}

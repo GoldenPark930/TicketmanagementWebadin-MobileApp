@@ -1,0 +1,46 @@
+.tab-view {
+  .tab-header {
+    background-color: @theme-panel-background-highlight;
+    color: @theme-control-fontcolor;
+    padding: 0px 15px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+
+    .tab-view-title {
+      padding: 12px 20px 12px 5px;
+    }
+
+    .tab-title {
+      text-align: center;
+      padding: 12px 5px;
+      cursor: pointer;
+      display:inline-block;
+    }
+
+    .tab-title:hover {
+      color: #fbcc8f;
+    }
+
+    .tab-title.selected {
+      border-bottom: solid 2px #ffa46b;
+      color:#fbcc8f;
+    }
+  }
+	.tab-body {
+    padding: 25px;
+
+    .tab {
+      display: none;
+    }
+
+    .tab.selected {
+      display: block;
+    }
+  }
+}

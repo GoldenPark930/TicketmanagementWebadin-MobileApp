@@ -1,0 +1,111 @@
+/**
+ * rome - Customizable date (and time) picker. Opt-in UI, no jQuery!
+ * @version v2.1.22
+ * @link https://github.com/bevacqua/rome
+ * @license MIT
+ */
+.rd-in-modal{
+  z-index: 20000 !important;
+}
+.rd-container {
+  text-align: center;
+  background:#1a1d25;
+}
+.rd-container-attachment {
+  position: absolute;
+  z-index: 10000;//@zindex-dropdown;
+}
+.rd-month {
+  display: inline-block;
+  margin-right: 25px;
+}
+.rd-month:last-child {
+  margin-right: 0;
+}
+.rd-month-label {
+  margin-bottom: 12px;
+  font-size: @font-size-large;
+}
+.rd-back,
+.rd-next {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font-size: @font-size-large;
+}
+.rd-back[disabled],
+.rd-next[disabled] {
+  cursor: default;
+}
+.rd-back {
+  float: left;
+}
+.rd-next {
+  float: right;
+}
+.rd-back:before {
+  display: block;
+  content: '\2190';
+}
+.rd-next:before {
+  display: block;
+  content: '\2192';
+}
+.rd-day-head {
+  text-align: center;
+}
+.rd-day-body {
+  padding: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+.rd-day-selected {
+  cursor: pointer;
+  color: white;
+background: rgba(252,188,69,1);
+background: -moz-linear-gradient(top, rgba(252,188,69,1) 0%, rgba(247,86,94,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,188,69,1)), color-stop(100%, rgba(247,86,94,1)));
+background: -webkit-linear-gradient(top, rgba(252,188,69,1) 0%, rgba(247,86,94,1) 100%);
+background: -o-linear-gradient(top, rgba(252,188,69,1) 0%, rgba(247,86,94,1) 100%);
+background: -ms-linear-gradient(top, rgba(252,188,69,1) 0%, rgba(247,86,94,1) 100%);
+background: linear-gradient(to bottom, rgba(252,188,69,1) 0%, rgba(247,86,94,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcbc45', endColorstr='#f7565e', GradientType=0 );
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+.rd-day-prev-month,
+.rd-day-next-month {
+  color: #999;
+}
+.rd-day-disabled {
+  cursor: default;
+  color: @btn-link-disabled-color;
+}
+.rd-time {
+  position: relative;
+  display: inline-block;
+  margin-top: 5px;
+  min-width: 80px;
+}
+.rd-time-list {
+  display: none;
+  position: absolute;
+  overflow-y: scroll;
+  max-height: 160px;
+  left: 8px;
+  right: 8px;
+}
+.rd-time-option {
+  padding: 5px;
+  color: @dropdown-link-color;
+  &:hover {
+    cursor: pointer;
+    color: @dropdown-link-hover-color;
+    background-color: @dropdown-link-hover-bg;
+  }
+}
+.rd-day-concealed {
+  visibility: hidden;
+}

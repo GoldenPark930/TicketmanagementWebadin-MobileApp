@@ -1,0 +1,159 @@
+.EventGuestTickets {
+	.file-csv {
+		display: none;
+	}
+	.card-block {
+		padding-top: 40px;
+	}
+
+	.form, .form-group{
+		margin-bottom: 0px;
+		margin-top: 20px;
+	}
+
+	.floating-field{
+		padding-bottom: 0;
+	}
+
+	.floating-field-group{
+		margin-top: 0;
+	}
+
+	.recipients-table-container {
+		width: 100%;
+		overflow-x: auto;
+	}
+
+	.recipients-table {
+		margin: 0px;
+		
+		.form-group{
+			margin-top: 0px;
+		}
+
+		.form-control {
+			font-size: 12px;
+			margin: 0px;
+		}
+
+		.has-error .help-block {
+			top: 4px;
+		}
+
+		.delete-recipient {
+			cursor: pointer;
+			display: inline-block;
+			float: right;
+		}
+	}
+
+	.upload-button-container {
+		width: 100%;
+		margin: 20px 0px;
+		text-align: right;
+	}
+
+	.issue-button-container {
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+
+
+.show_title{
+	color:#ffbe96;
+	font-size:14px;
+	font-style:italic;
+	margin-bottom:0;
+	font-weight:600;
+	margin-top:20px;
+}
+
+.junior_text{
+	font-size:13px;
+	color:#fff;
+	margin-bottom:0;
+	display:inline-block;
+}
+
+.guest-tickets-issued {
+	
+}
+
+.guest-ticket-delegations {
+	.guest-ticket-delegations-buttons {
+		text-align: right;
+		.btn {
+			margin-left: 10px;
+		}
+	}
+	.guest-ticket-delegate {
+		margin: 10px 0px;
+
+		.guest-ticket-delegate-top {
+			background-color: @theme-panel-background-highlight;
+			padding: 10px 15px;
+			color: @theme-default-fontcolor-highlight;
+		}
+
+		.guest-ticket-delegate-caret {
+			display: inline-block;
+			cursor: pointer;
+			height: 34px;
+			line-height: 34px;
+			margin-right: 10px;
+			font-size: 15px;
+			width: 25px;
+			text-align: center;
+			vertical-align: top;
+		}
+
+		.guest-ticket-delegate-name {
+			height: 34px;
+			line-height: 34px;
+			width: calc(~"100% - 50px");
+			display: inline-block;
+			font-size: 12px;
+			border: 0px;
+			background: transparent;
+		}
+
+		.guest-ticket-delegate-btn {
+			margin-left: 10px;
+
+			i {
+				margin-right: 0px;
+			}
+		}
+
+		.guest-ticket-delegate-content {
+			background-color: @theme-panel-background;
+			padding: 20px;
+		}
+
+		.guest-ticket-delegate-newitem {
+			.btn {
+				margin-top: 20px;
+				i {
+					margin-right: 0px;
+				}
+			}
+		}
+
+		.guest-ticket-delegate-item {
+			background-color: @theme-panel-background-highlight;
+			padding: 10px 15px;
+			margin: 5px 0px;
+
+			.guest-ticket-delegate-item-btn {
+				display: inline-block;
+				cursor: pointer;
+				margin-left: 10px;
+			}
+
+			.guest-ticket-delegate-item-btn-move {
+				cursor: move;
+			}
+		}
+	}
+}

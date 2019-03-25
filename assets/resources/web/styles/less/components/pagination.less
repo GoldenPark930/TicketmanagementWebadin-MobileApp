@@ -1,0 +1,112 @@
+.table th {
+  font-weight: 400;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.table .empty-cell {
+  font-style: italic;
+  color: darkgray;
+  cursor: default;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.sort-icon:after {
+  float: right;
+  color: hsl(20, 0%, 70%);
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.sort-icon.sort-ascending:after  { content: '\f0de'; }
+.sort-icon.sort-descending:after { content: '\f0dd'; }
+.sort-icon.sort-none:after  { content: '\f0dc'; }
+
+.pagination{
+  margin: 0 auto;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+  z-index: 2;
+  color: #fff;
+  background-color: #72767d;
+  border-color: #428bca;
+  border-radius: 3px;
+  cursor: default;
+   /* border-color: #68A0A5*/
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+  color: #777;
+  background-color: #fff;
+  border-color: #ddd;
+  cursor: not-allowed
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover{
+  background: transparent;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+  // background: transparent;
+}
+.pagination>li>a, .pagination>li>span{
+  background: transparent;
+  color: inherit;
+}
+.panigation-panel{
+  .div_horizontal_splited();
+  .pagination-select-panelsize{
+    width: 160px;
+  }
+  .pagination-select-pgsize{
+    width: 130px;
+    label{
+    position:relative !important;
+    .inline;
+    width:70px;
+    top:25px !important;
+    }
+    .form-control{
+    width:60px;
+    .inline;
+    }
+  }
+}
+.pagination>li>a, .pagination>li>span{
+  border:none !important;
+
+}
+.pagination>.active>a{
+ font-weight:700;
+}
+.pagination>li>a:hover{
+    color: #ffffff;
+    background-color: #4d5667;
+    border-color:none;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+      color: #ffffff !important;
+      background-color: #4d5667 !important;
+      border-radius:3px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

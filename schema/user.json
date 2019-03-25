@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "name": {
+      "pattern": "^[\\S]{1,50}$",
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "password": {
+      "pattern": "^\\S{8,}$",
+      "type": "string"
+    }
+  },
+  "properties": {
+    "firstName": {
+      "$ref": "#/definitions/name"
+    },
+    "lastName": {
+      "$ref": "#/definitions/name"
+    },
+    "email": {
+      "$ref": "#/definitions/email"
+    },
+    "password": {
+      "$ref": "#/definitions/password"
+    }
+  },
+  "required": ["firstName", "lastName", "email", "password"]
+}

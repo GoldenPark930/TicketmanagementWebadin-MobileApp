@@ -1,0 +1,27 @@
+.texteditor-open {
+  overflow: hidden;
+}
+
+.texteditor {
+  position: relative;
+  padding: 20px;
+  &.fullscreen {
+    > .texteditor-controls {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    > .texteditor-viewport {
+      max-width: 500px; min-height: 100%;
+      margin: 0 auto;
+    }
+  }
+}
+
+.texteditor-controls {
+  margin-bottom: 10px;
+}
+.texteditor-viewport {
+  position: relative;
+  &:focus { outline: none; border: none; box-shadow: none; }
+}
+

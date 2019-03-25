@@ -1,0 +1,136 @@
+.piechart-container {
+  position: relative;
+  width: 100%;
+  margin: 20px 0px;
+  text-align: center;
+
+  .piechart-title {
+    color: @gray-lighter;
+    font-size: @font-size-large;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  svg {
+    margin: 0px auto;
+    display: block;
+
+    text {
+      font: 600 14px 'Open Sans' !important;
+      fill: @gray-lighter !important;
+    }
+  }
+
+  .piechart-legends {
+    margin-top: 15px;
+    background: #2f3239;
+    padding: 10px 15px;
+    text-align: left;
+    min-height: 55px;
+
+    .legend {
+      display: inline-block;
+      width: 16.666666%;
+      padding: 10px 10px;
+      text-align: left;
+      vertical-align: top;
+
+      .legend-rect {
+        float: left;
+        width: 5px;
+        height: 15px;
+        border-radius: 2px;
+      }
+
+      .legend-text {
+        float: left;
+        color: @gray-lighter !important;
+        font-weight: 600;
+        line-height: 15px;
+        margin-left: 10px;
+        width: calc(~"100% - 20px");
+        vertical-align: top;
+        padding-top: 0px;
+      }
+    }
+  }
+  
+  .piechart-tooltip {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0.9;
+    background-color: #b6c5cf;
+    padding: 5px 2px;
+    color: #212530;
+    font: 400 10px 'Open Sans' !important;
+    border-radius: 3px;
+    visibility: hidden;
+
+    .piechart-tooltip-color {
+      width: 15px;
+      height: 15px;
+      border-radius: 2px;
+      display: inline-block;
+      vertical-align: top;
+      border: solid 1px #212530;
+      margin: 0px 3px;
+    }
+
+    .piechart-tooltip-key {
+      display: inline-block;
+      line-height: 9px;
+      margin: 3px 3px;
+    }
+
+    .piechart-tooltip-value {
+      display: inline-block;
+      line-height: 9px;
+      font-weight: bold;
+      margin: 3px 3px;
+    }
+  }
+
+  .offline_message{   
+    background: #4e525c;
+    padding: 6px 25px;
+    text-align: center;
+    margin: 20px 0px 15px 0px;
+		color: @theme-default-fontcolor;
+    font-weight: 400;
+    display: inline-block;
+    border-radius: 3px;
+		img{
+			height: 16px;
+			margin:0 5px 0 0;
+			display: inline-block;
+		}
+		div{
+			display: inline-block;
+			margin-left: 5px;
+		}
+		.bold{
+			color: white;
+			font-weight: 600;		
+		}
+  }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+  .piechart-container .legend {
+    width: 25% !important;
+  }
+}
+
+@media (min-width:480px) and (max-width:767px) {
+  .piechart-container .legend {
+    width: 33.3333% !important;
+  }
+}
+
+@media (max-width:479px) {
+  .piechart-container .legend {
+    width: 50% !important;
+  }
+}

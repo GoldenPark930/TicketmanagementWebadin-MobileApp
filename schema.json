@@ -1,0 +1,226 @@
+{
+  "id": "https://api.theticketfairy.com/schema#",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "name": {
+      "type": "string",
+      "pattern": "^[\\S]{1,50}$",
+      "minLength": 1
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "password": {
+      "pattern": "^\\S{8,}$",
+      "type": "string"
+    },
+    "flag": {"type": "boolean"},
+    "user": {
+      "type": "object",
+      "properties": {
+        "firstName": {
+          "$ref": "#/definitions/name"
+        },
+        "lastName": {
+          "$ref": "#/definitions/name"
+        },
+        "email": {
+          "$ref": "#/definitions/email"
+        },
+        "password": {
+          "$ref": "#/definitions/password"
+        }
+      },
+      "required": ["firstName", "lastName", "email", "password"]
+    },
+    "event": {
+      "type": "object",
+      "properties": {
+        "displayName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "startDate": {"type": "string"},
+        "endDate": {"type": "string"},
+        "slug": {"$ref": "#/definitions/slug"},
+        "description": {"type": "string"},
+        "status": {
+          "enum": ["published", "unpublished"]
+        },
+        "feeMode": {
+          "enum": ["forward", "absorb", "forward_checkout"]
+        },
+        "imageURL": {
+          "type": "string",
+          "format": "url"
+        },
+        "backgroundURL": {
+          "type": "string",
+          "format": "url"
+        },
+        "bannerURL": {
+          "type": "string",
+          "format": "url"
+        },
+        "venue": {"$ref": "#/definitions/venue"},
+        "flagCarer": {"$ref": "#/definitions/flag"},
+        "flagRefunds": {"$ref": "#/definitions/flag"},
+        "flagNameChecks": {"$ref": "#/definitions/flag"},
+        "flagNameChanges": {"$ref": "#/definitions/flag"},
+        "flagTicketSwaps": {"$ref": "#/definitions/flag"},
+        "flagIDRequired": {"$ref": "#/definitions/flag"}
+      },
+      "required": ["displayName", "slug", "startDate", "endDate"]
+    },
+    "ticket": {
+      "type": "object",
+      "properties": {
+        "displayName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stock": {"type": "integer", "minimum": 0},
+        "price": {"type": "integer", "minimum": 0},
+        "active": {"$ref": "#/definitions/flag"}
+      },
+      "required": ["displayName", "stock", "price"]
+    },
+    "venue": {
+      "type": "object",
+      "properties": {
+        "displayName": { "type": "string" },
+        "googlePlaceId": { "type": "string" },
+        "latitude": { "type": "number" },
+        "longitude": { "type": "number" },
+        "postalCode": { "type": "string" },
+        "streetNumber": { "type": "string" },
+        "street": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "country": { "type": "string" },
+        "flagDisabled": {"$ref": "#/definitions/flag"},
+        "flagHidden": {"$ref": "#/definitions/flag"}
+      }
+    },
+    "organization": {
+      "type": "object",
+      "properties": {
+        "displayName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "slug": {"$ref": "#/definitions/slug"}
+      },
+      "required": ["displayName", "slug"]
+    },
+    "sale": {
+      "type": "object",
+      "properties": {
+        "displayName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "slug": {"$ref": "#/definitions/slug"}
+      },
+      "required": ["displayName", "slug"]
+    }
+  },
+  "properties": {
+    "user": {
+      "id": "#user",
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "type": { "enum": ["user"] },
+            "attributes": { "$ref": "#/definitions/user" }
+          },
+          "required": ["type", "attributes"]
+        }
+      },
+      "required": ["data"]
+    },
+    "event": {
+      "id": "#event",
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "type": { "enum": ["event"] },
+            "attributes": { "$ref": "#/definitions/event" },
+            "relationships": {
+              "type": "object",
+              "properties": {
+                "owner": {
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "object"
+                    }
+                  },
+                  "required": ["data"]
+                }
+              },
+              "required": ["owner"]
+            }
+          },
+          "required": ["type", "attributes", "relationships"]
+        }
+      },
+      "required": ["data"]
+    },
+    "ticket": {
+      "id": "#ticket",
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "type": { "enum": ["ticket"] },
+            "attributes": { "$ref": "#/definitions/ticket" }
+          },
+          "required": ["type", "attributes"]
+        }
+      },
+      "required": ["data"]
+    },
+    "venue": {
+      "id": "#venue",
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "type": { "enum": ["venue"] },
+            "attributes": { "$ref": "#/definitions/venue" }
+          },
+          "required": ["type", "attributes"]
+        }
+      },
+      "required": ["data"]
+    },
+    "organization": {
+      "id": "#organization",
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "object",
+          "properties": {
+            "type": { "enum": ["organization"] },
+            "attributes": { "$ref": "#/definitions/organization" }
+          },
+          "required": ["type", "attributes"]
+        }
+      },
+      "required": ["data"]
+    }
+  }
+}
+

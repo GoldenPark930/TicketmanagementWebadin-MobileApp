@@ -1,0 +1,83 @@
+.event-musiclist{
+    width: 100%;
+    margin: 20px auto 0 auto;   
+    a { 
+        font-size: 16px;
+        display: inline-block;
+        //margin-bottom: 60px;
+        margin:0 0.75%;
+        text-decoration: none;
+        color: black;
+        // overflow: hidden;
+        padding-bottom: 0px;
+        width:12.7%;
+        &:hover .card{
+            transform: scale(1.15);
+            cursor: pointer;
+        }
+
+        .LazyLoad {
+        display:block;
+        margin:0 auto;
+        }
+
+        .card {
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+
+            .box-shadow2(10, 10, 51, 0, rgba(0,0,0,0.75));
+            .transition3(transform, .4, ease-in-out);
+
+            .description{
+                background: black;
+                opacity: 0.7;
+                position: absolute;
+                bottom: -1px;
+                padding: 5px;
+                width: 100%;
+                // mix-blend-mode: difference;
+                .div_horizontal_splited();
+                .left{
+                    text-align: left;
+                    width: 60%;
+                    .category{
+                        white-space: nowrap;
+                        font-size: 10px;
+                    }
+                    .name{
+                        white-space: nowrap;
+                        font-size: 15px;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        width: 120px;
+                    }
+                }
+                .right{
+                    margin-bottom: 3px;
+                    text-align: right;
+                    width: 40%;
+                    color: @theme-default-fontcolor-highlight;
+                    .count{
+                        white-space: nowrap;
+                        width: 100%;
+                        font-size: 13px;
+                    }
+                    .fan{
+                        width: 100%;
+                        white-space: nowrap;
+                        font-size: 8px;
+                    }
+                }
+            }
+
+            img {
+                border: none;
+                width: 200px;
+                height: 200px;
+                display: block;
+                object-fit: cover;
+            }
+        }
+    }
+}

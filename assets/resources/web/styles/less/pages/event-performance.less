@@ -1,0 +1,262 @@
+.no-bg{
+	background: none !important;
+	background-color:transparent !important;
+}
+
+.performance{
+	position: relative;	
+
+	.nv-x.nv-axis.nvd3-svg{
+		display: none;
+	}
+
+	.tab-view{
+		position: relative;		
+		.tab-background{
+			position: absolute;
+			background: @theme-panel-background-highlight;
+			z-index: 1;
+			width: 100%;
+			top: 10px;
+			height: 55px;
+		}
+	}
+
+	.performance-tab-header{
+		background-color: transparent;
+		padding: 0px;
+		white-space: nowrap;
+		font-size: 12px;
+		.scrollbar-container{
+			z-index: 2;
+			// display: flex;
+			// width: 100%;
+			.ps__scrollbar-x-rail{
+				height: 12px !important;
+				.ps__scrollbar-x{
+					height: 8px !important;
+				}
+			}
+		}
+		.tab-title{
+			z-index: 2;
+			padding: 0px !important;
+			// justify-content: space-between;
+			// width:100%;
+			color: #c6cbd0;
+			
+			.tab-title-content{
+				padding: 0px 8px;
+				i{
+					display: block;
+					padding: 20px 0 2px 0;
+					font-size:14px;
+				}
+			}
+			&.selected{
+				border-bottom: 65px solid @theme-panel-background;
+				border-left: 18px solid transparent;
+				border-right: 18px solid transparent;
+				height: 0px;
+				font-weight: 700;
+			}
+			&:first-child{
+				border-left: none;
+				.tab-title-content{
+					padding-left: 15px;
+				}				
+			}
+			&:last-child{
+				border-right: none;
+				.tab-title-content{
+					padding-right: 15px;
+				}				
+			}
+		}
+	}
+	.performance-tab-body{
+		padding: 20px;
+		background-color: @theme-panel-background;
+	}
+
+	.performance-sales{
+		.tab-header {
+			display: block;
+			background: transparent;
+			text-align: right;
+	
+			.tab-view-title {
+				display: none;
+			}
+	
+			.tab-title {
+				margin-left: 20px;
+				padding: 5px 5px;
+				i{
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+
+	.performance-sales-daterange{
+		margin-bottom: 10px;
+	}
+	.ticketholder_info{
+		margin-bottom: 20px;
+	}
+	.performance-by-ticket {
+		.filters {
+			margin-bottom: 10px;
+
+			.tag-filter-label {
+				display: inline-block;
+				vertical-align: top;
+				margin: 5px 5px 5px 0;
+				border-radius: 3px;
+				padding: 6px 10px;
+				font-size: 13px;
+			}
+			.tag-filter {
+				background-color: #24282f;
+				border-radius: 2px;
+				color: #E9E9E9;
+				display: inline-block;
+				font-size: 13px;
+				font-weight: 400;
+				padding: 6px 10px;
+				margin: 5px 5px 5px 0;
+				cursor: pointer;
+				vertical-align: top;
+
+				&.selected {
+					background: #31ac85;
+				}
+			}
+
+			.tags-clear {
+				margin-top: 5px;
+				vertical-align: top;
+			}
+		}
+		.datatable-tablecontent{
+			.table{
+				.tr-detail-row{
+					td{
+						padding:10px !important;
+					}			
+				}
+				.table{
+					th{
+						padding:10px !important;
+					}
+					tr.table-stripe-row1{
+					td{
+						padding:10px !important;
+					}
+				  }
+				}
+			}
+		}		
+	}
+}
+.expanded-sales-table{
+	padding:8px 15px 15px 15px !important;
+	border-left: solid 1px #ffa46a;
+	margin: 0 0 0 16px;
+	table thead th{
+		
+	}
+	
+}
+
+
+
+.performance .ticketholder_info{
+	padding:0px 15px;
+}
+.inner_avatar{
+	display: inline-block;
+}
+.ticketholder_info h4{
+color: white;
+display: inline-block;
+font-size: 18px;
+font-weight: 600;
+position: relative;
+top: 4px;
+}
+.show_emailico {
+  position: relative;
+display: block;
+top: 3px;
+}
+.show_linkico{
+	padding: 5px 10px 5px 10px;
+	background: #4e525c;
+	margin: 15px 10px 10px 0;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font-weight: 600;
+}
+.tickets_counts{
+	text-align: right;
+	float: right;
+	padding: 87px 2px 0 0;
+}
+.ticket_counter{
+	padding:0 10px 0 0;
+	font-size:18px;
+	font-weight:600;
+	display: inline-block;
+	color:white;
+}
+.box-office-info{
+	padding:0px 15px 0px 15px;
+	background: #2d3138;
+	margin-bottom: 20px;
+	h4{
+		left: 0;
+		display: block;
+		padding: 10px 10px 10px 0px;
+    	font-size: 22px;
+		font-weight: 700;
+	}
+}
+.dark-box .table thead tr th {
+     background: #414650 !important;
+}
+
+.dark-box .table tr:nth-child(2n+1) {
+    background: #2d3138 !important;
+}
+.dark-box .table tr:nth-child(2n) {
+    background: #393E46 !important;
+}
+
+.box-office-payment{
+	color:white;
+	font-weight: 700;
+	font-size: 18px;
+	padding:0 10px;
+	margin:20px 0;
+}
+
+.box-office-payment img{
+	height:15px;
+	margin:0 10px 0 0;
+}
+.ico-show{
+	.inline;
+	width:18px;
+	margin:0 10px 0 0;
+}
+.ico-show-small{
+	.inline;
+	width:16px;
+	margin:0 10px 0 0;
+}
+
+.box-office-date{
+	text-align: center;
+}

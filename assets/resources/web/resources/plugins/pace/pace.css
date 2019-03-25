@@ -1,0 +1,116 @@
+#pace-loader {
+  position: fixed;
+  z-index: 999999999999999998;
+
+}
+
+#pace-loader.pace-big {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;  display: block;
+  background: #21262f;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#pace-loader.pace-big.pace-done {
+  display: none;
+}
+.pace-big .pace {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  z-index: 999999999999999999;
+  position: fixed;
+  margin: auto;
+  top: -150px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 170px;
+  height: 200px;
+  /*border: 2px solid #000;*/
+   background: url(/assets/resources/images/ttf-logo.png) no-repeat #21262f;
+    background-size: 170px ;
+}
+.pace-big .pace .pace-progress {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -webkit-transition: width 1s ease-in-out 1s linear;
+  -moz-transition: width 1s ease-in-out 1s linear;
+  -ms-transition: width 1s ease-in-out 1s linear;
+  -o-transition: width 1s ease-in-out 1s linear;
+  transition: width 1s ease-in-out 1s linear;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  max-width: 190px;
+  position: fixed;
+  z-index: 999999999999999999;
+  display: block;
+  position: absolute;
+  left: 3px;
+  top: 150px;
+  height: 10px;
+  text-align: center;
+  font-size: 14px;
+background: rgba(247,86,94,1);
+background: -moz-linear-gradient(left, rgba(247,86,94,1) 0%, rgba(252,188,69,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,86,94,1)), color-stop(100%, rgba(252,188,69,1)));
+background: -webkit-linear-gradient(left, rgba(247,86,94,1) 0%, rgba(252,188,69,1) 100%);
+background: -o-linear-gradient(left, rgba(247,86,94,1) 0%, rgba(252,188,69,1) 100%);
+background: -ms-linear-gradient(left, rgba(247,86,94,1) 0%, rgba(252,188,69,1) 100%);
+background: linear-gradient(to right, rgba(247,86,94,1) 0%, rgba(252,188,69,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7565e', endColorstr='#fcbc45', GradientType=1 );
+  color: #939bab;
+  line-height: 60px;
+  font-weight: 600;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.pace-big .pace .pace-progress:after {
+  content: attr(data-progress-text);
+  display: inline-block;
+}
+.pace-big .pace.pace-inactive {
+  display: none;
+}
+
+.pace-small .pace .pace-progress {
+  z-index: 999999999999999999;
+  background: #FFF500;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+
+.pace-small .pace-inactive {
+  display: none;
+}

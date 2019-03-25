@@ -1,0 +1,18 @@
+{
+    "data": {
+        "charges": [
+            {
+                "short_description": "Upgrade handling fee",
+                "quantity": "1463",
+                "gross_amount": "0.00",
+                "net_amount": "0.00"
+            },
+            {
+                "short_description": "Name change fee",
+                "quantity": "3316",
+                "gross_amount": "10.00",
+                "net_amount": "10.00"
+            }
+        ]
+    }
+}

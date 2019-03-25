@@ -1,0 +1,175 @@
+{
+    "data": {
+        "box_office_sales": {
+            "users": {
+                "Unknown": {
+                    "2016-10-01": {
+                        "cash": [
+                            {
+                                "order_date": "2016-10-01",
+                                "num_sales": "19",
+                                "release_type": "Pioneer Rate",
+                                "price": "86.900000",
+                                "cost": "86.40",
+                                "option_matrix_record_id": "1353",
+                                "discount": "0.000000",
+                                "boxOfficePaymentMethod": "cash",
+                                "boxOfficeUser": null
+                            }
+                        ],
+                        "card": []
+                    },
+                    "2016-10-05": {
+                        "cash": [
+                            {
+                                "order_date": "2016-10-05",
+                                "num_sales": "1",
+                                "release_type": "Pioneer Rate",
+                                "price": "86.900000",
+                                "cost": "86.40",
+                                "option_matrix_record_id": "1353",
+                                "discount": "0.000000",
+                                "boxOfficePaymentMethod": "cash",
+                                "boxOfficeUser": null
+                            }
+                        ],
+                        "card": []
+                    },
+                    "2016-12-10": {
+                        "cash": [
+                            {
+                                "order_date": "2016-12-10",
+                                "num_sales": "1",
+                                "release_type": "Pioneer Rate",
+                                "price": "86.900000",
+                                "cost": "79.00",
+                                "option_matrix_record_id": "1353",
+                                "discount": "0.000000",
+                                "boxOfficePaymentMethod": "cash",
+                                "boxOfficeUser": null
+                            }
+                        ],
+                        "card": []
+                    }
+                },
+                "andika": {
+                    "2017-10-19": {
+                        "cash": [
+                            {
+                                "order_date": "2017-10-19",
+                                "num_sales": "1",
+                                "release_type": "Aa",
+                                "price": "25.300000",
+                                "cost": "23.00",
+                                "option_matrix_record_id": "4290",
+                                "discount": "0.000000",
+                                "boxOfficePaymentMethod": "cash",
+                                "boxOfficeUser": "andika"
+                            },
+                            {
+                                "order_date": "2017-10-19",
+                                "num_sales": "12",
+                                "release_type": "Aa",
+                                "price": "25.300000",
+                                "cost": "23.00",
+                                "option_matrix_record_id": "4290",
+                                "discount": "0.000000",
+                                "boxOfficePaymentMethod": "cash",
+                                "boxOfficeUser": "andika"
+                            }
+                        ],
+                        "card": []
+                    }
+                },
+                "a": {
+                    "2017-10-20": {
+                        "cash": [
+                            {
+                                "order_date": "2017-10-20",
+                                "num_sales": "2",
+                                "release_type": "Aa",
+                                "price": "25.300000",
+                                "cost": "23.00",
+                                "option_matrix_record_id": "4290",
+                                "discount": "0.000000",
+                                "boxOfficePaymentMethod": "cash",
+                                "boxOfficeUser": "a"
+                            }
+                        ],
+                        "card": []
+                    },
+                    "2017-10-29": {
+                        "cash": [
+                            {
+                                "order_date": "2017-10-29",
+                                "num_sales": "6",
+                                "release_type": "Aa",
+                                "price": "25.300000",
+                                "cost": "23.00",
+                                "option_matrix_record_id": "4290",
+                                "discount": "0.000000",
+                                "boxOfficePaymentMethod": "cash",
+                                "boxOfficeUser": "a"
+                            }
+                        ],
+                        "card": []
+                    }
+                },
+                "Ritesh Test": {
+                    "2017-10-20": {
+                        "cash": [
+                            {
+                                "order_date": "2017-10-20",
+                                "num_sales": "3",
+                                "release_type": "Aa",
+                                "price": "25.300000",
+                                "cost": "23.00",
+                                "option_matrix_record_id": "4290",
+                                "discount": "0.000000",
+                                "boxOfficePaymentMethod": "cash",
+                                "boxOfficeUser": "Ritesh Test"
+                            }
+                        ],
+                        "card": []
+                    }
+                },
+                "Andika": {
+                    "2017-10-29": {
+                        "cash": [
+                            {
+                                "order_date": "2017-10-29",
+                                "num_sales": "12",
+                                "release_type": "Aa",
+                                "price": "25.300000",
+                                "cost": "23.00",
+                                "option_matrix_record_id": "4290",
+                                "discount": "0.000000",
+                                "boxOfficePaymentMethod": "cash",
+                                "boxOfficeUser": "Andika"
+                            }
+                        ],
+                        "card": []
+                    }
+                },
+                "Dmitry": {
+                    "2018-01-11": {
+                        "cash": [
+                            {
+                                "order_date": "2018-01-11",
+                                "num_sales": "2",
+                                "release_type": "Dsfasdf",
+                                "price": "24.200000",
+                                "cost": "22.00",
+                                "option_matrix_record_id": "5099",
+                                "discount": "0.000000",
+                                "boxOfficePaymentMethod": "cash",
+                                "boxOfficeUser": "Dmitry"
+                            }
+                        ],
+                        "card": []
+                    }
+                }
+            }
+        }
+    }
+}

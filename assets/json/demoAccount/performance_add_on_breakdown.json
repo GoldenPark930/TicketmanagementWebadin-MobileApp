@@ -1,0 +1,156 @@
+{
+    "data": {
+        "add_on_breakdown": [
+            {
+                "num_sales": "1070",
+                "name": "Day 1 Pre-Party (January 1st)",
+                "price": "60.76",
+                "cost": "59.00"
+            },
+            {
+                "num_sales": "22",
+                "name": "Exclusive Bay Dreams 2018 T-Shirt - Mens (S)",
+                "price": "15.45",
+                "cost": "15.00"
+            },
+            {
+                "num_sales": "105",
+                "name": "Exclusive Bay Dreams 2018 T-Shirt - Mens (M)",
+                "price": "15.45",
+                "cost": "15.00"
+            },
+            {
+                "num_sales": "191",
+                "name": "Exclusive Bay Dreams 2018 T-Shirt - Mens (L)",
+                "price": "15.45",
+                "cost": "15.00"
+            },
+            {
+                "num_sales": "124",
+                "name": "Exclusive Bay Dreams 2018 T-Shirt - Mens (XL)",
+                "price": "15.45",
+                "cost": "15.00"
+            },
+            {
+                "num_sales": "27",
+                "name": "Exclusive Bay Dreams 2018 T-Shirt - Mens (XXL)",
+                "price": "15.45",
+                "cost": "15.00"
+            },
+            {
+                "num_sales": "15",
+                "name": "Exclusive Bay Dreams 2018 T-Shirt - Mens (3XL)",
+                "price": "15.45",
+                "cost": "15.00"
+            },
+            {
+                "num_sales": "13",
+                "name": "Exclusive Bay Dreams 2018 T-Shirt - Womens (XS)",
+                "price": "15.45",
+                "cost": "15.00"
+            },
+            {
+                "num_sales": "34",
+                "name": "Exclusive Bay Dreams 2018 T-Shirt - Womens (S)",
+                "price": "15.45",
+                "cost": "15.00"
+            },
+            {
+                "num_sales": "49",
+                "name": "Exclusive Bay Dreams 2018 T-Shirt - Womens (M)",
+                "price": "15.45",
+                "cost": "15.00"
+            },
+            {
+                "num_sales": "33",
+                "name": "Exclusive Bay Dreams 2018 T-Shirt - Womens (L)",
+                "price": "15.45",
+                "cost": "15.00"
+            },
+            {
+                "num_sales": "8",
+                "name": "Exclusive Bay Dreams 2018 T-Shirt - Womens (XL)",
+                "price": "15.45",
+                "cost": "15.00"
+            },
+            {
+                "num_sales": "5",
+                "name": "Exclusive Bay Dreams 2018 T-Shirt - Womens (XXL)",
+                "price": "15.45",
+                "cost": "15.00"
+            },
+            {
+                "num_sales": "57",
+                "name": "2-Night \"Dream City\" Camping Pass (January 1st & 2nd)",
+                "price": "0.00",
+                "cost": "0.00"
+            },
+            {
+                "num_sales": "781",
+                "name": "2-Night \"Dream City\" Camping Pass (January 1st & 2nd)",
+                "price": "72.09",
+                "cost": "70.00"
+            },
+            {
+                "num_sales": "113",
+                "name": "1-Night \"Dream City\" Camping Pass (January 1st)",
+                "price": "36.05",
+                "cost": "35.00"
+            },
+            {
+                "num_sales": "1",
+                "name": "1-Night \"Dream City\" Camping Pass (January 1st)",
+                "price": "36.05",
+                "cost": "36.05"
+            },
+            {
+                "num_sales": "1109",
+                "name": "1-Night \"Dream City\" Camping Pass (January 2nd)",
+                "price": "36.05",
+                "cost": "35.00"
+            },
+            {
+                "num_sales": "444",
+                "name": "Day 1 Pre-Party (January 1st)",
+                "price": "66.94",
+                "cost": "65.00"
+            },
+            {
+                "num_sales": "1042",
+                "name": "2-Night \"Dream City\" Camping Pass (January 1st & 2nd)",
+                "price": "87.54",
+                "cost": "85.00"
+            },
+            {
+                "num_sales": "293",
+                "name": "1-Night \"Dream City\" Camping Pass (January 1st)",
+                "price": "41.19",
+                "cost": "40.00"
+            },
+            {
+                "num_sales": "1841",
+                "name": "1-Night \"Dream City\" Camping Pass (January 2nd)",
+                "price": "46.34",
+                "cost": "45.00"
+            },
+            {
+                "num_sales": "824",
+                "name": "Day 1 Pre-Party (January 1st)",
+                "price": "76.21",
+                "cost": "69.00"
+            },
+            {
+                "num_sales": "58",
+                "name": "Day 1 Pre-Party (January 1st)",
+                "price": "0.00",
+                "cost": "0.00"
+            },
+            {
+                "num_sales": "185",
+                "name": "1-Night \"Dream City\" Additional Camper Pass (January 2nd)",
+                "price": "46.65",
+                "cost": "45.00"
+            }
+        ]
+    }
+}

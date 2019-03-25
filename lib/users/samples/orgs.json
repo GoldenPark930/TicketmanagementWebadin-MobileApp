@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "id": "abc",
+      "type": "organization",
+      "attributes": {
+        "displayName": "The Ticket Fairy",
+        "slug": "theticketfairy"
+      },
+      "relationships": {
+        "team": {
+          "admins": [
+            {
+              "id": "ab5c9d14-8a15-45d4-99d2-698c4e9e50bc",
+              "type": "user"
+            },
+            {
+              "id": "123",
+              "type": "user"
+            }
+          ],
+          "stats": [
+          ],
+          "promoter": [
+          ],
+          "agent": [
+          ]
+        },
+        "payment": {
+
+        }        
+      }
+    },
+    {
+      "id": "abd",
+      "type": "organization",
+      "attributes": {"displayName": "Sleepless Society", "slug": "sleeplesssociety"}
+    },
+    {
+      "id": "abe",
+      "type": "organization",
+      "attributes": {"displayName": "Secret Solstice", "slug": "secretsolstice"}
+    },
+    {
+      "id": "abf",
+      "type": "organization",
+      "attributes": {"displayName": "Rhythm and Vines", "slug": "rhythmandvines"}
+    }
+  ], 
+  "included": [
+    {
+      "id": "ab5c9d14-8a15-45d4-99d2-698c4e9e50bc",
+      "type": "user",
+      "attributes": {
+        "firstName": "John",
+        "lastName": "Smith"
+      }
+    },
+    {
+      "id": "123",
+      "type": "user",
+      "attributes": {
+        "firstName": "George",
+        "lastName": "Haidar"
+      }
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+.event-devices{
+  border-top: 30px solid #2f3239;
+  position: relative;
+  color: #c6cbd0;
+  background-color: #393d46;
+  padding-top: 160px;
+  &:before{
+    top: 0px;
+    content: ' ';
+    left: calc(~"50% - 160px");
+    width: 320px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-top: 140px solid #2f3239;
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+  }
+  .total-buyers{
+    position: absolute;
+    top: -5px;
+    margin: 0 auto;
+    width: 100px;
+    left: calc(~"50% - 50px");
+    text-align: center;
+    .total-image{
+      width: 75px;
+      margin-bottom: 8px;
+    }
+    .total-number{
+      font-size: 30px;
+      font-weight: 600;
+      color: white;
+      text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.65);
+      line-height: 32px;
+    }
+    .total-description{
+      font-size: 9px;
+    }
+  }
+  .tab-view{
+    .tab-header{
+      background-color: transparent;
+      margin: 0 auto;
+      width: 600px;
+      font-size: 9px;
+      .tab-title{
+        padding: 2px 5px;
+        .tab-title-category{
+          text-align: center;
+          font-size:11px;
+          img{
+            opacity: 0.6;
+            width: 30px;
+            height: 22px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 4px;
+          }
+        }
+      }
+      .selected{
+        .tab-title-category{
+          img{
+            opacity: 1;
+          }
+        }
+      }
+    }
+    .tab-body{
+      .tickets{
+        text-align: center;
+        margin: 20px -20px;
+        .decoration-icon{
+          width: 300px;
+          margin: 0 auto;            
+          display: flex;
+          justify-content: space-between;
+          .decoration{
+            width: 70px;
+            height: 30px;
+            border-bottom: 1px solid #555;
+          }
+          img{
+            width: 80px;
+            height: 70px;
+          }
+        }
+        .decoration-text{
+          padding: 10px;
+          font-size: 11px;
+          color: white;
+          font-weight: 700;
+        }
+      }
+      .tile{
+        display: inline-block;
+        margin: 1px;
+        width: 200px;
+        .content{
+          display: flex;
+          align-items: center;
+          .rank{
+            letter-spacing: -5px;
+            font-weight: 700;
+            color: #666;
+            font-size: 60px;
+            opacity: 0.5;
+          }
+          .icon{
+            width: 40px;
+           // height: 45px;
+            margin: 10px;
+          }
+          .value{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            .numbers{
+              font-size: 30px;
+              line-height: 34px;
+              font-weight: 600;
+            }                
+            .title{
+              font-size: 10px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+      .lists{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .tile{
+          background: #2f3239;
+          padding: 10px;
+        }
+      }
+      .tab_content_browsers{
+        padding: 20px 0px 10px 0px;
+        .sub_title{
+          text-align: center;
+          padding: 20px;
+          font-size: 16px;
+          font-weight: 600;
+        }
+        .top5{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          .tile{
+            padding: 10px;
+          }
+        }
+      }
+      .tab_content_device_types{
+        padding: 20px 0px 10px 0px;
+        .header_row{
+          img {
+            height: 18px;
+            margin-right: 10px;
+            display: inline-block;
+          }
+        }
+        .JSONDatatable{
+          margin-top: 20px;
+        }
+        .top5{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          .tile{
+            padding: 10px;
+            display: inline-block;
+            margin: 10px;
+            width: 160px;
+            background: #474D55;
+            box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, .2);
+            border-radius: 5px;
+            .content{
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              color: white;
+              .icon{
+                height: 60px !important;
+                width:auto;
+                margin: 10px 0px 20px 0;
+                
+              }
+              .numbers{
+                font-size: 25px;
+                line-height: 30px;
+                font-weight: 600;
+              }
+              .decoration{
+                width: 50px;
+                height: 10px;
+                border-bottom: 2px solid #555;
+                margin-bottom: 7px;
+              }
+              .title{
+                font-size: 12px;
+                line-height: 10px;
+                margin: 3px 0px 6px 0px;
+                padding-top:5px;
+              }
+            }
+          }
+        }
+      }
+      .tab_content_device_brands{
+        padding: 20px 0px 10px 0px;
+        .sub_title{
+          text-align: center;
+          padding: 20px;
+          font-size: 16px;
+          font-weight: 600;
+        }
+        .tile-brands{
+          padding: 10px;
+          display: inline-block;
+          margin: 10px;
+          width: 160px;
+          height:164px;
+          background: #474D55;
+          box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+          border-radius: 5px;
+          .content{
+            .content-top{
+              //display: flex;
+              text-align: center;
+              //justify-content: space-between;
+              //height: 40px;
+              //margin-bottom: 15px;
+              .rank{
+                letter-spacing: -5px;
+                font-weight: 700;
+                color: #666;
+                font-size: 60px;
+                opacity: 0.5;
+                margin-right: 5px;
+              }
+              .icon{
+                width: 60px !important;
+                margin: 10px auto 20px auto;
+               
+              }
+            }              
+            .value{
+              display: flex;
+              flex-direction: column;
+              color: white;
+              .numbers{
+                font-size: 25px;
+                line-height: 30px;
+                font-weight: 600;
+                padding-left:6px;
+              }                
+              .title{
+                font-size: 12px;
+                line-height: 10px;
+                margin: 3px 0px 6px 6px;
+                border-left: 2px solid;
+                border-image: linear-gradient(to top, #ff677b 0%, #ffbf64 100%) 1 100%;
+                padding-left: 6px;
+              }
+            }
+          }
+        }
+        .top5{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;          
+        }
+      }
+    }    
+  }
+}

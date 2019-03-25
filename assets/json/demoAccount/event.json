@@ -1,0 +1,102 @@
+{
+  "data": {
+      "id": "999999",
+      "type": "event",
+      "previewKey": "riNqR6EIIdvt3qfZnssoQmtAM4PATIOfKqgabnz23rwS0tmNWHWCiGGJWikSOTwM",
+      "enablePromotions": true,
+      "inventoryMode": "maximum",
+      "attributes": {
+        "slug": "sports-festival",
+        "startDate": "2018-11-01T12:00:00.000Z",
+        "endDate": "2018-11-05T23:00:00.000Z",
+        "salesStartDate": "2018-08-01T19:00:00.000Z",
+        "salesEndDate": "2018-08-10T19:10:00.000Z",
+        "timezone": "America/Chicago",
+        "displayName": "Sports Festival",
+        "status": "published",
+        "imageURL": "https://www.theticketfairy.com/uploaded/public/5afe7f2794d2d4.21728562.jpg",
+        "venue": {
+            "city": "Bentonville",
+            "country": "United States",
+            "displayName": "VDG",
+            "flagDisabled": false,
+            "flagHidden": false,
+            "googlePlaceId": "ChIJEzS_CnoQyYcRp60qkiFlDC0",
+            "latitude": 36.3560873,
+            "longitude": -94.2023457,
+            "postalCode": "72712",
+            "state": "Arkansas",
+            "street": "Shane Lane",
+            "streetNumber": "1402"
+        },
+        "description": "<div style=\"font-size: 1.3em; line-height: 1.4em;\">\n<p>Labore occaecat non nostrud deserunt exercitation est deserunt dolor ipsum pariatur nulla. Quis enim dolor aliquip enim aliqua ut officia laboris consectetur non irure nostrud. Duis dolore nulla ut ut.</p>\n</div>",
+        "bannerURL": null,
+        "backgroundURL": "https://www.theticketfairy.com/uploaded/public/5afe7f2794d2d4.21728562.jpg",
+        "feeMode": "forward_checkout",
+        "currency": {
+            "currency": "NZD",
+            "symbol": "NZ$"
+        },
+        "minimumAge": 18,
+        "maxOrder": "10",
+        "maxAccount": null,
+        "flagCarer": false,
+        "flagCollectNames": true,
+        "flagDisableReferral": false,
+        "flagEnableWaitingList": true,
+        "flagIDRequired": true,
+        "flagInvitationsOnly": false,
+        "flagNameChanges": true,
+        "flagNameChecks": true,
+        "flagRefunds": false,
+        "flagRequirePhone": false,
+        "flagResaleEnabled": true,
+        "flagTaxesIncluded": false,
+        "flagTicketSwaps": false,
+        "flagValidateAge": true,
+        "pagePixels": null,
+        "checkoutPixels": null,
+        "conversionPixels": null,
+        "shortName": "Sports Festival",
+        "referralTier1Sales": "2",
+        "referralTier1Percentage": "10",
+        "referralTier2Sales": "5",
+        "referralTier2Percentage": "30",
+        "referralTier3Sales": "8",
+        "referralTier3Percentage": "100",
+        "twitterHashtag": "sportsfestival",
+        "facebookEvent": "www.facebook.com/events/719134271630507",
+        "eventType": {
+            "festival": true
+        },
+        "tags": [],
+        "flagMailChimpConnected": false,
+        "mailChimpListId": null
+    },
+      "relationships": {
+          "self": {
+              "data": {
+                  "id": "68915",
+                  "type": "user",
+                  "role": "admin"
+              }
+          },
+          "owner": {
+              "data": {
+                  "id": "252",
+                  "type": "organization"
+              }
+          }
+      }
+  },
+  "included": [
+      {
+          "id": "252",
+          "type": "organization",
+          "attributes": {
+            "displayName": "New Organization",
+            "slug": "new-organization"
+          }
+      }
+  ]
+}

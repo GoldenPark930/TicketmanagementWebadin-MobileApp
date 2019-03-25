@@ -1,0 +1,256 @@
+.sidebar{
+	top: 0;
+	bottom: 0;
+	z-index: 1900;
+	position: fixed;
+	transition: all .3s ease;
+	left: -215px;
+	width: 200px;
+	background: #393e46;
+	box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.3);
+	padding-top: 75px;
+
+	&.mobile{
+		overflow: hidden;
+		width: 100%;
+		left: calc(~"-105%");
+		.Collapsible__trigger{
+			display: none;
+		}
+		.Collapsible__contentInner{
+			padding: 0px 15px;
+		}
+		.level3{
+			font-size: 12px;
+			.title {
+				font-weight: 300;
+			}
+		}
+		.active2{
+			color: #ffddb4;
+		}
+	}
+
+	.scrollbar-container{
+		top: 75px;
+		bottom: 90px;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		position: absolute;
+	}
+
+	.level2_container {
+		border-bottom:1px solid #6a6e75;
+		position: relative;
+		.level2_submenu{
+			top: 0px;
+			left: 201px;
+			width: 160px;
+			position: absolute;
+			z-index: 2000;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+			overflow: hidden;
+			box-shadow: 0 25px 20px rgba(0, 0, 0, 0.3);
+		
+			a{
+				&.active{
+					background: #4d5257;
+				}				
+				&.level3{
+					font-size: 13px;
+					background: #63686e;
+					height: 40px;
+					line-height: 20px;
+					padding: 13px;
+					padding-left: 20px;
+					.title {
+						font-weight: 300;
+					}
+					&:hover{
+						background: #44484d;
+					}
+				}
+
+				&.active2{
+					background: #23252b;
+					color: #ffddb4;
+				}
+			}
+		}
+	}
+
+	.menuitem{
+		display: relative;
+	}
+
+	a {
+		display: block;
+		border: none;
+		color: white;
+		cursor: pointer;
+		font-size: 15px;
+		height: 56px;
+		line-height: 15px;
+		outline: 0;
+		padding: 20px 0 15px 25px;
+		position: relative;
+		transition: background 0.3s, box-shadow 0.3s;
+		text-decoration: none;
+
+		img{
+			position: absolute;
+			width: 18px;
+			height: 18px;
+			filter: drop-shadow(0px 1px 1px #363636);
+		}
+		.title{
+			padding-left: 28px;
+			line-height: 16px;
+			vertical-align: top;
+			font-weight: 600;
+		}
+
+		i{
+			font-size: 15px;
+			width: 15px;
+			margin-right: 10px;
+		}
+
+		&.level2{
+			font-size: 13px;
+			padding: 20px 0 15px 30px;
+			background:#555a5f;			
+			.title {
+				font-weight: 400;
+			}
+		}
+
+		&.active{
+			background: #4d5257;
+			border-width: 0px 0px 0px 3px;
+			border-style: solid;
+			border-image: linear-gradient(to top, rgba(255,103,123,1) 0%, rgba(255,191,100,1) 100%) 1 100%;
+			
+			color: #ffddb4;
+			&:after{
+				font-family: 'FontAwesome';
+				font-size: 16px;
+				content: '\f107';
+				position: absolute;
+				right: 15px;
+				top: 20px;
+				display: block;
+				transform: rotate(-90deg);
+			}
+		}		
+
+		&.open{
+			background: #2f3138;
+			&:after{
+				font-family: 'FontAwesome';
+				font-size: 16px;
+				content: '\f107';
+				position: absolute;
+				right: 15px;
+				top: 20px;
+				display: block;
+				transform: rotate(360deg);
+			}
+		}
+
+		&:hover{
+			background: rgba(0, 0, 0, .1);
+			color: #ffddb4;
+		}
+	}
+}
+
+.sidebar-open{
+	.sidebar{
+		left: 0px;
+	}
+}
+
+
+
+.sidebar-bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.sidebar.mobile {
+	.sidebar-bottom {
+	}
+}
+
+.account-settings-link {
+	height: auto !important;
+	padding: 9px !important;
+    border-bottom: 2px solid #6a6e75 !important;
+
+	.account-settings-link-ab {
+		display: inline-block;
+		width: 24px;
+		height: 24px;
+		line-height: 22px;
+		font-weight: 600;
+		font-size: 10px;
+    color: #c6cbd0;
+
+		background: @theme-default-background;
+		text-align: center;
+		vertical-align: middle;
+		overflow: hidden;
+
+		.border-radius(50%);
+
+		border-style: solid;
+		border-width: 1px;
+		border-color: @theme-mainframe-border;
+	}
+	.account-settings-link-name {
+		display: inline-block;
+		line-height: 24px;
+		vertical-align: top;
+		margin-left: 9px;
+		font-size: 14px;
+    color: #c6cbd0;
+	}
+
+	&:hover {
+		background: none !important;
+	}
+}
+
+.logout {
+	display: inline-block;
+	width: 50%;
+	line-height: 24px;
+	padding: 10px;
+	cursor: pointer;
+
+	i {
+		margin-right: 10px;
+		font-size: 24px;
+		vertical-align: top;
+		line-height: 24px;
+	}
+
+	&:hover {
+		color: #ffddb4;
+	}
+}
+
+.language-switcher {
+	display: inline-block;
+	float: right;
+	width: 60px !important;
+	height: 30px !important;
+	font-size: 12px !important;
+	margin-top: 7px;
+	margin-right: 10px;
+}

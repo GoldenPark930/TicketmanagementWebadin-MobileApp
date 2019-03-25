@@ -1,0 +1,320 @@
+.Mailchimp{
+	margin-bottom: 20px;
+	.mailchimp-lists-table{
+		table{
+			border-collapse: collapse;
+			text-align: left;
+			width: 100%;
+			color: white;
+			font-weight: 100;
+
+			thead tr{
+				background: @theme-panel-background-highlight;
+				color: @theme-default-fontcolor-highlight;
+			}
+			tbody tr{
+				&:nth-child(odd){
+					background: @theme-panel-background;
+				}
+				&:nth-child(even){
+					background: @theme-panel-background-highlight;
+				}
+				margin-bottom: 3px;
+				margin-top:3px;
+				&:last-child{
+					border:none;
+				}
+			}
+		}
+		td,
+		th{
+			text-align: center;
+			&:first-child{
+				.div_horizontal();
+				padding-left: 30px;
+				text-align: left;
+			}
+			&:last-child{
+				padding-right: 30px;
+			}
+			padding: 10px 10px;
+		}
+	}
+	.using-this-list-check {
+		color: white;
+		background: #25b998;
+		border-radius: 50%;
+		padding: 2px;
+	}
+}
+.EmailToTicketHolders{
+	.form-group{
+		margin-bottom: 20px;
+		.rte{
+			margin-top: 10px !important;
+		}
+	}
+	.recipient{
+		display: flex;
+		margin-bottom: 5px;
+		& > label{
+			margin-left: 20px;			
+		}
+	}
+	.tickets{
+		padding-left: 20px;
+		height: 0px;
+		opacity: 0;
+		.transition(all, .5);
+	}
+	.tickets.show{
+		opacity: 1;
+		height: 100%;
+	}
+	.ticket {
+		display: inline-block;
+		margin-right: 15px;
+	}
+	input[type="radio"] {
+		-webkit-appearance: none;
+		height: 15px;
+		width: 15px;
+		background-color: transparent;
+		border-radius: 10px;
+		border: solid 3px #545967;
+		margin-top: 3px;
+		outline: 0;
+	}
+	input[type="radio"]:checked {
+		border: solid 4px #55BFAA;
+	}
+	input[type="checkbox"] {
+		-webkit-appearance: none;
+		height: 15px;
+		width: 15px;
+		background-color: #424853;
+		border: solid 1px #515664;
+		border-radius: 1px;
+		position: relative;
+		outline: 0;
+	}
+	input[type="checkbox"]:checked {
+		background-color: #55BFAA;
+		border: solid 1px #55BFAA;
+	}
+	input[type="checkbox"]:checked:after {
+		content: '';
+		position: absolute;
+		width: 9px;
+		height: 5px;
+		background: transparent;
+		left: 2px;
+		top: 4px;
+		border: 3px solid white;
+		border-top: none;
+		border-right: none;
+		transform: rotate(-45deg);
+	}
+}
+
+
+.emailtemplates-table-container {
+	max-height: 460px;
+	overflow: auto;
+}
+
+.emailtemplates-table tbody {
+		td{
+		padding:8px 10px !important;
+		}
+		tr:nth-child(odd){
+			background:#414650 !important;
+		}
+}
+
+
+.EmailTemplates {
+	.emailtemplates-table {
+		
+		.btn {
+			display: inline-block;
+			//width: 75px;
+			margin: 5px;
+		}
+
+		.column-clipboard {
+			width: auto !important;
+			.clipboard {
+				text-align: right;
+			}
+		}
+	}
+	.btn-shownewtemplate {
+
+	}
+	.emailtemplate-new {
+		.template-content {
+			margin-bottom: 15px;
+			.form-group {
+				margin-bottom: 0px;
+			}
+		}
+		.tab-view {
+			.tab-header {
+				background-color: transparent;
+				display: inline-block;
+				padding: 0px;
+				overflow-x: inherit;
+
+				.tab-view-title {
+					padding: 0px;
+				}
+				.tab-title {
+					display: inline-block;
+					padding: 15px 20px;
+					color: @gray-bright;
+					font-size:12px;
+
+					&.selected {
+						border-bottom: 0px;
+						background-color: #1a1d25;
+						color:@theme-default-fontcolor-highlight;
+
+					}
+				}
+			}
+			.tab-body {
+				background-color: #1a1d25;
+			}
+		}
+		.form-group {
+			margin-bottom: 20px;
+		}
+	}
+}
+.emailtemplate-edit-modal {
+	margin: 10px;
+}
+.emailtemplate-edit {
+	background: #393d46;
+	padding: 15px;
+	.template-content {
+		margin-bottom: 15px;
+		.form-group {
+			margin-bottom: 0px;
+		}
+	}
+	.tab-view {
+		.tab-header {
+			background-color: transparent;
+			display: inline-block;
+			padding: 0px;
+			overflow-x: inherit;
+
+			.tab-view-title {
+				padding: 0px;
+			}
+			.tab-title {
+				display: inline-block;
+				padding: 15px 20px;
+				color: @gray-bright;
+				font-size:12px;
+
+				&.selected {
+					border-bottom: 0px;
+					background-color: #1a1d25;
+					color:@theme-default-fontcolor-highlight;
+				}
+			}
+		}
+		.tab-body {
+			background-color: #1a1d25;
+			color:white;
+		}
+	}
+	.form-group {
+		margin-bottom: 20px;
+	}
+	.zip-path {
+		word-break: break-all;
+		margin-bottom: 10px;
+		color:black;
+		background:@textareas-background;
+		padding:5px 10px;
+		text-decoration:underline;
+	}
+	.btn {
+		vertical-align: top;
+		margin: 0px 5px;
+	}
+}
+.SentEmails {
+	.sentemails-table {
+		.column-clipboard {
+			width: auto !important;
+			.clipboard {
+				text-align: right;
+			}
+		}
+
+		.btn {
+			margin: 5px;
+		}
+	}
+}
+.mailout-content-preview {
+	margin: 10px;
+	//padding: 10px;
+	position: relative;
+}
+.mailout-recipients-preview {
+	margin: 30px;
+	.mailout-recipients-table {
+	}	
+}
+.mail_chip{
+display:inline-block;
+float:left;
+position:absolute;
+top:40px;
+}
+
+.mail_chipbg{
+
+background: url("ASSET{assets/resources/images/mail_chip.png}") right  40px no-repeat;
+background-size:258px 86px;
+height:125px;
+
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.no_data_ico{
+	width:90px;
+	opacity:0.6;
+	img{
+	width:100%;
+	}
+}
+
+.select_email_btn {
+    position: relative;
+    top: -85px;
+    left: 22px;
+}
+
+.ticket_content {
+	margin-top: -50px;
+  }
+
+.fileuploader {
+img{
+	width: auto !important;
+}
+}

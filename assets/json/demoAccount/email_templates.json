@@ -1,0 +1,26 @@
+{
+    "data": {
+        "email_templates": [
+            {
+                "id": "48",
+                "name": "24-hour sale for pre-registered buyers",
+                "description": "Pre-sale",
+                "subject": "Bay Dreams 2018 - Exclusive Pre-sale",
+                "body": "<p>\n    <img height=\"150\" src=\"https://d3lcdr963b5ubl.cloudfront.net/uploads/CkbpLifcJQjy0FlTJI5lDwnMZyjqwXGsUz9Bh33O5vADavnXE2th11kdZsSCv28N.png\" alt=\"\">\n</p>\n<p>Bay Dreamers,</p><p>Thank you for pre-registering with us for Bay Dreams Festival 2018.</p><p>Below is your private ticket link (click on the blue <b>Register</b> button below the line-up poster) which will grant you access from 6pm tomorrow, Wednesdsay August 2nd (<b>1 hour earlier than public</b>). You will be able to buy up to 10 tickets.</p><p><b>24 HOUR EARLYBIRD DEAL:<br></b>$149 - JANUARY 2ND (1 DAY FESTIVAL PASS)</p><p><b>OPTIONAL ADD-ONS:</b><br>$59 - Day 1 Pre-Party (January 1st)<br>$15 - Exclusive Bay Dreams 2018 T-Shirt<br>$35 - 1 night \"Dream City\" camping pass (January 2nd)<br>$70 - 2 night \"Dream City\" camping pass (January 1st &amp; 2nd)</p>\n<p>\n    <img height=\"200\" src=\"https://d3lcdr963b5ubl.cloudfront.net/uploads/zZ7ja6ZJdy8wir2RHdpjLwKmfiWF9GpiQTu9sn90waKA2PgGIDiFYG3oKVhnUB4t.png\" alt=\"\"> <img height=\"200\" src=\"https://d3lcdr963b5ubl.cloudfront.net/uploads/KcCGNCnJ7nDhGp6wlBbQmUPn1aN6R7oLNokSYZ0uKwl8Y8ppN1jb4IjVL8UF0dQ1.png\" alt=\"\">\n</p><p>Thanks team, we cannot wait to show you what we have in store for next year!&nbsp;</p><p></p>\n\n<p>\n    <img height=\"500\" src=\"https://d3lcdr963b5ubl.cloudfront.net/uploads/YK5MP47MyJmsjeGyUTwcSA7T8Hb512zFd8ybmylYTz2AqcsL3LCi6XESXUzi9sUg.png\" alt=\"\">\n</p>\n",
+                "s3_path": null,
+                "preview_url": null,
+                "enabled": "1"
+            },
+            {
+                "id": "78",
+                "name": "Glamping cancellation",
+                "description": "Glamping cancellation",
+                "subject": "IMPORTANT ANNOUNCEMENT: Bay Dreams 2018 Glamping cancellation",
+                "body": "<div>We regret to inform you that, due to unforeseen circumstances, we cannot proceed with Glamping for Bay Dreams this year. </div><p>Before you worry, we have you covered with the following, to show our deepest apologies!</p><p><u>You will get a <b>full refund of your Glamping purchase,</b> PLUS:</u></p><div><ul><li>Free Dream City camping pass for the full two days (valued at $85pp)</li><li>Free Pre-Party access on January 1st (valued at $65pp)</li><li>Free Powder Room access in the campground</li></ul></div><div>Rest assured we will bring back the Glamping next year, well in advance, and we can't thank you enough for your interest in it.</div><p>Grab a tent and we'll see you soon! :)<br></p><p>Thanks</p><p>Bay Dreams</p>",
+                "s3_path": null,
+                "preview_url": null,
+                "enabled": "1"
+            }
+        ]
+    }
+}

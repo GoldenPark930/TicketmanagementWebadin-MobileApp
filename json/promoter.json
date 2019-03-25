@@ -1,0 +1,41 @@
+{
+  "data": {
+    "promoter_sales": {
+      "74949": {
+        "email": "hksmash@icloud.com",
+        "first_name": "Nicholas",
+        "last_name": "Caruso",
+        "price_levels": {
+          "159.00": 1
+        },
+        "sales": {
+          "2016-09-03": {
+            "total_income": 159,
+            "total_sales": 1
+          }
+        },
+        "total_income": 159,
+        "total_sales": 1,
+        "user_id": "74949"
+      },
+      "77371": {
+        "email": "noelle@noellembrooks.com",
+        "first_name": "Noelle",
+        "last_name": "Brooks",
+        "price_levels": {
+          "128.00": 1,
+          "69.00": 1
+        },
+        "sales": {
+          "2016-09-10": {
+            "total_income": 252,
+            "total_sales": 2
+          }
+        },
+        "total_income": 25
+        "total_sales": 2,
+        "user_id": "77371"
+      }
+    }
+  }
+}

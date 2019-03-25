@@ -1,0 +1,64 @@
+.checkbox2 {
+	position: relative;
+	height: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	.checkbox2-check {
+		display: none;
+		&:checked + .checkbox2-tick:after {
+			opacity: 1;
+		}
+		&:checked + .checkbox2-tick {
+			.checkbox2-tick-circle {
+				background: #25b998;
+			}
+			.checkbox2-tick-label {
+				color: #25b998;
+			}				
+		}
+	}
+	.checkbox2-tick {
+		height: 20px;
+		.checkbox2-tick-circle {
+			display: inline-block;
+			border-radius: 10px;
+			width: 20px;
+			height: 20px;
+			cursor: pointer;
+			left: 0px;
+			top: 0px;
+			margin-bottom: 0px;
+			background: #414754;
+			transition: all 0.4s;
+			-o-transition: all 0.4s;
+			-moz-transition: all 0.4s;
+			-webkit-transition: all 0.4s;
+		}
+		
+		.checkbox2-tick-label {
+			height: 20px;
+			margin-left: 10px;
+			font-weight: 400;
+			line-height: 20px;
+			vertical-align: top;
+			cursor: pointer;
+		}
+
+		&:after {
+			content: '';
+			width: 12px;
+			height: 8px;
+			position: absolute;
+			top: 5px;
+			left: 4px;
+			border: 2px solid #fcfff4;
+			border-top: none;
+			border-right: none;
+			background: transparent;
+			opacity: 0;
+			-webkit-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+			cursor: pointer;
+		}
+	}
+}

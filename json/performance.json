@@ -1,0 +1,1725 @@
+{
+  "data": {
+    "add_on_breakdown": [
+      {
+        "cost": "0.00",
+        "name": "TwitchCon 2016 Party Ticket",
+        "num_sales": "833",
+        "price": "0.00"
+      },
+      {
+        "cost": "55.00",
+        "name": "TwitchCon 2016 Party Ticket",
+        "num_sales": "3949",
+        "price": "57.47"
+      },
+      {
+        "cost": "0.00",
+        "name": "TwitchCon 2016 VIP Party Ticket",
+        "num_sales": "1217",
+        "price": "0.00"
+      },
+      {
+        "cost": "55.00",
+        "name": "TwitchCon 2016 VIP Party Ticket",
+        "num_sales": "543",
+        "price": "57.47"
+      }
+    ],
+    "charges": [
+      {
+        "gross_amount": null,
+        "net_amount": null,
+        "quantity": "32",
+        "short_description": "Upgrade handling fee"
+      },
+      {
+        "gross_amount": "0.00",
+        "net_amount": "0.00",
+        "quantity": "2539",
+        "short_description": "Upgrade handling fee"
+      }
+    ],
+    "discount_code_breakdown": [
+      {
+        "cost": "79.50",
+        "discountCode": "50disc",
+        "numSales": "15",
+        "price": "82.700000",
+        "ticketType": "[Regular] 3-Day Pass",
+        "ticketTypeId": "1510"
+      }
+    ],
+    "password_breakdown": [],
+    "promoter_sales": {
+      "74949": {
+        "email": "hksmash@icloud.com",
+        "first_name": "Nicholas",
+        "last_name": "Caruso",
+        "price_levels": {
+          "159.00": 1
+        },
+        "sales": {
+          "2016-09-04": {
+            "total_income": 159,
+            "total_sales": 1
+          }
+        },
+        "total_income": 159,
+        "total_sales": 1,
+        "user_id": "74949"
+      },
+      "77371": {
+        "email": "noelle@noellembrooks.com",
+        "first_name": "Noelle",
+        "last_name": "Brooks",
+        "price_levels": {
+          "128.00": 1,
+          "69.00": 1
+        },
+        "sales": {
+          "2016-09-11": {
+            "total_income": 252,
+            "total_sales": 2
+          }
+        },
+        "total_income": 252,
+        "total_sales": 2,
+        "user_id": "77371"
+      }
+    },
+    "release_breakdown": [
+      {
+        "cost": "127.00",
+        "discount": "0.000000",
+        "num_sales": "1471",
+        "option_matrix_record_id": "1502",
+        "price": "131.620000",
+        "release_type": "[Super Early Bird] 3-Day Pass",
+        "total_cost": "182.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "14",
+        "option_matrix_record_id": "1502",
+        "price": "0.000000",
+        "release_type": "[Super Early Bird] 3-Day Pass",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "39.00",
+        "discount": "0.000000",
+        "num_sales": "135",
+        "option_matrix_record_id": "1503",
+        "price": "40.990000",
+        "release_type": "[Super Early Bird] Friday (½ day)",
+        "total_cost": "39.00"
+      },
+      {
+        "cost": "63.00",
+        "discount": "0.000000",
+        "num_sales": "602",
+        "option_matrix_record_id": "1504",
+        "price": "65.710000",
+        "release_type": "[Super Early Bird] Saturday",
+        "total_cost": "126.00"
+      },
+      {
+        "cost": "55.00",
+        "discount": "0.000000",
+        "num_sales": "124",
+        "option_matrix_record_id": "1505",
+        "price": "57.470000",
+        "release_type": "[Super Early Bird] Sunday",
+        "total_cost": "55.00"
+      },
+      {
+        "cost": "143.00",
+        "discount": "0.000000",
+        "num_sales": "1",
+        "option_matrix_record_id": "1506",
+        "price": "131.620000",
+        "release_type": "[Super Early Bird] 3-Day Partner Pass",
+        "total_cost": "198.00"
+      },
+      {
+        "cost": "127.00",
+        "discount": "0.000000",
+        "num_sales": "974",
+        "option_matrix_record_id": "1506",
+        "price": "131.620000",
+        "release_type": "[Super Early Bird] 3-Day Partner Pass",
+        "total_cost": "182.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "33",
+        "option_matrix_record_id": "1506",
+        "price": "0.000000",
+        "release_type": "[Super Early Bird] 3-Day Partner Pass",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "1",
+        "option_matrix_record_id": "1507",
+        "price": "0.000000",
+        "release_type": "[Super Early Bird] 3-Day Industry Pass",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "319.00",
+        "discount": "0.000000",
+        "num_sales": "240",
+        "option_matrix_record_id": "1507",
+        "price": "329.350000",
+        "release_type": "[Super Early Bird] 3-Day Industry Pass",
+        "total_cost": "319.00"
+      },
+      {
+        "cost": "143.00",
+        "discount": "0.000000",
+        "num_sales": "1470",
+        "option_matrix_record_id": "1509",
+        "price": "148.090000",
+        "release_type": "[Early Bird] 3-Day Pass",
+        "total_cost": "143.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "10",
+        "option_matrix_record_id": "1509",
+        "price": "0.000000",
+        "release_type": "[Early Bird] 3-Day Pass",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "28",
+        "option_matrix_record_id": "1510",
+        "price": "0.000000",
+        "release_type": "[Regular] 3-Day Pass",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "159.00",
+        "discount": "0.000000",
+        "num_sales": "3481",
+        "option_matrix_record_id": "1510",
+        "price": "164.570000",
+        "release_type": "[Regular] 3-Day Pass",
+        "total_cost": "214.00"
+      },
+      {
+        "cost": "79.50",
+        "discount": "0.000000",
+        "num_sales": "15",
+        "option_matrix_record_id": "1510",
+        "price": "82.700000",
+        "release_type": "[Regular] 3-Day Pass",
+        "total_cost": "905.00"
+      },
+      {
+        "cost": "44.00",
+        "discount": "0.000000",
+        "num_sales": "100",
+        "option_matrix_record_id": "1526",
+        "price": "46.140000",
+        "release_type": "[Early Bird] Friday (½ day)",
+        "total_cost": "44.00"
+      },
+      {
+        "cost": "71.00",
+        "discount": "0.000000",
+        "num_sales": "217",
+        "option_matrix_record_id": "1527",
+        "price": "73.940000",
+        "release_type": "[Early Bird] Saturday",
+        "total_cost": "71.00"
+      },
+      {
+        "cost": "62.00",
+        "discount": "0.000000",
+        "num_sales": "46",
+        "option_matrix_record_id": "1528",
+        "price": "64.680000",
+        "release_type": "[Early Bird] Sunday",
+        "total_cost": "117.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "1",
+        "option_matrix_record_id": "1529",
+        "price": "0.000000",
+        "release_type": "[Early Bird] 3-Day Partner Pass",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "127.00",
+        "discount": "0.000000",
+        "num_sales": "1",
+        "option_matrix_record_id": "1529",
+        "price": "131.620000",
+        "release_type": "[Early Bird] 3-Day Partner Pass",
+        "total_cost": "237.00"
+      },
+      {
+        "cost": "359.00",
+        "discount": "0.000000",
+        "num_sales": "213",
+        "option_matrix_record_id": "1530",
+        "price": "370.550000",
+        "release_type": "[Early Bird] 3-Day Industry Pass",
+        "total_cost": "359.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "1",
+        "option_matrix_record_id": "1561",
+        "price": "0.000000",
+        "release_type": "[Regular] Friday (½ day)",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "49.00",
+        "discount": "0.000000",
+        "num_sales": "817",
+        "option_matrix_record_id": "1561",
+        "price": "50.760000",
+        "release_type": "[Regular] Friday (½ day)",
+        "total_cost": "147.00"
+      },
+      {
+        "cost": "79.00",
+        "discount": "0.000000",
+        "num_sales": "1554",
+        "option_matrix_record_id": "1562",
+        "price": "82.180000",
+        "release_type": "[Regular] Saturday",
+        "total_cost": "134.00"
+      },
+      {
+        "cost": "69.00",
+        "discount": "0.000000",
+        "num_sales": "453",
+        "option_matrix_record_id": "1563",
+        "price": "71.880000",
+        "release_type": "[Regular] Sunday",
+        "total_cost": "124.00"
+      },
+      {
+        "cost": "159.00",
+        "discount": "0.000000",
+        "num_sales": "2",
+        "option_matrix_record_id": "1685",
+        "price": "164.570000",
+        "release_type": "Exhibitor",
+        "total_cost": "318.00"
+      },
+      {
+        "cost": "127.00",
+        "discount": "0.000000",
+        "num_sales": "93",
+        "option_matrix_record_id": "1685",
+        "price": "131.620000",
+        "release_type": "Exhibitor",
+        "total_cost": "508.00"
+      },
+      {
+        "cost": "399.00",
+        "discount": "0.000000",
+        "num_sales": "98",
+        "option_matrix_record_id": "2002",
+        "price": "411.740000",
+        "release_type": "[Regular] 3-Day Industry Pass",
+        "total_cost": "454.00"
+      },
+      {
+        "cost": "128.00",
+        "discount": "0.000000",
+        "num_sales": "237",
+        "option_matrix_record_id": "2039",
+        "price": "133.160000",
+        "release_type": "[Regular] Friday + Saturday",
+        "total_cost": "128.00"
+      },
+      {
+        "cost": "148.00",
+        "discount": "0.000000",
+        "num_sales": "257",
+        "option_matrix_record_id": "2040",
+        "price": "153.760000",
+        "release_type": "[Regular] Saturday + Sunday",
+        "total_cost": "148.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "2",
+        "option_matrix_record_id": "2040",
+        "price": "0.000000",
+        "release_type": "[Regular] Saturday + Sunday",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "591",
+        "option_matrix_record_id": "2080",
+        "price": "0.000000",
+        "release_type": "[Comp] 3-Day Pass",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "378",
+        "option_matrix_record_id": "2111",
+        "price": "0.000000",
+        "release_type": "[Comp] Special Guest",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "432",
+        "option_matrix_record_id": "2129",
+        "price": "0.000000",
+        "release_type": "[Comp] Industry",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "530",
+        "option_matrix_record_id": "2130",
+        "price": "0.000000",
+        "release_type": "[Comp] Staff",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "41",
+        "option_matrix_record_id": "2131",
+        "price": "0.000000",
+        "release_type": "[Comp] Crew",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "105",
+        "option_matrix_record_id": "2132",
+        "price": "0.000000",
+        "release_type": "[Comp] Media",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "254",
+        "option_matrix_record_id": "2133",
+        "price": "0.000000",
+        "release_type": "[Comp] Partner",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "11",
+        "option_matrix_record_id": "2134",
+        "price": "0.000000",
+        "release_type": "[Comp] Exhibitor",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "5",
+        "option_matrix_record_id": "2135",
+        "price": "0.000000",
+        "release_type": "[Comp] Friday",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "6",
+        "option_matrix_record_id": "2136",
+        "price": "0.000000",
+        "release_type": "[Comp] Saturday",
+        "total_cost": "0.00"
+      },
+      {
+        "cost": "136.50",
+        "discount": "0.000000",
+        "num_sales": "1",
+        "option_matrix_record_id": "2138",
+        "price": "137.000000",
+        "release_type": "[On-Site] Partner",
+        "total_cost": "136.50"
+      },
+      {
+        "cost": "132.73",
+        "discount": "0.000000",
+        "num_sales": "3",
+        "option_matrix_record_id": "2138",
+        "price": "137.000000",
+        "release_type": "[On-Site] Partner",
+        "total_cost": "132.73"
+      },
+      {
+        "cost": "52.50",
+        "discount": "0.000000",
+        "num_sales": "19",
+        "option_matrix_record_id": "2139",
+        "price": "53.000000",
+        "release_type": "[On-Site] Friday",
+        "total_cost": "52.50"
+      },
+      {
+        "cost": null,
+        "discount": "0.000000",
+        "num_sales": "2",
+        "option_matrix_record_id": "2139",
+        "price": "53.000000",
+        "release_type": "[On-Site] Friday",
+        "total_cost": "51.04"
+      },
+      {
+        "cost": "51.04",
+        "discount": "0.000000",
+        "num_sales": "71",
+        "option_matrix_record_id": "2139",
+        "price": "53.000000",
+        "release_type": "[On-Site] Friday",
+        "total_cost": "102.08"
+      },
+      {
+        "cost": "82.17",
+        "discount": "0.000000",
+        "num_sales": "95",
+        "option_matrix_record_id": "2140",
+        "price": "85.000000",
+        "release_type": "[On-Site] Saturday",
+        "total_cost": "82.17"
+      },
+      {
+        "cost": "84.50",
+        "discount": "0.000000",
+        "num_sales": "20",
+        "option_matrix_record_id": "2140",
+        "price": "85.000000",
+        "release_type": "[On-Site] Saturday",
+        "total_cost": "84.50"
+      },
+      {
+        "cost": "72.44",
+        "discount": "0.000000",
+        "num_sales": "73",
+        "option_matrix_record_id": "2141",
+        "price": "75.000000",
+        "release_type": "[On-Site] Sunday",
+        "total_cost": "72.44"
+      },
+      {
+        "cost": "74.50",
+        "discount": "0.000000",
+        "num_sales": "10",
+        "option_matrix_record_id": "2141",
+        "price": "75.000000",
+        "release_type": "[On-Site] Sunday",
+        "total_cost": "223.50"
+      },
+      {
+        "cost": "0.00",
+        "discount": "0.000000",
+        "num_sales": "2",
+        "option_matrix_record_id": "2141",
+        "price": "0.000000",
+        "release_type": "[On-Site] Sunday",
+        "total_cost": "0.00"
+      }
+    ],
+    "sales": [
+      {
+        "income": "598418.00",
+        "order_date": "2016-04-19",
+        "order_datetime": "2016-04-19 06:02:13",
+        "quantity": "4622",
+        "tax": "0.000000"
+      },
+      {
+        "income": "46215.00",
+        "order_date": "2016-04-20",
+        "order_datetime": "2016-04-20 00:01:16",
+        "quantity": "369",
+        "tax": "0.000000"
+      },
+      {
+        "income": "33125.00",
+        "order_date": "2016-04-21",
+        "order_datetime": "2016-04-21 00:02:13",
+        "quantity": "232",
+        "tax": "0.000000"
+      },
+      {
+        "income": "30328.00",
+        "order_date": "2016-04-22",
+        "order_datetime": "2016-04-22 00:00:30",
+        "quantity": "199",
+        "tax": "0.000000"
+      },
+      {
+        "income": "11554.00",
+        "order_date": "2016-04-23",
+        "order_datetime": "2016-04-23 00:06:18",
+        "quantity": "86",
+        "tax": "0.000000"
+      },
+      {
+        "income": "9369.00",
+        "order_date": "2016-04-24",
+        "order_datetime": "2016-04-24 00:24:11",
+        "quantity": "71",
+        "tax": "0.000000"
+      },
+      {
+        "income": "15414.00",
+        "order_date": "2016-04-25",
+        "order_datetime": "2016-04-25 00:06:25",
+        "quantity": "105",
+        "tax": "0.000000"
+      },
+      {
+        "income": "15859.00",
+        "order_date": "2016-04-26",
+        "order_datetime": "2016-04-26 00:24:15",
+        "quantity": "108",
+        "tax": "0.000000"
+      },
+      {
+        "income": "9262.00",
+        "order_date": "2016-04-27",
+        "order_datetime": "2016-04-27 00:01:24",
+        "quantity": "66",
+        "tax": "0.000000"
+      },
+      {
+        "income": "10340.00",
+        "order_date": "2016-04-28",
+        "order_datetime": "2016-04-28 00:31:00",
+        "quantity": "70",
+        "tax": "0.000000"
+      },
+      {
+        "income": "10242.00",
+        "order_date": "2016-04-29",
+        "order_datetime": "2016-04-29 00:11:27",
+        "quantity": "76",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5101.00",
+        "order_date": "2016-04-30",
+        "order_datetime": "2016-04-30 00:33:45",
+        "quantity": "42",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5329.00",
+        "order_date": "2016-05-01",
+        "order_datetime": "2016-05-01 01:04:40",
+        "quantity": "43",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5795.00",
+        "order_date": "2016-05-02",
+        "order_datetime": "2016-05-02 00:19:56",
+        "quantity": "34",
+        "tax": "0.000000"
+      },
+      {
+        "income": "6222.00",
+        "order_date": "2016-05-03",
+        "order_datetime": "2016-05-03 03:52:46",
+        "quantity": "42",
+        "tax": "0.000000"
+      },
+      {
+        "income": "6203.00",
+        "order_date": "2016-05-04",
+        "order_datetime": "2016-05-04 00:44:26",
+        "quantity": "51",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5315.00",
+        "order_date": "2016-05-05",
+        "order_datetime": "2016-05-05 00:19:59",
+        "quantity": "39",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4213.00",
+        "order_date": "2016-05-06",
+        "order_datetime": "2016-05-06 00:05:51",
+        "quantity": "27",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4490.00",
+        "order_date": "2016-05-07",
+        "order_datetime": "2016-05-07 03:54:10",
+        "quantity": "36",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2644.00",
+        "order_date": "2016-05-08",
+        "order_datetime": "2016-05-08 00:06:15",
+        "quantity": "19",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4114.00",
+        "order_date": "2016-05-09",
+        "order_datetime": "2016-05-09 07:38:17",
+        "quantity": "30",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5413.00",
+        "order_date": "2016-05-10",
+        "order_datetime": "2016-05-10 02:50:28",
+        "quantity": "41",
+        "tax": "0.000000"
+      },
+      {
+        "income": "6003.00",
+        "order_date": "2016-05-11",
+        "order_datetime": "2016-05-11 00:06:46",
+        "quantity": "45",
+        "tax": "0.000000"
+      },
+      {
+        "income": "6143.00",
+        "order_date": "2016-05-12",
+        "order_datetime": "2016-05-12 00:51:42",
+        "quantity": "44",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5165.00",
+        "order_date": "2016-05-13",
+        "order_datetime": "2016-05-13 00:22:34",
+        "quantity": "35",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4093.00",
+        "order_date": "2016-05-14",
+        "order_datetime": "2016-05-14 01:14:08",
+        "quantity": "28",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3716.00",
+        "order_date": "2016-05-15",
+        "order_datetime": "2016-05-15 00:04:28",
+        "quantity": "27",
+        "tax": "0.000000"
+      },
+      {
+        "income": "6527.00",
+        "order_date": "2016-05-16",
+        "order_datetime": "2016-05-16 00:11:07",
+        "quantity": "43",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4941.00",
+        "order_date": "2016-05-17",
+        "order_datetime": "2016-05-17 02:15:41",
+        "quantity": "35",
+        "tax": "0.000000"
+      },
+      {
+        "income": "6605.00",
+        "order_date": "2016-05-18",
+        "order_datetime": "2016-05-18 00:20:55",
+        "quantity": "42",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5087.00",
+        "order_date": "2016-05-19",
+        "order_datetime": "2016-05-19 06:07:57",
+        "quantity": "33",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2272.00",
+        "order_date": "2016-05-20",
+        "order_datetime": "2016-05-20 02:28:22",
+        "quantity": "16",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2796.00",
+        "order_date": "2016-05-21",
+        "order_datetime": "2016-05-21 00:00:12",
+        "quantity": "20",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3397.00",
+        "order_date": "2016-05-22",
+        "order_datetime": "2016-05-22 05:00:54",
+        "quantity": "25",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5451.00",
+        "order_date": "2016-05-23",
+        "order_datetime": "2016-05-23 07:11:58",
+        "quantity": "32",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2687.00",
+        "order_date": "2016-05-24",
+        "order_datetime": "2016-05-24 01:04:00",
+        "quantity": "16",
+        "tax": "0.000000"
+      },
+      {
+        "income": "1956.00",
+        "order_date": "2016-05-25",
+        "order_datetime": "2016-05-25 01:04:38",
+        "quantity": "12",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3260.00",
+        "order_date": "2016-05-26",
+        "order_datetime": "2016-05-26 00:11:09",
+        "quantity": "20",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2080.00",
+        "order_date": "2016-05-27",
+        "order_datetime": "2016-05-27 07:29:17",
+        "quantity": "13",
+        "tax": "0.000000"
+      },
+      {
+        "income": "1748.00",
+        "order_date": "2016-05-28",
+        "order_datetime": "2016-05-28 05:47:37",
+        "quantity": "12",
+        "tax": "0.000000"
+      },
+      {
+        "income": "758.00",
+        "order_date": "2016-05-29",
+        "order_datetime": "2016-05-29 05:32:28",
+        "quantity": "7",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2503.00",
+        "order_date": "2016-05-30",
+        "order_datetime": "2016-05-30 00:11:38",
+        "quantity": "19",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3701.00",
+        "order_date": "2016-05-31",
+        "order_datetime": "2016-05-31 06:27:23",
+        "quantity": "26",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2362.00",
+        "order_date": "2016-06-01",
+        "order_datetime": "2016-06-01 00:22:54",
+        "quantity": "14",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4011.00",
+        "order_date": "2016-06-02",
+        "order_datetime": "2016-06-02 00:37:54",
+        "quantity": "29",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2145.00",
+        "order_date": "2016-06-03",
+        "order_datetime": "2016-06-03 01:07:55",
+        "quantity": "15",
+        "tax": "0.000000"
+      },
+      {
+        "income": "1637.00",
+        "order_date": "2016-06-04",
+        "order_datetime": "2016-06-04 02:11:20",
+        "quantity": "11",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2430.00",
+        "order_date": "2016-06-05",
+        "order_datetime": "2016-06-05 11:00:21",
+        "quantity": "18",
+        "tax": "0.000000"
+      },
+      {
+        "income": "1154.00",
+        "order_date": "2016-06-06",
+        "order_datetime": "2016-06-06 02:50:25",
+        "quantity": "11",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2746.00",
+        "order_date": "2016-06-07",
+        "order_datetime": "2016-06-07 00:22:29",
+        "quantity": "19",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3153.00",
+        "order_date": "2016-06-08",
+        "order_datetime": "2016-06-08 07:02:39",
+        "quantity": "15",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2712.00",
+        "order_date": "2016-06-09",
+        "order_datetime": "2016-06-09 01:01:03",
+        "quantity": "16",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3961.00",
+        "order_date": "2016-06-10",
+        "order_datetime": "2016-06-10 00:45:53",
+        "quantity": "23",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3185.00",
+        "order_date": "2016-06-11",
+        "order_datetime": "2016-06-11 00:43:05",
+        "quantity": "25",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2284.00",
+        "order_date": "2016-06-12",
+        "order_datetime": "2016-06-12 01:28:28",
+        "quantity": "17",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3090.00",
+        "order_date": "2016-06-13",
+        "order_datetime": "2016-06-13 00:16:48",
+        "quantity": "22",
+        "tax": "0.000000"
+      },
+      {
+        "income": "954.00",
+        "order_date": "2016-06-14",
+        "order_datetime": "2016-06-14 09:41:16",
+        "quantity": "6",
+        "tax": "0.000000"
+      },
+      {
+        "income": "1617.00",
+        "order_date": "2016-06-15",
+        "order_datetime": "2016-06-15 00:14:19",
+        "quantity": "12",
+        "tax": "0.000000"
+      },
+      {
+        "income": "1828.00",
+        "order_date": "2016-06-16",
+        "order_datetime": "2016-06-16 01:17:04",
+        "quantity": "12",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2234.00",
+        "order_date": "2016-06-17",
+        "order_datetime": "2016-06-17 01:10:18",
+        "quantity": "17",
+        "tax": "0.000000"
+      },
+      {
+        "income": "1001.00",
+        "order_date": "2016-06-18",
+        "order_datetime": "2016-06-18 00:32:29",
+        "quantity": "7",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3030.00",
+        "order_date": "2016-06-19",
+        "order_datetime": "2016-06-19 05:45:12",
+        "quantity": "18",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2169.00",
+        "order_date": "2016-06-20",
+        "order_datetime": "2016-06-20 07:48:20",
+        "quantity": "17",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2908.00",
+        "order_date": "2016-06-21",
+        "order_datetime": "2016-06-21 01:08:31",
+        "quantity": "19",
+        "tax": "0.000000"
+      },
+      {
+        "income": "1847.00",
+        "order_date": "2016-06-22",
+        "order_datetime": "2016-06-22 07:17:40",
+        "quantity": "14",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3070.00",
+        "order_date": "2016-06-23",
+        "order_datetime": "2016-06-23 00:49:08",
+        "quantity": "23",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4524.00",
+        "order_date": "2016-06-24",
+        "order_datetime": "2016-06-24 04:51:54",
+        "quantity": "31",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2673.00",
+        "order_date": "2016-06-25",
+        "order_datetime": "2016-06-25 08:09:44",
+        "quantity": "15",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2092.00",
+        "order_date": "2016-06-26",
+        "order_datetime": "2016-06-26 04:06:45",
+        "quantity": "14",
+        "tax": "0.000000"
+      },
+      {
+        "income": "1884.00",
+        "order_date": "2016-06-27",
+        "order_datetime": "2016-06-27 06:43:46",
+        "quantity": "12",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2677.00",
+        "order_date": "2016-06-28",
+        "order_datetime": "2016-06-28 00:23:18",
+        "quantity": "16",
+        "tax": "0.000000"
+      },
+      {
+        "income": "1558.00",
+        "order_date": "2016-06-29",
+        "order_datetime": "2016-06-29 02:26:17",
+        "quantity": "10",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3630.00",
+        "order_date": "2016-06-30",
+        "order_datetime": "2016-06-30 01:06:34",
+        "quantity": "24",
+        "tax": "0.000000"
+      },
+      {
+        "income": "1960.00",
+        "order_date": "2016-07-01",
+        "order_datetime": "2016-07-01 03:24:11",
+        "quantity": "13",
+        "tax": "0.000000"
+      },
+      {
+        "income": "1429.00",
+        "order_date": "2016-07-02",
+        "order_datetime": "2016-07-02 00:21:46",
+        "quantity": "11",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2130.00",
+        "order_date": "2016-07-03",
+        "order_datetime": "2016-07-03 08:21:54",
+        "quantity": "18",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2450.00",
+        "order_date": "2016-07-04",
+        "order_datetime": "2016-07-04 02:28:55",
+        "quantity": "14",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2126.00",
+        "order_date": "2016-07-05",
+        "order_datetime": "2016-07-05 00:30:46",
+        "quantity": "10",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5004.00",
+        "order_date": "2016-07-06",
+        "order_datetime": "2016-07-06 00:53:00",
+        "quantity": "28",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2860.00",
+        "order_date": "2016-07-07",
+        "order_datetime": "2016-07-07 00:43:37",
+        "quantity": "20",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3744.00",
+        "order_date": "2016-07-08",
+        "order_datetime": "2016-07-08 01:49:40",
+        "quantity": "16",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2291.00",
+        "order_date": "2016-07-09",
+        "order_datetime": "2016-07-09 00:02:14",
+        "quantity": "17",
+        "tax": "0.000000"
+      },
+      {
+        "income": "1715.00",
+        "order_date": "2016-07-10",
+        "order_datetime": "2016-07-10 00:20:33",
+        "quantity": "13",
+        "tax": "0.000000"
+      },
+      {
+        "income": "1386.00",
+        "order_date": "2016-07-11",
+        "order_datetime": "2016-07-11 02:30:22",
+        "quantity": "12",
+        "tax": "0.000000"
+      },
+      {
+        "income": "10822.00",
+        "order_date": "2016-07-12",
+        "order_datetime": "2016-07-12 00:08:55",
+        "quantity": "77",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4537.00",
+        "order_date": "2016-07-13",
+        "order_datetime": "2016-07-13 00:42:17",
+        "quantity": "35",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3408.00",
+        "order_date": "2016-07-14",
+        "order_datetime": "2016-07-14 01:56:47",
+        "quantity": "26",
+        "tax": "0.000000"
+      },
+      {
+        "income": "6600.00",
+        "order_date": "2016-07-15",
+        "order_datetime": "2016-07-15 00:46:50",
+        "quantity": "46",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2320.00",
+        "order_date": "2016-07-16",
+        "order_datetime": "2016-07-16 00:50:55",
+        "quantity": "16",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2479.00",
+        "order_date": "2016-07-17",
+        "order_datetime": "2016-07-17 01:26:49",
+        "quantity": "17",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3267.00",
+        "order_date": "2016-07-18",
+        "order_datetime": "2016-07-18 00:07:36",
+        "quantity": "25",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4850.00",
+        "order_date": "2016-07-19",
+        "order_datetime": "2016-07-19 01:14:33",
+        "quantity": "36",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3854.00",
+        "order_date": "2016-07-20",
+        "order_datetime": "2016-07-20 04:03:13",
+        "quantity": "26",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4420.00",
+        "order_date": "2016-07-21",
+        "order_datetime": "2016-07-21 04:08:30",
+        "quantity": "30",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5726.00",
+        "order_date": "2016-07-22",
+        "order_datetime": "2016-07-22 00:09:49",
+        "quantity": "34",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2268.00",
+        "order_date": "2016-07-23",
+        "order_datetime": "2016-07-23 01:39:31",
+        "quantity": "18",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4103.00",
+        "order_date": "2016-07-24",
+        "order_datetime": "2016-07-24 05:44:34",
+        "quantity": "25",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5586.00",
+        "order_date": "2016-07-25",
+        "order_datetime": "2016-07-25 01:33:04",
+        "quantity": "36",
+        "tax": "0.000000"
+      },
+      {
+        "income": "8614.00",
+        "order_date": "2016-07-26",
+        "order_datetime": "2016-07-26 00:04:32",
+        "quantity": "52",
+        "tax": "0.000000"
+      },
+      {
+        "income": "11468.00",
+        "order_date": "2016-07-27",
+        "order_datetime": "2016-07-27 00:34:51",
+        "quantity": "70",
+        "tax": "0.000000"
+      },
+      {
+        "income": "8178.00",
+        "order_date": "2016-07-28",
+        "order_datetime": "2016-07-28 00:00:41",
+        "quantity": "52",
+        "tax": "0.000000"
+      },
+      {
+        "income": "8558.00",
+        "order_date": "2016-07-29",
+        "order_datetime": "2016-07-29 01:02:54",
+        "quantity": "52",
+        "tax": "0.000000"
+      },
+      {
+        "income": "6531.00",
+        "order_date": "2016-07-30",
+        "order_datetime": "2016-07-30 00:50:32",
+        "quantity": "43",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5248.00",
+        "order_date": "2016-07-31",
+        "order_datetime": "2016-07-31 00:47:47",
+        "quantity": "38",
+        "tax": "0.000000"
+      },
+      {
+        "income": "7867.00",
+        "order_date": "2016-08-01",
+        "order_datetime": "2016-08-01 03:55:25",
+        "quantity": "55",
+        "tax": "0.000000"
+      },
+      {
+        "income": "8976.00",
+        "order_date": "2016-08-02",
+        "order_datetime": "2016-08-02 00:50:11",
+        "quantity": "68",
+        "tax": "0.000000"
+      },
+      {
+        "income": "11311.00",
+        "order_date": "2016-08-03",
+        "order_datetime": "2016-08-03 00:36:25",
+        "quantity": "75",
+        "tax": "0.000000"
+      },
+      {
+        "income": "9374.00",
+        "order_date": "2016-08-04",
+        "order_datetime": "2016-08-04 00:23:25",
+        "quantity": "58",
+        "tax": "0.000000"
+      },
+      {
+        "income": "11369.00",
+        "order_date": "2016-08-05",
+        "order_datetime": "2016-08-05 00:29:05",
+        "quantity": "81",
+        "tax": "0.000000"
+      },
+      {
+        "income": "16000.00",
+        "order_date": "2016-08-06",
+        "order_datetime": "2016-08-06 00:05:02",
+        "quantity": "112",
+        "tax": "0.000000"
+      },
+      {
+        "income": "19667.00",
+        "order_date": "2016-08-07",
+        "order_datetime": "2016-08-07 00:05:04",
+        "quantity": "189",
+        "tax": "0.000000"
+      },
+      {
+        "income": "1926.00",
+        "order_date": "2016-08-08",
+        "order_datetime": "2016-08-08 00:23:06",
+        "quantity": "10",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3086.00",
+        "order_date": "2016-08-09",
+        "order_datetime": "2016-08-09 00:10:17",
+        "quantity": "24",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3740.00",
+        "order_date": "2016-08-10",
+        "order_datetime": "2016-08-10 00:55:40",
+        "quantity": "26",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2005.00",
+        "order_date": "2016-08-11",
+        "order_datetime": "2016-08-11 02:01:28",
+        "quantity": "17",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5265.00",
+        "order_date": "2016-08-12",
+        "order_datetime": "2016-08-12 00:29:47",
+        "quantity": "23",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2183.00",
+        "order_date": "2016-08-13",
+        "order_datetime": "2016-08-13 02:27:21",
+        "quantity": "17",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2813.00",
+        "order_date": "2016-08-14",
+        "order_datetime": "2016-08-14 00:17:41",
+        "quantity": "23",
+        "tax": "0.000000"
+      },
+      {
+        "income": "6580.00",
+        "order_date": "2016-08-15",
+        "order_datetime": "2016-08-15 01:28:16",
+        "quantity": "36",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2209.00",
+        "order_date": "2016-08-16",
+        "order_datetime": "2016-08-16 07:57:11",
+        "quantity": "15",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4231.00",
+        "order_date": "2016-08-17",
+        "order_datetime": "2016-08-17 00:17:38",
+        "quantity": "27",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4783.00",
+        "order_date": "2016-08-18",
+        "order_datetime": "2016-08-18 02:30:04",
+        "quantity": "33",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3836.00",
+        "order_date": "2016-08-19",
+        "order_datetime": "2016-08-19 00:03:45",
+        "quantity": "30",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2252.00",
+        "order_date": "2016-08-20",
+        "order_datetime": "2016-08-20 01:00:52",
+        "quantity": "18",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3480.00",
+        "order_date": "2016-08-21",
+        "order_datetime": "2016-08-21 02:21:48",
+        "quantity": "30",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3555.00",
+        "order_date": "2016-08-22",
+        "order_datetime": "2016-08-22 09:43:16",
+        "quantity": "21",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2609.00",
+        "order_date": "2016-08-23",
+        "order_datetime": "2016-08-23 05:19:18",
+        "quantity": "17",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2664.00",
+        "order_date": "2016-08-24",
+        "order_datetime": "2016-08-24 00:00:18",
+        "quantity": "14",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5611.00",
+        "order_date": "2016-08-25",
+        "order_datetime": "2016-08-25 00:48:46",
+        "quantity": "37",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4412.00",
+        "order_date": "2016-08-26",
+        "order_datetime": "2016-08-26 00:28:00",
+        "quantity": "26",
+        "tax": "0.000000"
+      },
+      {
+        "income": "2456.00",
+        "order_date": "2016-08-27",
+        "order_datetime": "2016-08-27 00:03:09",
+        "quantity": "22",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3063.00",
+        "order_date": "2016-08-28",
+        "order_datetime": "2016-08-28 00:25:59",
+        "quantity": "23",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4219.00",
+        "order_date": "2016-08-29",
+        "order_datetime": "2016-08-29 03:26:07",
+        "quantity": "29",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5227.00",
+        "order_date": "2016-08-30",
+        "order_datetime": "2016-08-30 05:21:11",
+        "quantity": "35",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5143.00",
+        "order_date": "2016-08-31",
+        "order_datetime": "2016-08-31 00:53:37",
+        "quantity": "37",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5363.00",
+        "order_date": "2016-09-01",
+        "order_datetime": "2016-09-01 00:19:47",
+        "quantity": "39",
+        "tax": "0.000000"
+      },
+      {
+        "income": "8302.00",
+        "order_date": "2016-09-02",
+        "order_datetime": "2016-09-02 01:35:16",
+        "quantity": "82",
+        "tax": "0.000000"
+      },
+      {
+        "income": "10124.00",
+        "order_date": "2016-09-03",
+        "order_datetime": "2016-09-03 01:00:14",
+        "quantity": "128",
+        "tax": "0.000000"
+      },
+      {
+        "income": "8193.00",
+        "order_date": "2016-09-04",
+        "order_datetime": "2016-09-04 01:08:17",
+        "quantity": "117",
+        "tax": "0.000000"
+      },
+      {
+        "income": "8981.00",
+        "order_date": "2016-09-05",
+        "order_datetime": "2016-09-05 00:00:55",
+        "quantity": "83",
+        "tax": "0.000000"
+      },
+      {
+        "income": "11706.50",
+        "order_date": "2016-09-06",
+        "order_datetime": "2016-09-06 00:00:34",
+        "quantity": "83",
+        "tax": "0.000000"
+      },
+      {
+        "income": "8566.00",
+        "order_date": "2016-09-07",
+        "order_datetime": "2016-09-07 00:16:13",
+        "quantity": "72",
+        "tax": "0.000000"
+      },
+      {
+        "income": "9021.00",
+        "order_date": "2016-09-08",
+        "order_datetime": "2016-09-08 00:13:12",
+        "quantity": "61",
+        "tax": "0.000000"
+      },
+      {
+        "income": "8498.00",
+        "order_date": "2016-09-09",
+        "order_datetime": "2016-09-09 00:16:41",
+        "quantity": "51",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4104.00",
+        "order_date": "2016-09-10",
+        "order_datetime": "2016-09-10 00:30:53",
+        "quantity": "44",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3757.00",
+        "order_date": "2016-09-11",
+        "order_datetime": "2016-09-11 08:10:00",
+        "quantity": "40",
+        "tax": "0.000000"
+      },
+      {
+        "income": "9246.00",
+        "order_date": "2016-09-12",
+        "order_datetime": "2016-09-12 00:12:15",
+        "quantity": "71",
+        "tax": "0.000000"
+      },
+      {
+        "income": "8115.00",
+        "order_date": "2016-09-13",
+        "order_datetime": "2016-09-13 00:06:37",
+        "quantity": "51",
+        "tax": "0.000000"
+      },
+      {
+        "income": "8821.00",
+        "order_date": "2016-09-14",
+        "order_datetime": "2016-09-14 00:05:14",
+        "quantity": "69",
+        "tax": "0.000000"
+      },
+      {
+        "income": "17481.00",
+        "order_date": "2016-09-15",
+        "order_datetime": "2016-09-15 00:37:41",
+        "quantity": "88",
+        "tax": "0.000000"
+      },
+      {
+        "income": "8900.00",
+        "order_date": "2016-09-16",
+        "order_datetime": "2016-09-16 00:23:23",
+        "quantity": "84",
+        "tax": "0.000000"
+      },
+      {
+        "income": "3191.00",
+        "order_date": "2016-09-17",
+        "order_datetime": "2016-09-17 00:01:42",
+        "quantity": "34",
+        "tax": "0.000000"
+      },
+      {
+        "income": "4532.00",
+        "order_date": "2016-09-18",
+        "order_datetime": "2016-09-18 00:16:56",
+        "quantity": "42",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5566.00",
+        "order_date": "2016-09-19",
+        "order_datetime": "2016-09-19 03:30:15",
+        "quantity": "62",
+        "tax": "0.000000"
+      },
+      {
+        "income": "7684.00",
+        "order_date": "2016-09-20",
+        "order_datetime": "2016-09-20 00:25:55",
+        "quantity": "82",
+        "tax": "0.000000"
+      },
+      {
+        "income": "7271.00",
+        "order_date": "2016-09-21",
+        "order_datetime": "2016-09-21 00:40:01",
+        "quantity": "83",
+        "tax": "0.000000"
+      },
+      {
+        "income": "8089.00",
+        "order_date": "2016-09-22",
+        "order_datetime": "2016-09-22 01:02:16",
+        "quantity": "96",
+        "tax": "0.000000"
+      },
+      {
+        "income": "8960.00",
+        "order_date": "2016-09-23",
+        "order_datetime": "2016-09-23 00:07:35",
+        "quantity": "93",
+        "tax": "0.000000"
+      },
+      {
+        "income": "5676.00",
+        "order_date": "2016-09-24",
+        "order_datetime": "2016-09-24 00:35:33",
+        "quantity": "63",
+        "tax": "0.000000"
+      },
+      {
+        "income": "6650.00",
+        "order_date": "2016-09-25",
+        "order_datetime": "2016-09-25 00:05:29",
+        "quantity": "78",
+        "tax": "0.000000"
+      },
+      {
+        "income": "10705.00",
+        "order_date": "2016-09-26",
+        "order_datetime": "2016-09-26 00:00:27",
+        "quantity": "118",
+        "tax": "0.000000"
+      },
+      {
+        "income": "18312.00",
+        "order_date": "2016-09-27",
+        "order_datetime": "2016-09-27 00:23:52",
+        "quantity": "192",
+        "tax": "0.000000"
+      },
+      {
+        "income": "15864.00",
+        "order_date": "2016-09-28",
+        "order_datetime": "2016-09-28 00:00:58",
+        "quantity": "180",
+        "tax": "0.000000"
+      },
+      {
+        "income": "24126.12",
+        "order_date": "2016-09-29",
+        "order_datetime": "2016-09-29 00:01:06",
+        "quantity": "288",
+        "tax": "0.000000"
+      },
+      {
+        "income": "29649.15",
+        "order_date": "2016-09-30",
+        "order_datetime": "2016-09-30 00:04:52",
+        "quantity": "383",
+        "tax": "0.000000"
+      },
+      {
+        "income": "21734.85",
+        "order_date": "2016-10-01",
+        "order_datetime": "2016-10-01 00:05:45",
+        "quantity": "277",
+        "tax": "0.000000"
+      },
+      {
+        "income": "6255.18",
+        "order_date": "2016-10-02",
+        "order_datetime": "2016-10-02 00:17:38",
+        "quantity": "87",
+        "tax": "0.000000"
+      }
+    ],
+    "waiting_list": []
+  }
+}

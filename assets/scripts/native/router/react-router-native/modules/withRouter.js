@@ -1,0 +1,36 @@
+/* @flow */
+
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+type Props = {};
+
+type Context = {
+  router: Object,
+};
+
+export default (WrappedComponent: ReactClass<any>) => (
+  class extends Component<any, Props, any> {
+
+    static contextTypes = {
+      router: PropTypes.object,
+    };
+
+    constructor(props: Props, context: Context) {
+      super(props);
+      this.router = context.router;
+    }
+
+    router: Object;
+    context: Context;
+    props: Props;
+
+    render() {
+      const props = this.props;
+
+      return (
+        <WrappedComponent router={this.router} {...props} />
+      );
+    }
+  }
+);

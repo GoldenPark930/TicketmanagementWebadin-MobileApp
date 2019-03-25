@@ -1,0 +1,117 @@
+.barchart {
+  width: 100%;
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  text-align: center;
+
+  svg {
+    min-width: 500px;
+  }
+
+  .axis {
+    path {
+      fill: none;
+      stroke: #343946;
+      stroke-width: 2px;
+    }
+
+    text {
+      fill: #b6c5cf;
+      font: 400 9px 'Open Sans' !important;
+    }
+  }
+
+  .y-axis {
+    .tick {
+      line {
+        fill: none;
+        stroke: #484d5a;
+        stroke-width: 2px;
+      }
+
+      text {
+        
+      }
+    }
+  }
+
+  .axis-label {
+    fill: #868E97;
+    font: 600 18px 'Open Sans' !important;
+    text-transform: uppercase;
+    text-anchor: middle;
+  }
+
+  .bar {
+    stroke-width: 0px;
+    stroke-opacity: 1;
+    transition: all 250ms;
+    -moz-transition: all 250ms;
+    -webkit-transition: all 250ms;
+    
+    &.hover:hover {
+      stroke-width: 5px;
+      stroke-opacity: 0.8;
+    }
+  }
+
+  .barchart-tooltip {
+    position: absolute;
+    opacity: 0.9;
+    background-color: #b6c5cf;
+    padding: 7px 10px 7px 7px;
+    color: #212530;
+    font: 400 10px 'Open Sans' !important;
+    border-radius: 3px;
+    visibility: hidden;
+    left: 0px;
+    top: 0px;
+
+    .barchart-tooltip-color {
+      width: 15px;
+      height: 15px;
+      border-radius: 2px;
+      display: inline-block;
+      vertical-align: top;
+      border: solid 1px #212530;
+    }
+
+    .barchart-tooltip-key {
+      display: inline-block;
+      line-height: 15px;
+      margin-left: 10px;
+    }
+
+    .barchart-tooltip-value {
+      display: inline-block;
+      line-height: 15px;
+      margin-left: 10px;
+      font-weight: bold;
+    }
+  }
+
+  .offline_message{   
+    background: #4e525c;
+    padding: 6px 25px;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+		color: @theme-default-fontcolor;
+    font-weight: 400;
+    display: inline-block;
+    border-radius: 3px;
+		img{
+			height: 16px;
+			margin:0 5px 0 0;
+			display: inline-block;
+		}
+		div{
+			display: inline-block;
+			margin-left: 5px;
+		}
+		.bold{
+			color: white;
+			font-weight: 600;		
+		}
+  }
+}

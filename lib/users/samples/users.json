@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "id": "123",
+      "type": "user",
+      "attributes": {
+        "firstName": "Masao",
+        "lastName": "Ishikawa",
+        "email": "masao.ish824@outlook.com",
+        "password": "masao1050"
+      },
+      "relationships": {
+        "organizations": {
+          "data": [
+            {"id": "abc", "type": "organization"},
+            {"id": "abd", "type": "organization"},
+            {"id": "abe", "type": "organization"},
+            {"id": "abf", "type": "organization"}
+          ]
+        }
+      }
+    },
+    {
+      "id": "124",
+      "type": "user",
+      "attributes": {
+        "firstName": "Ritesh",
+        "lastName": "Patel",
+        "email": "ritesh@theticketfairy.com",
+        "password": "password"
+      },
+      "relationships": {
+        "organizations": {
+          "data": [
+            {"id": "abc", "type": "organization"},
+            {"id": "abf", "type": "organization"}
+          ]
+        }
+      }
+    },
+    {
+      "id": "125",
+      "type": "user",
+      "attributes": {
+        "firstName": "Jigar",
+        "lastName": "Patel",
+        "email": "jigar@theticketfairy.com",
+        "password": "password"
+      },
+      "relationships": {
+        "organizations": {
+          "data": [
+            {"id": "abc", "type": "organization"},
+            {"id": "abf", "type": "organization"}
+          ]
+        }
+      }
+    },
+    {
+      "id": "126",
+      "type": "user",
+      "attributes": {
+        "firstName": "James",
+        "lastName": "Smith",
+        "email": "james.smith@theticketfairy.com",
+        "password": "password"
+      },
+      "relationships": {
+        "organizations": {
+          "data": [
+          ]
+        }
+      }
+    },
+    {
+      "id": "127",
+      "type": "user",
+      "attributes": {
+        "firstName": "Robbie",
+        "lastName": "Cruse",
+        "email": "robbiecrusedev@outlook.com",
+        "password": "robbie"
+      },
+      "relationships": {
+        "organizations": {
+          "data": [
+          ]
+        }
+      }
+    },
+    {
+      "id": "128",
+      "type": "user",
+      "attributes": {
+        "firstName": "Ali",
+        "lastName": "Caicea",
+        "email": "caice@gmx.com",
+        "password": "ali"
+      },
+      "relationships": {
+        "organizations": {
+          "data": [
+          ]
+        }
+      }
+    },
+    {
+      "id": "129",
+      "type": "user",
+      "attributes": {
+        "firstName": "Wasyl",
+        "lastName": "Makarenko",
+        "email": "wasyl.makarenko.123@yandex.com",
+        "password": "ticketfairy2017"
+      },
+      "relationships": {
+        "organizations": {
+          "data": [
+          ]
+        }
+      }
+    },
+    {
+      "id": "130",
+      "type": "user",
+      "attributes": {
+        "firstName": "Kevin",
+        "lastName": "Ho",
+        "email": "kevin@theticketfairy.com",
+        "password": "password"
+      },
+      "relationships": {
+        "organizations": {
+          "data": [
+            {"id": "abc", "type": "organization"},
+            {"id": "abd", "type": "organization"},
+            {"id": "abe", "type": "organization"},
+            {"id": "abf", "type": "organization"}
+          ]
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "abc",
+      "type": "organization",
+      "attributes": {
+        "displayName": "The Ticket Fairy",
+        "paymentMethods": [
+          {"id": "4e24be40-e431-4bad-a0f2-8bb2066b67e9", "displayName": "Australia account", "type": "spreedly"},
+          {"id": "077b492e-9d03-410c-b067-feadfc6f08f3", "displayName": "Backup account", "type": "stripe"}
+        ]
+      }
+    },
+    {
+      "id": "abd",
+      "type": "organization",
+      "attributes": {"displayName": "Sleepless Society"}
+    },
+    {
+      "id": "abe",
+      "type": "organization",
+      "attributes": {"displayName": "Secret Solstice"}
+    },
+    {
+      "id": "abf",
+      "type": "organization",
+      "attributes": {"displayName": "Rhythm and Vines"}
+    }
+  ]
+}

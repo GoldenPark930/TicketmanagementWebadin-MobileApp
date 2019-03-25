@@ -1,0 +1,144 @@
+.eventfaq {
+  .eventfaq-buttons {
+    text-align: right;
+
+    .btn {
+      margin-left: 10px;
+    }
+  }
+}
+
+.eventfaq-section {
+  margin: 15px 0px;
+
+  .eventfaq-section-top {
+    background-color: #242935;
+    padding: 15px 20px;
+    color: white;
+
+    &:hover {
+      background-color: #515864;
+    }
+  }
+
+  .eventfaq-section-caret {
+    display: inline-block;
+    cursor: pointer;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 10px;
+    font-size: 15px;
+    width: 10px;
+  }
+
+  .eventfaq-section-name {
+    height: 25px;
+    line-height: 25px;
+    width: calc(~"100% - 150px");
+    display: inline-block;
+    font-size: 15px;
+    border: 0px;
+    background: transparent;
+  }
+
+  .eventfaq-section-button {
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    margin-left: 15px;
+    font-size: 15px;
+    height: 25px;
+    line-height: 25px;
+  }
+
+  .eventfaq-section-button-drag {
+    cursor: move;
+  }
+
+  .eventfaq-section-items {
+    padding: 0px 0px 0px 30px;
+  }
+}
+
+.eventfaq-item {
+  background-color: #2C313E;
+  padding: 10px 15px;
+  margin: 10px 0px;
+
+  .eventfaq-item-caret {
+    display: inline-block;
+    cursor: pointer;
+    height: 25px;
+    line-height: 25px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .eventfaq-item-question {
+    height: 25px;
+    line-height: 25px;
+    width: calc(~"100% - 100px");
+    display: inline-block;
+    background: transparent;
+  }
+
+  .eventfaq-item-button {
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    margin-left: 10px;
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+  }
+
+  .eventfaq-item-button-drag {
+    cursor: move;
+  }
+
+  &.collapsed {
+    color: #ADBAC2;
+
+    .eventfaq-item-question {
+      font-size: 13px;
+      border: 0px;
+    }
+  }
+
+  &.collapsed:hover {
+    background-color: #515864;
+    color: white;
+  }
+
+  &.expanded {
+    color: white;
+
+    .eventfaq-item-top {
+      border-bottom: solid 1px #545761;
+      padding: 10px 0px;
+      margin-bottom: 15px;
+    }
+
+    .eventfaq-item-question {
+      font-size: 15px;
+      border: 0px;
+    }
+
+    .eventfaq-item-answer {
+      margin: 10px 0px;
+
+      .form-group {
+        margin-bottom: 0px;
+      }
+
+      .rte {
+        background: transparent !important;
+        padding: 0px;
+      }
+
+      .medium-editor-placeholder:after {
+        border-bottom: 0px;
+      }
+    }
+  }
+}

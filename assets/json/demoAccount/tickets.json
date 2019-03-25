@@ -1,0 +1,455 @@
+{
+    "data": [
+        {
+            "id": "5119",
+            "type": "ticket",
+            "attributes": {
+                "name": "1-Day Pass",
+                "groupName": "Friends And Family",
+                "displayName": "[Friends And Family] 1-Day Pass",
+                "currency": "NZD",
+                "description": null,
+                "flagAlwaysAvailable": true,
+                "sortOrder": null,
+                "flagHidden": true,
+                "quantityIncrement": "1",
+                "active": true,
+                "stock": 15,
+                "maxInventory": 30,
+                "faceValue": 11100,
+                "price": 12183,
+                "ticketText": null,
+                "salesStart": null,
+                "salesEnd": null,
+                "checkInStart": null,
+                "checkInEnd": null,
+                "startDate": null,
+                "endDate": null,
+                "tags": [
+                    "1-Day",
+                    "Jan 2nd"
+                ]
+            }
+        },
+        {
+            "id": "5134",
+            "type": "ticket",
+            "attributes": {
+                "name": "Kawaka Street",
+                "groupName": "Bus Ticket",
+                "displayName": "[Bus Ticket] Kawaka Street",
+                "currency": "NZD",
+                "description": "<p class=\"\">Pick-up/Drop-off:</p><p class=\"medium-insert-active\">Kawaka Street, outside the High-Performance Centre at Blake Park, Mt Maunganui<br></p>",
+                "flagAlwaysAvailable": true,
+                "sortOrder": null,
+                "flagHidden": true,
+                "quantityIncrement": "1",
+                "active": true,
+                "stock": 500,
+                "maxInventory": 500,
+                "faceValue": 1000,
+                "price": 1061,
+                "ticketText": null,
+                "salesStart": null,
+                "salesEnd": null,
+                "checkInStart": null,
+                "checkInEnd": null,
+                "startDate": null,
+                "endDate": null,
+                "tags": [
+                    "Bus Ticket"
+                ]
+            }
+        },
+        {
+            "id": "5135",
+            "type": "ticket",
+            "attributes": {
+                "name": "Toi Ohomai Campus",
+                "groupName": "Bus Ticket",
+                "displayName": "[Bus Ticket] Toi Ohomai Campus",
+                "currency": "NZD",
+                "description": "<p class=\"\">Pick-up/Drop-off:</p><p>Toi – Ohomai Polytech Windermere Campus – access from SH29a</p><p>From Hamilton, take the first exit of the Poike Road &amp; SH29a roundabout, turn right onto Windermere Drive and follow the signage to the parking area</p>",
+                "flagAlwaysAvailable": true,
+                "sortOrder": null,
+                "flagHidden": true,
+                "quantityIncrement": "1",
+                "active": true,
+                "stock": 500,
+                "maxInventory": 500,
+                "faceValue": 1000,
+                "price": 1061,
+                "ticketText": null,
+                "salesStart": null,
+                "salesEnd": null,
+                "checkInStart": null,
+                "checkInEnd": null,
+                "startDate": null,
+                "endDate": null,
+                "tags": [
+                    "Bus Ticket"
+                ]
+            }
+        },
+        {
+            "id": "5136",
+            "type": "ticket",
+            "attributes": {
+                "name": "Gordon Spratt Reserve",
+                "groupName": "Bus Ticket",
+                "displayName": "[Bus Ticket] Gordon Spratt Reserve",
+                "currency": "NZD",
+                "description": "<p class=\"\">Pick-up/Drop-off:</p><p class=\"medium-insert-active\">Outside the Gordon Spratt Reserve on Parton Road, Papamoa<br></p>",
+                "flagAlwaysAvailable": true,
+                "sortOrder": null,
+                "flagHidden": true,
+                "quantityIncrement": "1",
+                "active": true,
+                "stock": 500,
+                "maxInventory": 500,
+                "faceValue": 1000,
+                "price": 1061,
+                "ticketText": null,
+                "salesStart": null,
+                "salesEnd": null,
+                "checkInStart": null,
+                "checkInEnd": null,
+                "startDate": null,
+                "endDate": null,
+                "tags": [
+                    "Bus Ticket"
+                ]
+            }
+        },
+        {
+            "id": "5137",
+            "type": "ticket",
+            "attributes": {
+                "name": "City Centre",
+                "groupName": "Bus Ticket",
+                "displayName": "[Bus Ticket] City Centre",
+                "currency": "NZD",
+                "description": "<p class=\"\">Pick-up/Drop-off:</p><p class=\"medium-insert-active\">City Centre, at the main bus stop on Spring Street outside Tauranga City Library.<br></p>",
+                "flagAlwaysAvailable": true,
+                "sortOrder": null,
+                "flagHidden": true,
+                "quantityIncrement": "1",
+                "active": true,
+                "stock": 500,
+                "maxInventory": 500,
+                "faceValue": 1000,
+                "price": 1061,
+                "ticketText": null,
+                "salesStart": null,
+                "salesEnd": null,
+                "checkInStart": null,
+                "checkInEnd": null,
+                "startDate": null,
+                "endDate": null,
+                "tags": [
+                    "Bus Ticket"
+                ]
+            }
+        },
+        {
+            "id": "4158",
+            "type": "ticket",
+            "attributes": {
+                "name": "1-Day Pass - 24-Hour Deal",
+                "groupName": "Early Bird",
+                "displayName": "[Early Bird] 1-Day Pass - 24-Hour Deal",
+                "currency": "NZD",
+                "description": null,
+                "flagAlwaysAvailable": true,
+                "sortOrder": 1,
+                "flagHidden": null,
+                "quantityIncrement": "1",
+                "active": false,
+                "stock": 0,
+                "maxInventory": 8056,
+                "faceValue": 14900,
+                "price": 16097,
+                "ticketText": null,
+                "salesStart": null,
+                "salesEnd": null,
+                "checkInStart": null,
+                "checkInEnd": null,
+                "startDate": null,
+                "endDate": null,
+                "tags": [
+                    "Jan 2nd"
+                ]
+            }
+        },
+        {
+            "id": "4260",
+            "type": "ticket",
+            "attributes": {
+                "name": "1-Day Pass (Jan 2nd)",
+                "groupName": "1st Release",
+                "displayName": "[1st Release] 1-Day Pass (Jan 2nd)",
+                "currency": "NZD",
+                "description": null,
+                "flagAlwaysAvailable": true,
+                "sortOrder": 2,
+                "flagHidden": null,
+                "quantityIncrement": "1",
+                "active": false,
+                "stock": 0,
+                "maxInventory": 3691,
+                "faceValue": 16900,
+                "price": 18157,
+                "ticketText": null,
+                "salesStart": null,
+                "salesEnd": null,
+                "checkInStart": null,
+                "checkInEnd": null,
+                "startDate": null,
+                "endDate": null,
+                "tags": [
+                    "Jan 2nd"
+                ]
+            }
+        },
+        {
+            "id": "4480",
+            "type": "ticket",
+            "attributes": {
+                "name": "1-Day Pass (Jan 2nd)",
+                "groupName": "2nd Release",
+                "displayName": "[2nd Release] 1-Day Pass (Jan 2nd)",
+                "currency": "NZD",
+                "description": null,
+                "flagAlwaysAvailable": true,
+                "sortOrder": 3,
+                "flagHidden": null,
+                "quantityIncrement": "1",
+                "active": false,
+                "stock": 0,
+                "maxInventory": 5223,
+                "faceValue": 17900,
+                "price": 19186,
+                "ticketText": null,
+                "salesStart": null,
+                "salesEnd": null,
+                "checkInStart": null,
+                "checkInEnd": null,
+                "startDate": null,
+                "endDate": null,
+                "tags": [
+                    "Jan 2nd"
+                ]
+            }
+        },
+        {
+            "id": "4561",
+            "type": "ticket",
+            "attributes": {
+                "name": "Pre-Party Only (Jan 1st)",
+                "groupName": "2nd Release",
+                "displayName": "[2nd Release] Pre-Party Only (Jan 1st)",
+                "currency": "NZD",
+                "description": "<p>Pre-Party access only.</p>\n<p>If you want to come to the main festival as well, buy that ticket and select the pre-party add-on instead, or add it to your existing ticket from <strong>My Tickets</strong></p>",
+                "flagAlwaysAvailable": true,
+                "sortOrder": 4,
+                "flagHidden": null,
+                "quantityIncrement": "1",
+                "active": false,
+                "stock": 0,
+                "maxInventory": 133,
+                "faceValue": 6900,
+                "price": 7652,
+                "ticketText": null,
+                "salesStart": null,
+                "salesEnd": null,
+                "checkInStart": null,
+                "checkInEnd": null,
+                "startDate": null,
+                "endDate": null,
+                "tags": [
+                    "Jan 1st"
+                ]
+            }
+        },
+        {
+            "id": "4988",
+            "type": "ticket",
+            "attributes": {
+                "name": "1-Day Pass (Jan 2nd)",
+                "groupName": "3rd Release",
+                "displayName": "[3rd Release] 1-Day Pass (Jan 2nd)",
+                "currency": "NZD",
+                "description": null,
+                "flagAlwaysAvailable": true,
+                "sortOrder": 5,
+                "flagHidden": null,
+                "quantityIncrement": "1",
+                "active": true,
+                "stock": 17,
+                "maxInventory": 7290,
+                "faceValue": 18500,
+                "price": 19804,
+                "ticketText": null,
+                "salesStart": "2017-11-23 19:00:00",
+                "salesEnd": null,
+                "checkInStart": null,
+                "checkInEnd": null,
+                "startDate": null,
+                "endDate": null,
+                "tags": [
+                    "Jan 2nd"
+                ]
+            }
+        },
+        {
+            "id": "4989",
+            "type": "ticket",
+            "attributes": {
+                "name": "Pre-Party Only (Jan 1st)",
+                "groupName": "3rd Release",
+                "displayName": "[3rd Release] Pre-Party Only (Jan 1st)",
+                "currency": "NZD",
+                "description": "<p>Pre-Party access only.</p><p>If you want to come to the main festival as well, buy that ticket and select the pre-party add-on instead, or add it to your existing ticket from <strong>My Tickets</strong></p>",
+                "flagAlwaysAvailable": true,
+                "sortOrder": 6,
+                "flagHidden": null,
+                "quantityIncrement": "1",
+                "active": true,
+                "stock": 5329,
+                "maxInventory": 5837,
+                "faceValue": 6900,
+                "price": 7652,
+                "ticketText": null,
+                "salesStart": null,
+                "salesEnd": null,
+                "checkInStart": null,
+                "checkInEnd": null,
+                "startDate": null,
+                "endDate": null,
+                "tags": [
+                    "Jan 1st"
+                ]
+            }
+        },
+        {
+            "id": "4858",
+            "type": "ticket",
+            "attributes": {
+                "name": "2-Person",
+                "groupName": "Glamping 1st/2nd Jan - Does Not Include Festival Entry",
+                "displayName": "[Glamping 1st/2nd Jan - Does Not Include Festival Entry] 2-Person",
+                "currency": "NZD",
+                "description": "<p class=\"\">Accommodation for Jan 1st/2nd only - you must also have a Bay Dreams ticket to gain entry to the festival.</p><p class=\"\">Prices are per person.</p>",
+                "flagAlwaysAvailable": true,
+                "sortOrder": 7,
+                "flagHidden": null,
+                "quantityIncrement": "2",
+                "active": false,
+                "stock": 30,
+                "maxInventory": 30,
+                "faceValue": 50000,
+                "price": 52245,
+                "ticketText": null,
+                "salesStart": null,
+                "salesEnd": null,
+                "checkInStart": null,
+                "checkInEnd": null,
+                "startDate": null,
+                "endDate": null,
+                "tags": [
+                    "Glamping"
+                ]
+            }
+        },
+        {
+            "id": "4859",
+            "type": "ticket",
+            "attributes": {
+                "name": "3-Person",
+                "groupName": "Glamping 1st/2nd Jan - Does Not Include Festival Entry",
+                "displayName": "[Glamping 1st/2nd Jan - Does Not Include Festival Entry] 3-Person",
+                "currency": "NZD",
+                "description": "<p>Accommodation for Jan 1st/2nd only - you must also have a Bay Dreams ticket to gain entry to the festival.</p><p>Prices are per person.</p>",
+                "flagAlwaysAvailable": true,
+                "sortOrder": 8,
+                "flagHidden": null,
+                "quantityIncrement": "3",
+                "active": false,
+                "stock": 30,
+                "maxInventory": 30,
+                "faceValue": 40000,
+                "price": 41946,
+                "ticketText": null,
+                "salesStart": null,
+                "salesEnd": null,
+                "checkInStart": null,
+                "checkInEnd": null,
+                "startDate": null,
+                "endDate": null,
+                "tags": [
+                    "Glamping"
+                ]
+            }
+        },
+        {
+            "id": "4860",
+            "type": "ticket",
+            "attributes": {
+                "name": "4-Person",
+                "groupName": "Glamping 1st/2nd Jan - Does Not Include Festival Entry",
+                "displayName": "[Glamping 1st/2nd Jan - Does Not Include Festival Entry] 4-Person",
+                "currency": "NZD",
+                "description": "<p>Accommodation for Jan 1st/2nd only - you must also have a Bay Dreams ticket to gain entry to the festival.</p><p>Prices are per person.</p>",
+                "flagAlwaysAvailable": true,
+                "sortOrder": 9,
+                "flagHidden": null,
+                "quantityIncrement": "4",
+                "active": false,
+                "stock": 80,
+                "maxInventory": 80,
+                "faceValue": 35000,
+                "price": 36797,
+                "ticketText": null,
+                "salesStart": null,
+                "salesEnd": null,
+                "checkInStart": null,
+                "checkInEnd": null,
+                "startDate": null,
+                "endDate": null,
+                "tags": [
+                    "Glamping"
+                ]
+            }
+        },
+        {
+            "id": "4876",
+            "type": "ticket",
+            "attributes": {
+                "name": "Festival Pass",
+                "groupName": "Hard Copy",
+                "displayName": "[Hard Copy] Festival Pass",
+                "currency": "NZD",
+                "description": null,
+                "flagAlwaysAvailable": false,
+                "sortOrder": 10,
+                "flagHidden": true,
+                "quantityIncrement": "1",
+                "active": false,
+                "stock": 0,
+                "maxInventory": 0,
+                "faceValue": 0,
+                "price": 0,
+                "ticketText": null,
+                "salesStart": null,
+                "salesEnd": null,
+                "checkInStart": null,
+                "checkInEnd": null,
+                "startDate": null,
+                "endDate": null,
+                "tags": [
+                    "Jan 2nd"
+                ]
+            }
+        }
+    ]
+}

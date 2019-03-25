@@ -1,0 +1,387 @@
+{
+  "data": [
+    {
+      "id": "309b50adce18465aa26028db16b9cb68",
+      "type": "event",
+      "attributes": {
+        "slug": "blahlbahtension8",
+        "displayName": "Tension8",
+        "description": "<h1 style=\"line-height: 0.8em; margin-bottom: 0.7em;\"><strong>TENSION8</strong><br><small style=\"color: #000;\">ON THE ROOFTOP</small></h1>\n<div class=\"line-up\">\n<h2>KALUS (RETURN OF THE KING - 2 HOUR SET)</h2>\n<h2>ZAC DEPETRO (PSYTRANCE SET)</h2>\n<h2>DUANE BARTOLO</h2>\n<h2>SHORT ROUND</h2>\n<h2>SWINDAIL</h2>\n<h2>ENSCHWAY</h2>\n</div>\n<p>Supported by snilluM, Likewise, Symphonik, Blue Grass, Sippy VS Scoops, Whyse, Sooreyah, Clam Joust &amp; Elbow Squad.</p>\n<p>16 acts over 9 hours.</p>\n<p><a href=\"https://www.facebook.com/tensioncrew\" target=\"_blank\">www.facebook.com/tensioncrew</a><br><a href=\"https://www.instagram.com/tensioncrew\" target=\"_blank\">www.instagram.com/tensioncrew</a></p>",
+        "startDate": "2015-01-15T14:00:00.000Z",
+        "endDate": "2015-01-19T14:00:00.000Z",
+        "salesStartDate": "2015-01-09T14:00:00.000Z",
+        "imageURL": "http://placehold.it/350x150",
+        "status": "published",
+        "feeMode": "forward",
+        "imageURL": "http://localhost:3000/assets/screenshots/1.png",
+        "minOrder": 1,
+        "maxOrder": 5,
+        "venue": {
+          "displayName":"The Rook",
+          "streetNumber":"56-58",
+          "street":"York Street",
+          "city":"Sydney",
+          "state":"New South Wales",
+          "country":"Australia",
+          "postalCode":"2000",
+          "googlePlaceId":"ChIJs-zIED-uEmsRsHT2GJUVTUQ",
+          "longitude":151.20629439999993,
+          "latitude":-33.8697903
+        }
+      },
+      "relationships": {
+        "owner": {
+          "data": {"id": "abd", "type": "organization", "displayName": "Sleepless Society"}
+        },
+        "tickets": {
+          "data": [
+            {"id": "10133f72-039d-4498-8214-85e654a587d2", "type": "ticket"},
+            {"id": "5fc0fe32-5829-436d-955b-a80cc371a82d", "type": "ticket"},
+            {"id": "37a6955a-8421-4c52-a10f-8c080f5e43a7", "type": "ticket"},
+            {"id": "fffb91f8-755e-4720-9025-edb3fef182cc", "type": "ticket"},
+            {"id": "02fa4749-7803-4423-bfbd-bda181a13db8", "type": "ticket"},
+            {"id": "3fe958f3-a0ed-426c-93d1-973521fd8c49", "type": "ticket"},
+            {"id": "6499b953-e523-422e-90c4-3aa072d81920", "type": "ticket"}
+          ]
+        }
+      }
+    },
+    {
+      "id": "973eab45e68e4bf68aff16675b183d5f",
+      "type": "event",
+      "attributes": {
+        "slug": "subsonicfestival2015",
+        "displayName": "Subsonic Festival",
+        "description": "<h1 style=\"line-height: 0.8em; margin-bottom: 0.7em;\"><strong>TENSION8</strong><br><small style=\"color: #000;\">ON THE ROOFTOP</small></h1>\n<div class=\"line-up\">\n<h2>KALUS (RETURN OF THE KING - 2 HOUR SET)</h2>\n<h2>ZAC DEPETRO (PSYTRANCE SET)</h2>\n<h2>DUANE BARTOLO</h2>\n<h2>SHORT ROUND</h2>\n<h2>SWINDAIL</h2>\n<h2>ENSCHWAY</h2>\n</div>\n<p>Supported by snilluM, Likewise, Symphonik, Blue Grass, Sippy VS Scoops, Whyse, Sooreyah, Clam Joust &amp; Elbow Squad.</p>\n<p>16 acts over 9 hours.</p>\n<p><a href=\"https://www.facebook.com/tensioncrew\" target=\"_blank\">www.facebook.com/tensioncrew</a><br><a href=\"https://www.instagram.com/tensioncrew\" target=\"_blank\">www.instagram.com/tensioncrew</a></p>",
+        "startDate": "2015-01-15T14:00:00.000Z",
+        "endDate": "2015-01-19T14:00:00.000Z",
+        "salesStartDate": "2015-01-09T14:00:00.000Z",
+        "imageURL": "http://localhost:3000/assets/screenshots/2.png",
+        "eventType": {
+          "festival":true,
+          "convention":false,
+          "privateEvent":true
+        },
+        "status": "published"
+      },
+      "relationships": {
+        "owner": {
+          "data": {"id": "abd", "type": "organization", "displayName": "Sleepless Society"}
+        }
+      }
+    },
+    {
+      "id": "973eab45e68e4bf68aff16675b183123",
+      "type": "event",
+      "attributes": {
+        "slug": "sf2015_1",
+        "displayName": "Subsonic Festival1",
+        "description": "<h1 style=\"line-height: 0.8em; margin-bottom: 0.7em;\"><strong>TENSION8</strong><br><small style=\"color: #000;\">ON THE ROOFTOP</small></h1>\n<div class=\"line-up\">\n<h2>KALUS (RETURN OF THE KING - 2 HOUR SET)</h2>\n<h2>ZAC DEPETRO (PSYTRANCE SET)</h2>\n<h2>DUANE BARTOLO</h2>\n<h2>SHORT ROUND</h2>\n<h2>SWINDAIL</h2>\n<h2>ENSCHWAY</h2>\n</div>\n<p>Supported by snilluM, Likewise, Symphonik, Blue Grass, Sippy VS Scoops, Whyse, Sooreyah, Clam Joust &amp; Elbow Squad.</p>\n<p>16 acts over 9 hours.</p>\n<p><a href=\"https://www.facebook.com/tensioncrew\" target=\"_blank\">www.facebook.com/tensioncrew</a><br><a href=\"https://www.instagram.com/tensioncrew\" target=\"_blank\">www.instagram.com/tensioncrew</a></p>",
+        "startDate": "2015-01-15T14:00:00.000Z",
+        "endDate": "2015-01-19T14:00:00.000Z",
+        "salesStartDate": "2015-01-09T14:00:00.000Z",
+        "imageURL": "http://localhost:3000/assets/screenshots/3.png",
+        "status": "published"
+      },
+      "relationships": {
+        "owner": {
+          "data": {"id": "abd", "type": "organization", "displayName": "Sleepless Society"}
+        }
+      }
+    },
+    {
+      "id": "973eab45e68e4bf68aff16675b183a23",
+      "type": "event",
+      "attributes": {
+        "slug": "sf2015_2",
+        "displayName": "Subsonic Festival2",
+        "description": "<h1 style=\"line-height: 0.8em; margin-bottom: 0.7em;\"><strong>TENSION8</strong><br><small style=\"color: #000;\">ON THE ROOFTOP</small></h1>\n<div class=\"line-up\">\n<h2>KALUS (RETURN OF THE KING - 2 HOUR SET)</h2>\n<h2>ZAC DEPETRO (PSYTRANCE SET)</h2>\n<h2>DUANE BARTOLO</h2>\n<h2>SHORT ROUND</h2>\n<h2>SWINDAIL</h2>\n<h2>ENSCHWAY</h2>\n</div>\n<p>Supported by snilluM, Likewise, Symphonik, Blue Grass, Sippy VS Scoops, Whyse, Sooreyah, Clam Joust &amp; Elbow Squad.</p>\n<p>16 acts over 9 hours.</p>\n<p><a href=\"https://www.facebook.com/tensioncrew\" target=\"_blank\">www.facebook.com/tensioncrew</a><br><a href=\"https://www.instagram.com/tensioncrew\" target=\"_blank\">www.instagram.com/tensioncrew</a></p>",
+        "startDate": "2015-01-15T14:00:00.000Z",
+        "endDate": "2015-01-19T14:00:00.000Z",
+        "salesStartDate": "2015-01-09T14:00:00.000Z",
+        "imageURL": "http://localhost:3000/assets/screenshots/4.png",
+        "status": "published"
+      },
+      "relationships": {
+        "owner": {
+          "data": {"id": "abd", "type": "organization", "displayName": "Sleepless Society"}
+        }
+      }
+    },
+    {
+      "id": "973eab45e68e4bf68aff16675b183498",
+      "type": "event",
+      "attributes": {
+        "slug": "sf2015_3",
+        "displayName": "Subsonic Festival3",
+        "description": "<h1 style=\"line-height: 0.8em; margin-bottom: 0.7em;\"><strong>TENSION8</strong><br><small style=\"color: #000;\">ON THE ROOFTOP</small></h1>\n<div class=\"line-up\">\n<h2>KALUS (RETURN OF THE KING - 2 HOUR SET)</h2>\n<h2>ZAC DEPETRO (PSYTRANCE SET)</h2>\n<h2>DUANE BARTOLO</h2>\n<h2>SHORT ROUND</h2>\n<h2>SWINDAIL</h2>\n<h2>ENSCHWAY</h2>\n</div>\n<p>Supported by snilluM, Likewise, Symphonik, Blue Grass, Sippy VS Scoops, Whyse, Sooreyah, Clam Joust &amp; Elbow Squad.</p>\n<p>16 acts over 9 hours.</p>\n<p><a href=\"https://www.facebook.com/tensioncrew\" target=\"_blank\">www.facebook.com/tensioncrew</a><br><a href=\"https://www.instagram.com/tensioncrew\" target=\"_blank\">www.instagram.com/tensioncrew</a></p>",
+        "startDate": "2015-01-15T14:00:00.000Z",
+        "endDate": "2015-01-19T14:00:00.000Z",
+        "salesStartDate": "2015-01-09T14:00:00.000Z",
+        "imageURL": "http://localhost:3000/assets/screenshots/5.png",
+        "status": "published"
+      },
+      "relationships": {
+        "owner": {
+          "data": {"id": "abd", "type": "organization", "displayName": "Sleepless Society"}
+        }
+      }
+    },
+    {
+      "id": "973eab45e68e4bf68aff16675b183467",
+      "type": "event",
+      "attributes": {
+        "slug": "sf2015_4",
+        "displayName": "Subsonic Festival4",
+        "description": "<h1 style=\"line-height: 0.8em; margin-bottom: 0.7em;\"><strong>TENSION8</strong><br><small style=\"color: #000;\">ON THE ROOFTOP</small></h1>\n<div class=\"line-up\">\n<h2>KALUS (RETURN OF THE KING - 2 HOUR SET)</h2>\n<h2>ZAC DEPETRO (PSYTRANCE SET)</h2>\n<h2>DUANE BARTOLO</h2>\n<h2>SHORT ROUND</h2>\n<h2>SWINDAIL</h2>\n<h2>ENSCHWAY</h2>\n</div>\n<p>Supported by snilluM, Likewise, Symphonik, Blue Grass, Sippy VS Scoops, Whyse, Sooreyah, Clam Joust &amp; Elbow Squad.</p>\n<p>16 acts over 9 hours.</p>\n<p><a href=\"https://www.facebook.com/tensioncrew\" target=\"_blank\">www.facebook.com/tensioncrew</a><br><a href=\"https://www.instagram.com/tensioncrew\" target=\"_blank\">www.instagram.com/tensioncrew</a></p>",
+        "startDate": "2015-01-15T14:00:00.000Z",
+        "endDate": "2015-01-19T14:00:00.000Z",
+        "salesStartDate": "2015-01-09T14:00:00.000Z",
+        "imageURL": "http://localhost:3000/assets/screenshots/6.png",
+        "status": "published"
+      },
+      "relationships": {
+        "owner": {
+          "data": {"id": "abd", "type": "organization", "displayName": "Sleepless Society"}
+        }
+      }
+    },
+    {
+      "id": "973eab45e68e4bf68aff16675b183413",
+      "type": "event",
+      "attributes": {
+        "slug": "sf2015_5",
+        "displayName": "Subsonic Festival5",
+        "description": "<h1 style=\"line-height: 0.8em; margin-bottom: 0.7em;\"><strong>TENSION8</strong><br><small style=\"color: #000;\">ON THE ROOFTOP</small></h1>\n<div class=\"line-up\">\n<h2>KALUS (RETURN OF THE KING - 2 HOUR SET)</h2>\n<h2>ZAC DEPETRO (PSYTRANCE SET)</h2>\n<h2>DUANE BARTOLO</h2>\n<h2>SHORT ROUND</h2>\n<h2>SWINDAIL</h2>\n<h2>ENSCHWAY</h2>\n</div>\n<p>Supported by snilluM, Likewise, Symphonik, Blue Grass, Sippy VS Scoops, Whyse, Sooreyah, Clam Joust &amp; Elbow Squad.</p>\n<p>16 acts over 9 hours.</p>\n<p><a href=\"https://www.facebook.com/tensioncrew\" target=\"_blank\">www.facebook.com/tensioncrew</a><br><a href=\"https://www.instagram.com/tensioncrew\" target=\"_blank\">www.instagram.com/tensioncrew</a></p>",
+        "startDate": "2015-01-15T14:00:00.000Z",
+        "endDate": "2015-01-19T14:00:00.000Z",
+        "salesStartDate": "2015-01-09T14:00:00.000Z",
+        "imageURL": "http://localhost:3000/assets/screenshots/7.png",
+        "status": "published"
+      },
+      "relationships": {
+        "owner": {
+          "data": {"id": "abd", "type": "organization", "displayName": "Sleepless Society"}
+        }
+      }
+    },
+    {
+      "id": "973eab45e68e4bf68aff16675b183422",
+      "type": "event",
+      "attributes": {
+        "slug": "sf2015_6",
+        "displayName": "Subsonic Festival6",
+        "description": "<h1 style=\"line-height: 0.8em; margin-bottom: 0.7em;\"><strong>TENSION8</strong><br><small style=\"color: #000;\">ON THE ROOFTOP</small></h1>\n<div class=\"line-up\">\n<h2>KALUS (RETURN OF THE KING - 2 HOUR SET)</h2>\n<h2>ZAC DEPETRO (PSYTRANCE SET)</h2>\n<h2>DUANE BARTOLO</h2>\n<h2>SHORT ROUND</h2>\n<h2>SWINDAIL</h2>\n<h2>ENSCHWAY</h2>\n</div>\n<p>Supported by snilluM, Likewise, Symphonik, Blue Grass, Sippy VS Scoops, Whyse, Sooreyah, Clam Joust &amp; Elbow Squad.</p>\n<p>16 acts over 9 hours.</p>\n<p><a href=\"https://www.facebook.com/tensioncrew\" target=\"_blank\">www.facebook.com/tensioncrew</a><br><a href=\"https://www.instagram.com/tensioncrew\" target=\"_blank\">www.instagram.com/tensioncrew</a></p>",
+        "startDate": "2015-01-15T14:00:00.000Z",
+        "endDate": "2015-01-19T14:00:00.000Z",
+        "salesStartDate": "2015-01-09T14:00:00.000Z",
+        "imageURL": "http://localhost:3000/assets/screenshots/8.png",
+        "status": "published"
+      },
+      "relationships": {
+        "owner": {
+          "data": {"id": "abd", "type": "organization", "displayName": "Sleepless Society"}
+        }
+      }
+    },
+    {
+      "id": "973eab45e68e4bf68aff16675b183111",
+      "type": "event",
+      "attributes": {
+        "slug": "sf2015_7",
+        "displayName": "Subsonic Festival7",
+        "description": "<h1 style=\"line-height: 0.8em; margin-bottom: 0.7em;\"><strong>TENSION8</strong><br><small style=\"color: #000;\">ON THE ROOFTOP</small></h1>\n<div class=\"line-up\">\n<h2>KALUS (RETURN OF THE KING - 2 HOUR SET)</h2>\n<h2>ZAC DEPETRO (PSYTRANCE SET)</h2>\n<h2>DUANE BARTOLO</h2>\n<h2>SHORT ROUND</h2>\n<h2>SWINDAIL</h2>\n<h2>ENSCHWAY</h2>\n</div>\n<p>Supported by snilluM, Likewise, Symphonik, Blue Grass, Sippy VS Scoops, Whyse, Sooreyah, Clam Joust &amp; Elbow Squad.</p>\n<p>16 acts over 9 hours.</p>\n<p><a href=\"https://www.facebook.com/tensioncrew\" target=\"_blank\">www.facebook.com/tensioncrew</a><br><a href=\"https://www.instagram.com/tensioncrew\" target=\"_blank\">www.instagram.com/tensioncrew</a></p>",
+        "startDate": "2015-01-15T14:00:00.000Z",
+        "endDate": "2015-01-19T14:00:00.000Z",
+        "salesStartDate": "2015-01-09T14:00:00.000Z",
+        "imageURL": "http://localhost:3000/assets/screenshots/9.png",
+        "status": "published"
+      },
+      "relationships": {
+        "owner": {
+          "data": {"id": "abd", "type": "organization", "displayName": "Sleepless Society"}
+        }
+      }
+    },
+
+    {
+      "id": "32b05e79b4674efca47d9b17dec04aec",
+      "type": "event",
+      "attributes": {
+        "slug": "rhythmandvines",
+        "displayName": "Rhythm and Vines",
+        "description": "<h1 style=\"line-height: 0.8em; margin-bottom: 0.7em;\"><strong>TENSION8</strong><br><small style=\"color: #000;\">ON THE ROOFTOP</small></h1>\n<div class=\"line-up\">\n<h2>KALUS (RETURN OF THE KING - 2 HOUR SET)</h2>\n<h2>ZAC DEPETRO (PSYTRANCE SET)</h2>\n<h2>DUANE BARTOLO</h2>\n<h2>SHORT ROUND</h2>\n<h2>SWINDAIL</h2>\n<h2>ENSCHWAY</h2>\n</div>\n<p>Supported by snilluM, Likewise, Symphonik, Blue Grass, Sippy VS Scoops, Whyse, Sooreyah, Clam Joust &amp; Elbow Squad.</p>\n<p>16 acts over 9 hours.</p>\n<p><a href=\"https://www.facebook.com/tensioncrew\" target=\"_blank\">www.facebook.com/tensioncrew</a><br><a href=\"https://www.instagram.com/tensioncrew\" target=\"_blank\">www.instagram.com/tensioncrew</a></p>",
+        "startDate": "2015-01-15T14:00:00.000Z",
+        "endDate": "2015-01-19T14:00:00.000Z",
+        "salesStartDate": "2015-01-09T14:00:00.000Z",
+        "imageURL": "http://localhost:3000/assets/screenshots/10.png",
+        "status": "unpublished"
+      },
+      "relationships": {
+        "owner": {
+          "data": {"id": "abd", "type": "organization"}
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "123",
+      "type": "user",
+      "attributes": {
+        "firstName": "Joe",
+        "lastName": "Foo"
+      }
+    },
+    {
+      "id": "456",
+      "type": "user",
+      "attributes": {
+        "firstName": "Jane",
+        "lastName": "Doe"
+      }
+    },
+    {
+      "id": "06f26236-08e4-4915-ad52-412310526351",
+      "type": "venue",
+      "attributes": {
+        "displayName": "The Enmore Theatre",
+        "googlePlaceId": "ChIJ-5XVOziwEmsRyX6Ja8Ke_nA",
+        "longitude": 151.17419110000003,
+        "latitude": -33.899025,
+        "streetNumber": "118-132",
+        "street": "Enmore Road",
+        "city": "Newtown",
+        "state": "New South Wales",
+        "country": "Australia",
+        "postalCode": "2042",
+        "flagDisabled": false
+      }
+    },
+    {
+      "id": "10133f72-039d-4498-8214-85e654a587d2",
+      "type": "ticket",
+      "attributes": {
+        "displayName": "Therese Release",
+        "active": true,
+        "price": 200170,
+        "currency": "USD",
+        "stock": 48,
+        "flagAlwaysAvailable": true,
+        "sortOrder": 10
+      },
+      "relationships": {
+        "event": {
+          "data": {"id": "309b50adce18465aa26028db16b9cb68", "type": "event"}
+        }
+      }
+
+    },
+    {
+      "id": "5fc0fe32-5829-436d-955b-a80cc371a82d",
+      "type": "ticket",
+      "attributes": {
+        "displayName": "Caroline Release",
+        "active": true,
+        "price": 135019,
+        "currency": "USD",
+        "stock": 17,
+        "sortOrder": 234
+      },
+      "relationships": {
+        "event": {
+          "data": {"id": "309b50adce18465aa26028db16b9cb68", "type": "event"}
+        }
+      }
+    },
+    {
+      "id": "37a6955a-8421-4c52-a10f-8c080f5e43a7",
+      "type": "ticket",
+      "attributes": {
+        "displayName": "Lesley Release",
+        "active": false,
+        "price": 216731,
+        "currency": "USD",
+        "stock": 45
+      },
+      "relationships": {
+        "event": {
+          "data": {"id": "309b50adce18465aa26028db16b9cb68", "type": "event"}
+        }
+      }
+    },
+    {
+      "id": "fffb91f8-755e-4720-9025-edb3fef182cc",
+      "type": "ticket",
+      "attributes": {
+        "displayName": "Clara Release",
+        "active": true,
+        "price": 3000,
+        "currency": "USD",
+        "stock": 10,
+        "sortOrder": 42
+      },
+      "relationships": {
+        "event": {
+          "data": {"id": "309b50adce18465aa26028db16b9cb68", "type": "event"}
+        }
+      }
+    },
+    {
+      "id": "02fa4749-7803-4423-bfbd-bda181a13db8",
+      "type": "ticket",
+      "attributes": {
+        "displayName": "Krystal Release",
+        "active": true,
+        "price": 24486,
+        "currency": "USD",
+        "stock": 0,
+        "sortOrder": 5
+      },
+      "relationships": {
+        "event": {
+          "data": {"id": "309b50adce18465aa26028db16b9cb68", "type": "event"}
+        }
+      }
+    },
+    {
+      "id": "3fe958f3-a0ed-426c-93d1-973521fd8c49",
+      "type": "ticket",
+      "attributes": {
+        "displayName": "Jessica Release",
+        "active": true,
+        "price": 525,
+        "currency": "USD",
+        "stock": 0,
+        "sortOrder": 5
+      },
+      "relationships": {
+        "event": {
+          "data": {"id": "309b50adce18465aa26028db16b9cb68", "type": "event"}
+        }
+      }
+    },
+    {
+      "id": "6499b953-e523-422e-90c4-3aa072d81920",
+      "type": "ticket",
+      "attributes": {
+        "displayName": "Glenna Release",
+        "active": true,
+        "price": 85257,
+        "currency": "USD",
+        "stock": 17,
+        "sortOrder": 1
+      },
+      "relationships": {
+        "event": {
+          "data": {"id": "309b50adce18465aa26028db16b9cb68", "type": "event"}
+        }
+      }
+    },
+    {
+      "id": "abd",
+      "type": "organization",
+      "attributes": {"displayName": "Sleepless Society"}
+    }
+  ]
+}

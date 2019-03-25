@@ -1,0 +1,58 @@
+doctype html
+
+<!--[if IE 9]> <html lang="en" class="lte-ie9"> <![endif]-->
+<!--[if gt IE 9]> <html lang="en"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="dark">
+<!--<![endif]-->
+head
+  meta(charset="utf-8")
+  meta(http-equiv="X-UA-Compatible", content="IE=edge")
+  title The Ticket Fairy Dashboard
+  meta(content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui", name="viewport")
+
+  link(rel="stylesheet", href="ASSET{assets/resources/plugins/pace/pace.css}")
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/pace/pace.js}")
+
+  link(rel="shortcut icon", href="ASSET{assets/resources/images/favicon.ico}") 
+  link(rel="stylesheet", href="ASSET{assets/styles/style.css,min}")
+  //-link(rel="stylesheet", href="ASSET{assets/styles/style_sass.css,min}")
+
+body
+  div#app-preloader
+  div#app
+
+  script(type="text/javascript", src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeAunfDzca0ZfRs71W3v6qKQGCENfEjCE&libraries=places")
+  script(type="text/javascript", src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js")
+  script(type="text/javascript", src="https://global.localizecdn.com/localize.js")
+  script.
+    !function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window)
+  script.
+    Localize.initialize({
+      key: 'g6CSAT42kCQGs', 
+      rememberLanguage: true
+    })
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/googlemap/markerwithlabel.js}")
+
+  script(type="text/javascript", src="ASSET{assets/scripts/vendors.js,min}")
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/jquery/jquery-3.2.1.min.js}")
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/messenger/messenger.min.js}")
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/messenger/messenger-theme-future.js}")
+
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/mediumeditor/medium-editor.min.js}")
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/mediumeditor/handlebars/handlebars.runtime.min.js}")  
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/mediumeditor/jquery-sortable/source/js/jquery-sortable-min.js}")  
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/mediumeditor/blueimp-file-upload/js/vendor/jquery.ui.widget.js}")  
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/mediumeditor/blueimp-file-upload/js/jquery.iframe-transport.js}")  
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/mediumeditor/blueimp-file-upload/js/jquery.fileupload.js}")  
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/mediumeditor/medium-editor-insert-plugin.js}")
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/oboe/oboe-browser.js}")
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/jspdf/jspdf.min.js}")
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/jspdf/jspdf.customfonts.min.js}")
+  script(type="text/javascript", src="ASSET{assets/resources/plugins/jspdf/jspdf.plugin.autotable.js}")
+  <!--[if lt IE 10]>
+  <script src="ASSET{assets/resources/plugins/jquery/jquery.xdr-transport.js}"></script>
+  <script src="ASSET{assets/resources/plugins/jquery/jquery.iframe-transport.js}"></script>
+  <![endif]-->    
+  
+  script(type="text/javascript", src="ASSET{assets/scripts/app.js,min}")

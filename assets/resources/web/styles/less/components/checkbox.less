@@ -1,0 +1,105 @@
+.checkbox-switch {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 20px;
+  margin: 7px 15px 7px 7px;
+
+  label {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #565D6E;
+
+    .transition(all, .4);
+    border-radius: 17px;
+    margin-bottom: 0px;
+    &:before {
+      box-shadow: 3px 0px 14px #222;
+      position: absolute;
+      content: "";
+      height: 22px;
+      width: 22px;
+      left: -1px;
+      bottom: -1px;
+      background-color: white;
+      .transition(all, .4);
+      border-radius: 50%;
+    }      
+  }
+
+  input[type=checkbox] {
+    visibility: hidden;
+    &:checked + label {
+      background-color: #25b998;
+      &:before {
+        -webkit-transform: translateX(16px);
+        -ms-transform: translateX(16px);
+        transform: translateX(16px);
+      }
+    }
+  }
+}
+.checkbox-description{
+  color: @theme-control-fontcolor;
+  margin-right: 15px;
+  font-weight: 100;
+}
+.checkbox-description-small{
+  color: @theme-default-fontcolor;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.checkbox-group-square{  
+  text-align: center;
+  .checkbox-square{
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    label {
+      border-radius: 3px;
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      margin-bottom: 0px;
+      background: #414754;
+      .transition(all, .4);
+      &:after {
+        content: '';
+        width: 15px;
+        height: 10px;
+        position: absolute;
+        top: 6px;
+        left: 5px;
+        border: 3px solid #fcfff4;
+        border-top: none;
+        border-right: none;
+        background: transparent;
+        opacity: 0;
+        transform: rotate(-45deg);
+      }
+    }
+    input[type=checkbox] {
+      visibility: hidden;
+      &:checked + label:after {
+        opacity: 1;
+      }
+      &:checked + label{
+        background: #25b998;
+      }
+    }
+  }
+  .checkbox-description{
+    margin-top: 5px;
+    margin-right: 0px;
+    font-weight:400;
+  }
+}
